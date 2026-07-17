@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "held_out_evaluation_receipt",
+  "manifest_sha256": "a0673ec163fbc5bf1617e59ee8cc0e87d81e60f9994e91542206106b89259464",
+  "raw_results_sha256": "6b8ca0bd85354138d72d7c729eeff27caf1a1d1e2ce28291a2cb9ca013d55960",
+  "evaluation_implementation_sha256": "c34ffffdc9e47035f47b3dc918ef8a986561df518fffb6916d0b06d6c212f483"
+}

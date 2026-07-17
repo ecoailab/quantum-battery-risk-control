@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "method_registry",
+  "manifest_sha256": "a0673ec163fbc5bf1617e59ee8cc0e87d81e60f9994e91542206106b89259464",
+  "methods": [
+    {
+      "method_id": "nominal-lbfgsb-finite-difference",
+      "deployment_observation": "normalized_time",
+      "fitting_split_access": [
+        "nominal"
+      ],
+      "test_split_access": false,
+      "n_steps": 100,
+      "max_action": 0.25,
+      "metric": "normalized_ergotropy",
+      "initial_state": "ground",
+      "simulator_sha256": "487d4fdf964a618a10ce6e5a070e44e9b48e455acff42cb768a2a42ac5c36443",
+      "optimizer_seeds": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "frozen_before_test": true,
+      "cost_accounting": "reported"
+    },
+    {
+      "method_id": "saa-mean-lbfgsb-finite-difference",
+      "deployment_observation": "normalized_time",
+      "fitting_split_access": [
+        "train"
+      ],
+      "test_split_access": false,
+      "n_steps": 100,
+      "max_action": 0.25,
+      "metric": "normalized_ergotropy",
+      "initial_state": "ground",
+      "simulator_sha256": "487d4fdf964a618a10ce6e5a070e44e9b48e455acff42cb768a2a42ac5c36443",
+      "optimizer_seeds": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "frozen_before_test": true,
+      "cost_accounting": "reported"
+    },
+    {
+      "method_id": "cvar-0.1-lbfgsb-finite-difference",
+      "deployment_observation": "normalized_time",
+      "fitting_split_access": [
+        "train"
+      ],
+      "test_split_access": false,
+      "n_steps": 100,
+      "max_action": 0.25,
+      "metric": "normalized_ergotropy",
+      "initial_state": "ground",
+      "simulator_sha256": "487d4fdf964a618a10ce6e5a070e44e9b48e455acff42cb768a2a42ac5c36443",
+      "optimizer_seeds": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "frozen_before_test": true,
+      "cost_accounting": "reported"
+    },
+    {
+      "method_id": "ppo-time-only-domain-randomized",
+      "deployment_observation": "normalized_time",
+      "fitting_split_access": [
+        "train",
+        "validation"
+      ],
+      "test_split_access": false,
+      "n_steps": 100,
+      "max_action": 0.25,
+      "metric": "normalized_ergotropy",
+      "initial_state": "ground",
+      "simulator_sha256": "487d4fdf964a618a10ce6e5a070e44e9b48e455acff42cb768a2a42ac5c36443",
+      "optimizer_seeds": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "frozen_before_test": true,
+      "cost_accounting": "reported"
+    },
+    {
+      "method_id": "bang-bang-ensemble-grid",
+      "deployment_observation": "normalized_time",
+      "fitting_split_access": [
+        "train"
+      ],
+      "test_split_access": false,
+      "n_steps": 100,
+      "max_action": 0.25,
+      "metric": "normalized_ergotropy",
+      "initial_state": "ground",
+      "simulator_sha256": "487d4fdf964a618a10ce6e5a070e44e9b48e455acff42cb768a2a42ac5c36443",
+      "optimizer_seeds": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "frozen_before_test": true,
+      "cost_accounting": "reported"
+    },
+    {
+      "method_id": "sinusoidal-ensemble-grid",
+      "deployment_observation": "normalized_time",
+      "fitting_split_access": [
+        "train"
+      ],
+      "test_split_access": false,
+      "n_steps": 100,
+      "max_action": 0.25,
+      "metric": "normalized_ergotropy",
+      "initial_state": "ground",
+      "simulator_sha256": "487d4fdf964a618a10ce6e5a070e44e9b48e455acff42cb768a2a42ac5c36443",
+      "optimizer_seeds": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "frozen_before_test": true,
+      "cost_accounting": "reported"
+    },
+    {
+      "method_id": "random-seeded-reference",
+      "deployment_observation": "normalized_time",
+      "fitting_split_access": [
+        "train"
+      ],
+      "test_split_access": false,
+      "n_steps": 100,
+      "max_action": 0.25,
+      "metric": "normalized_ergotropy",
+      "initial_state": "ground",
+      "simulator_sha256": "487d4fdf964a618a10ce6e5a070e44e9b48e455acff42cb768a2a42ac5c36443",
+      "optimizer_seeds": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "frozen_before_test": true,
+      "cost_accounting": "reported"
+    }
+  ]
+}

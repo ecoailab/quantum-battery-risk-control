@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "submission_readiness",
+  "evaluated_at": "2026-07-17",
+  "selected_journal": "Journal of Physics A: Mathematical and Theoretical",
+  "publication_route": "subscription-access",
+  "mandatory_author_charges": 0,
+  "archive_identifier": "https://github.com/ecoailab/quantum-battery-risk-control/releases/tag/v1.0.0",
+  "gates": {
+    "canonical_regeneration": true,
+    "provenance_zero_gap": true,
+    "manuscript_clean_build": true,
+    "cover_letter_clean_build": true,
+    "citations_resolved": true,
+    "figures_present": true,
+    "visual_qa": true,
+    "claim_scope_audit": true,
+    "placeholder_scan": true,
+    "journal_policy_verified": true,
+    "mandatory_charges_zero": true,
+    "public_archive_accessible": true
+  },
+  "artifacts": {
+    "manuscript_source": {
+      "path": "paper/main_pra.tex",
+      "sha256": "ad8927379265318604dcebca8b2c8734fd1220ca9d1cdb7cecb50d936b7fa3d7"
+    },
+    "clean_manuscript_pdf": {
+      "path": "paper/main_pra.pdf",
+      "sha256": "0a3e32c5b194fe7bc80ccdd0917f6de3278d8324fdb5367f017f221e7fe90d16"
+    },
+    "cover_letter_source": {
+      "path": "paper/docs/cover_letter_jpa.tex",
+      "sha256": "55894e7adfd16f80396c2cb6873bfecec69632e1d5a91c4a9712e961e0031c93"
+    },
+    "clean_cover_letter_pdf": {
+      "path": "paper/docs/cover_letter_jpa.pdf",
+      "sha256": "5f0c55211896c3c8dc76ee6ccb905f6d589caaf92ed2797e1f3e916e0a79cf49"
+    },
+    "bibliography": {
+      "path": "paper/submission/references.bib",
+      "sha256": "66abea244e05942a7ef438bb6fa9ff60af5e7fd219d0d5cb5fc3b3cb072cbe75"
+    },
+    "journal_decision": {
+      "path": "paper/journal_decision.json",
+      "sha256": "f5356339f1b0194b637ad90001e231c198e9d762014b51df7bedcea6273ba6a5"
+    },
+    "publication_provenance": {
+      "path": "시뮬레이션/results/canonical/publication_provenance.json",
+      "sha256": "7eed840dfd72ef11a2c48c4a1fcbdce9ae3e10ada7e8b5530e982937df6c7dfd"
+    },
+    "paper_values_receipt": {
+      "path": "시뮬레이션/results/canonical/paper_values_receipt.json",
+      "sha256": "feb1713578d798b12a79361cf3ff6ca415484f59551349e6ed75d04285ebb6ad"
+    },
+    "figure_receipt": {
+      "path": "paper/figures/canonical/figure_receipt.json",
+      "sha256": "3b59c6b3f84499925a6982aea2bafbf02d5321a7b120468875a3b283f91dd719"
+    }
+  },
+  "blockers": [],
+  "ready": true
+}

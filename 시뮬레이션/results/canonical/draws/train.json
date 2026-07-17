@@ -1,0 +1,3463 @@
+{
+  "schema_version": "1.0",
+  "split": "train",
+  "source_manifest_sha256": "a0673ec163fbc5bf1617e59ee8cc0e87d81e60f9994e91542206106b89259464",
+  "draws": [
+    {
+      "draw_id": "train-b100-0000",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 101.22562653925193,
+      "t2": 86.47215216569518,
+      "common_mode": 0.046579083731854445,
+      "differential_mode": -0.03432281833933523
+    },
+    {
+      "draw_id": "train-b100-0001",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 106.94425713669192,
+      "t2": 80.49178976752536,
+      "common_mode": 0.03779497173049305,
+      "differential_mode": 0.031647599636425966
+    },
+    {
+      "draw_id": "train-b100-0002",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.14703357474343,
+      "t2": 79.4323389230867,
+      "common_mode": -0.0028127138569910073,
+      "differential_mode": 0.004283049604425299
+    },
+    {
+      "draw_id": "train-b100-0003",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 105.29032989806355,
+      "t2": 79.64598782555257,
+      "common_mode": 0.024239073400021377,
+      "differential_mode": 0.028664225580614155
+    },
+    {
+      "draw_id": "train-b100-0004",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 104.76043207453189,
+      "t2": 83.7694580396469,
+      "common_mode": 0.0473612731204527,
+      "differential_mode": 0.00024304762486617587
+    },
+    {
+      "draw_id": "train-b100-0005",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 103.30643088632941,
+      "t2": 80.5563673625947,
+      "common_mode": 0.020009450447863814,
+      "differential_mode": 0.01305485841543022
+    },
+    {
+      "draw_id": "train-b100-0006",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 98.3756688132119,
+      "t2": 84.56704932652941,
+      "common_mode": 0.02042240235686847,
+      "differential_mode": -0.03666571422474938
+    },
+    {
+      "draw_id": "train-b100-0007",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 91.93208708899745,
+      "t2": 78.48259010774791,
+      "common_mode": -0.04982337638158835,
+      "differential_mode": -0.030855752728437186
+    },
+    {
+      "draw_id": "train-b100-0008",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 96.76514113256589,
+      "t2": 82.61842696814358,
+      "common_mode": 0.0001908742137268285,
+      "differential_mode": -0.03253946288806793
+    },
+    {
+      "draw_id": "train-b100-0009",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 104.76157825408741,
+      "t2": 84.65222494388081,
+      "common_mode": 0.05288429716969219,
+      "differential_mode": -0.005268514628818048
+    },
+    {
+      "draw_id": "train-b100-0010",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 96.77784339835411,
+      "t2": 75.19033229130517,
+      "common_mode": -0.046171206187572054,
+      "differential_mode": 0.013949640171113262
+    },
+    {
+      "draw_id": "train-b100-0011",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 97.05924819574916,
+      "t2": 81.06268950335333,
+      "common_mode": -0.00806194962529598,
+      "differential_mode": -0.021345568417212423
+    },
+    {
+      "draw_id": "train-b100-0012",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 95.05425183478827,
+      "t2": 77.04848385337671,
+      "common_mode": -0.043175716742454184,
+      "differential_mode": -0.006281764909663055
+    },
+    {
+      "draw_id": "train-b100-0013",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 103.36769777677293,
+      "t2": 78.15456735314896,
+      "common_mode": 0.005304534841045566,
+      "differential_mode": 0.02837244292668356
+    },
+    {
+      "draw_id": "train-b100-0014",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 96.28092638079954,
+      "t2": 75.33239629341352,
+      "common_mode": -0.047767891262167766,
+      "differential_mode": 0.010577155070163227
+    },
+    {
+      "draw_id": "train-b100-0015",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 101.94245558392072,
+      "t2": 83.86583340120724,
+      "common_mode": 0.03387373667714891,
+      "differential_mode": -0.014449180837941635
+    },
+    {
+      "draw_id": "train-b100-0016",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 104.0570151265994,
+      "t2": 80.88069019423651,
+      "common_mode": 0.025789389346975125,
+      "differential_mode": 0.014780761919018774
+    },
+    {
+      "draw_id": "train-b100-0017",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 91.95463951266913,
+      "t2": 78.17563067201795,
+      "common_mode": -0.05162911073654221,
+      "differential_mode": -0.028824494136766493
+    },
+    {
+      "draw_id": "train-b100-0018",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 102.53720584521906,
+      "t2": 85.2704858474853,
+      "common_mode": 0.045626565772878575,
+      "differential_mode": -0.020254507320687974
+    },
+    {
+      "draw_id": "train-b100-0019",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 98.79649239891826,
+      "t2": 78.2413330217645,
+      "common_mode": -0.017009206619380553,
+      "differential_mode": 0.0049741306085631445
+    },
+    {
+      "draw_id": "train-b100-0020",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 98.41553016860817,
+      "t2": 78.83888713307854,
+      "common_mode": -0.01517930457521826,
+      "differential_mode": -0.0006653937386999625
+    },
+    {
+      "draw_id": "train-b100-0021",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 104.49877272083047,
+      "t2": 84.11876320783003,
+      "common_mode": 0.04823613365309015,
+      "differential_mode": -0.003248406444785308
+    },
+    {
+      "draw_id": "train-b100-0022",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 105.35083685530398,
+      "t2": 78.05575752534283,
+      "common_mode": 0.014602668809912553,
+      "differential_mode": 0.03890569974312724
+    },
+    {
+      "draw_id": "train-b100-0023",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.15209606746247,
+      "t2": 84.0481754589406,
+      "common_mode": 0.026061576955691015,
+      "differential_mode": -0.024540616281066366
+    },
+    {
+      "draw_id": "train-b100-0024",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 96.60752394310295,
+      "t2": 74.26518306203076,
+      "common_mode": -0.052804986146793124,
+      "differential_mode": 0.018880225577822596
+    },
+    {
+      "draw_id": "train-b100-0025",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 108.90814817722942,
+      "t2": 81.41592147104066,
+      "common_mode": 0.05339025008015125,
+      "differential_mode": 0.03569123169214297
+    },
+    {
+      "draw_id": "train-b100-0026",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 108.2067386825573,
+      "t2": 81.28339626822785,
+      "common_mode": 0.04905492008921053,
+      "differential_mode": 0.03301246673636239
+    },
+    {
+      "draw_id": "train-b100-0027",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 99.77602222800806,
+      "t2": 78.59249190458544,
+      "common_mode": -0.009916814456300653,
+      "differential_mode": 0.007677036736381274
+    },
+    {
+      "draw_id": "train-b100-0028",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 95.69499171422778,
+      "t2": 78.64503935554607,
+      "common_mode": -0.02999354545669804,
+      "differential_mode": -0.013056537401024092
+    },
+    {
+      "draw_id": "train-b100-0029",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.16199405427363,
+      "t2": 85.29578796763732,
+      "common_mode": 0.03390864506910146,
+      "differential_mode": -0.03228870452636513
+    },
+    {
+      "draw_id": "train-b100-0030",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 103.92675912539752,
+      "t2": 81.64223700734209,
+      "common_mode": 0.02989777692287572,
+      "differential_mode": 0.00936981433109952
+    },
+    {
+      "draw_id": "train-b100-0031",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 92.98197754702348,
+      "t2": 80.40450802352288,
+      "common_mode": -0.03256193711786459,
+      "differential_mode": -0.03761828741190062
+    },
+    {
+      "draw_id": "train-b100-0032",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 103.14024241911663,
+      "t2": 80.66327253666722,
+      "common_mode": 0.019846665449753345,
+      "differential_mode": 0.01155575874141293
+    },
+    {
+      "draw_id": "train-b100-0033",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 92.58506987383373,
+      "t2": 77.34930052844719,
+      "common_mode": -0.05364152232803642,
+      "differential_mode": -0.020507778933626198
+    },
+    {
+      "draw_id": "train-b100-0034",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 96.80400470722131,
+      "t2": 76.81080827673343,
+      "common_mode": -0.035912424734309535,
+      "differential_mode": 0.0039524718065226255
+    },
+    {
+      "draw_id": "train-b100-0035",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 103.54530204352896,
+      "t2": 82.37684042139163,
+      "common_mode": 0.032581762851342594,
+      "differential_mode": 0.002871257583947122
+    },
+    {
+      "draw_id": "train-b100-0036",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.86648614731924,
+      "t2": 78.2010563803745,
+      "common_mode": -0.0069109668860631995,
+      "differential_mode": 0.015575828359255618
+    },
+    {
+      "draw_id": "train-b100-0037",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 108.69820793185907,
+      "t2": 80.79172548818313,
+      "common_mode": 0.04843932396043987,
+      "differential_mode": 0.038542755358150715
+    },
+    {
+      "draw_id": "train-b100-0038",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 105.53128752800542,
+      "t2": 82.96330163908594,
+      "common_mode": 0.04617707288431419,
+      "differential_mode": 0.009135802395739967
+    },
+    {
+      "draw_id": "train-b100-0039",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 106.17914511988356,
+      "t2": 82.29369712659832,
+      "common_mode": 0.045231332640657165,
+      "differential_mode": 0.016560118558178225
+    },
+    {
+      "draw_id": "train-b100-0040",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.08225414031378,
+      "t2": 86.1761248203932,
+      "common_mode": 0.039012050829026465,
+      "differential_mode": -0.0381895094258886
+    },
+    {
+      "draw_id": "train-b100-0041",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 97.70382492444068,
+      "t2": 83.98469902561793,
+      "common_mode": 0.013423493532315478,
+      "differential_mode": -0.036385244287908666
+    },
+    {
+      "draw_id": "train-b100-0042",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 99.63250165688906,
+      "t2": 76.72806457642353,
+      "common_mode": -0.02228708811290759,
+      "differential_mode": 0.018612104681798185
+    },
+    {
+      "draw_id": "train-b100-0043",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 105.5737028914491,
+      "t2": 80.45479543001093,
+      "common_mode": 0.030710985894813844,
+      "differential_mode": 0.025026043019677174
+    },
+    {
+      "draw_id": "train-b100-0044",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 92.67590925570755,
+      "t2": 79.38773185343456,
+      "common_mode": -0.04044712963749626,
+      "differential_mode": -0.032793777805428304
+    },
+    {
+      "draw_id": "train-b100-0045",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 93.51803709200453,
+      "t2": 80.85494241051435,
+      "common_mode": -0.027066424474262676,
+      "differential_mode": -0.037753204605691995
+    },
+    {
+      "draw_id": "train-b100-0046",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 104.41007022536411,
+      "t2": 84.76018508476122,
+      "common_mode": 0.05180150790657802,
+      "differential_mode": -0.007700805652937098
+    },
+    {
+      "draw_id": "train-b100-0047",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 108.25293354389021,
+      "t2": 82.06682476136592,
+      "common_mode": 0.05418232247798806,
+      "differential_mode": 0.028347012960913978
+    },
+    {
+      "draw_id": "train-b100-0048",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.11213518449446,
+      "t2": 82.8888844408744,
+      "common_mode": 0.018616203677937343,
+      "differential_mode": -0.01749485183299278
+    },
+    {
+      "draw_id": "train-b100-0049",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 99.3761264236793,
+      "t2": 83.6871969966121,
+      "common_mode": 0.019925613347222093,
+      "differential_mode": -0.026164349110429117
+    },
+    {
+      "draw_id": "train-b100-0050",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 97.99599845851719,
+      "t2": 80.03416550630055,
+      "common_mode": -0.009806473293035599,
+      "differential_mode": -0.01023354212179248
+    },
+    {
+      "draw_id": "train-b100-0051",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 96.16874848858579,
+      "t2": 81.03241162745482,
+      "common_mode": -0.012703684885478406,
+      "differential_mode": -0.025608830228663667
+    },
+    {
+      "draw_id": "train-b100-0052",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 101.46924236576905,
+      "t2": 81.29521165352142,
+      "common_mode": 0.015441284663354107,
+      "differential_mode": -0.0007488610056635633
+    },
+    {
+      "draw_id": "train-b100-0053",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 93.1446763873046,
+      "t2": 76.16178865300176,
+      "common_mode": -0.058265438982216054,
+      "differential_mode": -0.010287797144738004
+    },
+    {
+      "draw_id": "train-b100-0054",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 98.093905220966,
+      "t2": 83.31520549351285,
+      "common_mode": 0.011189560439285234,
+      "differential_mode": -0.030250508229625335
+    },
+    {
+      "draw_id": "train-b100-0055",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.80131456319745,
+      "t2": 86.72024293265454,
+      "common_mode": 0.046008091145078145,
+      "differential_mode": -0.037994945513103735
+    },
+    {
+      "draw_id": "train-b100-0056",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 96.85479000915545,
+      "t2": 80.97611366713608,
+      "common_mode": -0.009625339534622163,
+      "differential_mode": -0.021826760373823216
+    },
+    {
+      "draw_id": "train-b100-0057",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 101.77588379620688,
+      "t2": 79.32672881103073,
+      "common_mode": 0.0046714740499764346,
+      "differential_mode": 0.013087363912092267
+    },
+    {
+      "draw_id": "train-b100-0058",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 104.11571198217943,
+      "t2": 82.5814186100397,
+      "common_mode": 0.036712426223645414,
+      "differential_mode": 0.00444469359814894
+    },
+    {
+      "draw_id": "train-b100-0059",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 104.1689568445139,
+      "t2": 81.3262396724454,
+      "common_mode": 0.0291337821753532,
+      "differential_mode": 0.012555786269785811
+    },
+    {
+      "draw_id": "train-b100-0060",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 97.13319950050267,
+      "t2": 81.8505415398053,
+      "common_mode": -0.002768117873703492,
+      "differential_mode": -0.02589988712126985
+    },
+    {
+      "draw_id": "train-b100-0061",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 103.29362278260015,
+      "t2": 84.80666106835682,
+      "common_mode": 0.046509745590230744,
+      "differential_mode": -0.013573517764229426
+    },
+    {
+      "draw_id": "train-b100-0062",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 105.07715226034942,
+      "t2": 81.79279803692657,
+      "common_mode": 0.03659074903253802,
+      "differential_mode": 0.014180773570956061
+    },
+    {
+      "draw_id": "train-b100-0063",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 104.65949486224446,
+      "t2": 77.78684304071622,
+      "common_mode": 0.009465243315698799,
+      "differential_mode": 0.03712970530674595
+    },
+    {
+      "draw_id": "train-b100-0064",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 99.382118199533,
+      "t2": 76.12507728059052,
+      "common_mode": -0.027307675998644268,
+      "differential_mode": 0.021128857993974196
+    },
+    {
+      "draw_id": "train-b100-0065",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 103.07132530610303,
+      "t2": 81.90453706908232,
+      "common_mode": 0.027259983212279668,
+      "differential_mode": 0.0034532698487505648
+    },
+    {
+      "draw_id": "train-b100-0066",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.34818715123082,
+      "t2": 86.54106221989215,
+      "common_mode": 0.042622574630479984,
+      "differential_mode": -0.03914070311817181
+    },
+    {
+      "draw_id": "train-b100-0067",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 92.68052586104125,
+      "t2": 79.7005095646898,
+      "common_mode": -0.03846918591548256,
+      "differential_mode": -0.034725555474105024
+    },
+    {
+      "draw_id": "train-b100-0068",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 102.89192041569922,
+      "t2": 80.60060406158782,
+      "common_mode": 0.018213377463419958,
+      "differential_mode": 0.010705826693572312
+    },
+    {
+      "draw_id": "train-b100-0069",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 95.98957156901339,
+      "t2": 80.07437635887159,
+      "common_mode": -0.019587289911985516,
+      "differential_mode": -0.020516994397880413
+    },
+    {
+      "draw_id": "train-b100-0070",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 96.28823761176471,
+      "t2": 77.64728232429563,
+      "common_mode": -0.033263297414328756,
+      "differential_mode": -0.003854326468024076
+    },
+    {
+      "draw_id": "train-b100-0071",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.45046812845794,
+      "t2": 83.35965708917813,
+      "common_mode": 0.023250197449653037,
+      "differential_mode": -0.018745516165073535
+    },
+    {
+      "draw_id": "train-b100-0072",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 101.87493069405124,
+      "t2": 87.00505666125567,
+      "common_mode": 0.053156257603104065,
+      "differential_mode": -0.0344069506625918
+    },
+    {
+      "draw_id": "train-b100-0073",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.7110563571122,
+      "t2": 82.73692116585713,
+      "common_mode": 0.020661039072167903,
+      "differential_mode": -0.013550475501046072
+    },
+    {
+      "draw_id": "train-b100-0074",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 95.0267034447559,
+      "t2": 75.80083317151768,
+      "common_mode": -0.05111127545423497,
+      "differential_mode": 0.0013783099017939393
+    },
+    {
+      "draw_id": "train-b100-0075",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 108.47179815294716,
+      "t2": 82.67251457429681,
+      "common_mode": 0.05906220685409094,
+      "differential_mode": 0.0256557746753808
+    },
+    {
+      "draw_id": "train-b100-0076",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.35006653186049,
+      "t2": 81.58417618081494,
+      "common_mode": 0.011651433789395746,
+      "differential_mode": -0.008150768470790784
+    },
+    {
+      "draw_id": "train-b100-0077",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 96.29536146889548,
+      "t2": 80.37555208135731,
+      "common_mode": -0.0161759921470394,
+      "differential_mode": -0.02087039316400584
+    },
+    {
+      "draw_id": "train-b100-0078",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 98.98343491501548,
+      "t2": 73.66531359268728,
+      "common_mode": -0.04467461547062707,
+      "differential_mode": 0.0345089646207819
+    },
+    {
+      "draw_id": "train-b100-0079",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 97.31599775988403,
+      "t2": 80.92756511893633,
+      "common_mode": -0.0076227292072278685,
+      "differential_mode": -0.019217293193931888
+    },
+    {
+      "draw_id": "train-b100-0080",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 98.27418144017999,
+      "t2": 82.57776112671651,
+      "common_mode": 0.007481914242878196,
+      "differential_mode": -0.024740099841078236
+    },
+    {
+      "draw_id": "train-b100-0081",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.34095438907555,
+      "t2": 77.3247380450509,
+      "common_mode": -0.015015615273054006,
+      "differential_mode": 0.01842515916380956
+    },
+    {
+      "draw_id": "train-b100-0082",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 95.5959420426241,
+      "t2": 81.5175437191882,
+      "common_mode": -0.012535641541953281,
+      "differential_mode": -0.03150493803180565
+    },
+    {
+      "draw_id": "train-b100-0083",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 102.24298279555772,
+      "t2": 82.83230051599226,
+      "common_mode": 0.028916792202740224,
+      "differential_mode": -0.006486964247163107
+    },
+    {
+      "draw_id": "train-b100-0084",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 99.72992928210222,
+      "t2": 74.69453561557293,
+      "common_mode": -0.03450950599215812,
+      "differential_mode": 0.031808798813180314
+    },
+    {
+      "draw_id": "train-b100-0085",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 99.90008729367369,
+      "t2": 83.75348127984539,
+      "common_mode": 0.02295969446740212,
+      "differential_mode": -0.0239588215306653
+    },
+    {
+      "draw_id": "train-b100-0086",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 103.2231282269043,
+      "t2": 76.5805890922242,
+      "common_mode": -0.005255677039077325,
+      "differential_mode": 0.037486959308120224
+    },
+    {
+      "draw_id": "train-b100-0087",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 107.67852947006611,
+      "t2": 82.32950546719886,
+      "common_mode": 0.052952056520323504,
+      "differential_mode": 0.0238332381803376
+    },
+    {
+      "draw_id": "train-b100-0088",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 106.80439242464159,
+      "t2": 82.71081643121343,
+      "common_mode": 0.05096456481829194,
+      "differential_mode": 0.017079359428124073
+    },
+    {
+      "draw_id": "train-b100-0089",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 97.50091189518467,
+      "t2": 73.7990409598092,
+      "common_mode": -0.051251434525269146,
+      "differential_mode": 0.02626055347711588
+    },
+    {
+      "draw_id": "train-b100-0090",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 103.6761066446798,
+      "t2": 76.63806407227041,
+      "common_mode": -0.0026315663249109333,
+      "differential_mode": 0.039392632771709
+    },
+    {
+      "draw_id": "train-b100-0091",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 102.5496381304827,
+      "t2": 81.66364514393857,
+      "common_mode": 0.023145972802029652,
+      "differential_mode": 0.002350408502797434
+    },
+    {
+      "draw_id": "train-b100-0092",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 101.09154115493162,
+      "t2": 81.7449296664208,
+      "common_mode": 0.016363516189788097,
+      "differential_mode": -0.005448104640471921
+    },
+    {
+      "draw_id": "train-b100-0093",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 105.05856240806438,
+      "t2": 85.34878349389496,
+      "common_mode": 0.05872270887716542,
+      "differential_mode": -0.00813708479652174
+    },
+    {
+      "draw_id": "train-b100-0094",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 103.07131120359676,
+      "t2": 78.92095507268846,
+      "common_mode": 0.008612525222286699,
+      "differential_mode": 0.022100586813681038
+    },
+    {
+      "draw_id": "train-b100-0095",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 105.35229206136934,
+      "t2": 81.1376646664408,
+      "common_mode": 0.033871864472101665,
+      "differential_mode": 0.01965105614159174
+    },
+    {
+      "draw_id": "train-b100-0096",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 91.70495027036772,
+      "t2": 79.18046769840416,
+      "common_mode": -0.04659732553313541,
+      "differential_mode": -0.036353171763187385
+    },
+    {
+      "draw_id": "train-b100-0097",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 103.16263327866308,
+      "t2": 80.03553384751726,
+      "common_mode": 0.016035252940298186,
+      "differential_mode": 0.015591079846332567
+    },
+    {
+      "draw_id": "train-b100-0098",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 103.34753696989188,
+      "t2": 83.10200957044138,
+      "common_mode": 0.036125244664718045,
+      "differential_mode": -0.00264987496579918
+    },
+    {
+      "draw_id": "train-b100-0099",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 99.45972258245497,
+      "t2": 74.03905729365816,
+      "common_mode": -0.03995727900236155,
+      "differential_mode": 0.03455450482691136
+    },
+    {
+      "draw_id": "train-b100-0100",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 105.10711108408599,
+      "t2": 84.22610522126459,
+      "common_mode": 0.05194871305333369,
+      "differential_mode": -0.0008776022124737104
+    },
+    {
+      "draw_id": "train-b100-0101",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 96.82804296296024,
+      "t2": 77.94873303357048,
+      "common_mode": -0.02868020372538333,
+      "differential_mode": -0.0030393666450142867
+    },
+    {
+      "draw_id": "train-b100-0102",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 102.27610885271321,
+      "t2": 85.59975396580141,
+      "common_mode": 0.04637900654982487,
+      "differential_mode": -0.02361791802269273
+    },
+    {
+      "draw_id": "train-b100-0103",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.13978365135455,
+      "t2": 75.60358427751515,
+      "common_mode": -0.026778680008757577,
+      "differential_mode": 0.028176516522302908
+    },
+    {
+      "draw_id": "train-b100-0104",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 103.61373394521927,
+      "t2": 80.2619970998736,
+      "common_mode": 0.019706151600306226,
+      "differential_mode": 0.016431187851886256
+    },
+    {
+      "draw_id": "train-b100-0105",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 105.6287481800234,
+      "t2": 79.14573150440945,
+      "common_mode": 0.022804562802676093,
+      "differential_mode": 0.0334829189975579
+    },
+    {
+      "draw_id": "train-b100-0106",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 99.94110377371037,
+      "t2": 80.6317313487901,
+      "common_mode": 0.0036538397984899884,
+      "differential_mode": -0.004242802061386296
+    },
+    {
+      "draw_id": "train-b100-0107",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 96.25077014470709,
+      "t2": 77.6565512608333,
+      "common_mode": -0.033392703896256454,
+      "differential_mode": -0.0040995946566727
+    },
+    {
+      "draw_id": "train-b100-0108",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 92.10655814287185,
+      "t2": 78.642794140232,
+      "common_mode": -0.047949745909190815,
+      "differential_mode": -0.030984672662090804
+    },
+    {
+      "draw_id": "train-b100-0109",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 95.66600318421214,
+      "t2": 81.36456695598397,
+      "common_mode": -0.013141440604039385,
+      "differential_mode": -0.030198527553839064
+    },
+    {
+      "draw_id": "train-b100-0110",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 93.47803379456843,
+      "t2": 76.2700159622587,
+      "common_mode": -0.05592223126304097,
+      "differential_mode": -0.009297430791274756
+    },
+    {
+      "draw_id": "train-b100-0111",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 97.10690613251501,
+      "t2": 78.11497621249013,
+      "common_mode": -0.026246868009361587,
+      "differential_mode": -0.002684070665488286
+    },
+    {
+      "draw_id": "train-b100-0112",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 101.73410027255443,
+      "t2": 76.84591306026506,
+      "common_mode": -0.011042542010571164,
+      "differential_mode": 0.028383544736115554
+    },
+    {
+      "draw_id": "train-b100-0113",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 99.75566292058619,
+      "t2": 79.15692983338629,
+      "common_mode": -0.006490873938404779,
+      "differential_mode": 0.004047503144266731
+    },
+    {
+      "draw_id": "train-b100-0114",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.46728274791319,
+      "t2": 74.35445949827555,
+      "common_mode": -0.032948214396211886,
+      "differential_mode": 0.03762104187534379
+    },
+    {
+      "draw_id": "train-b100-0115",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.86138029913923,
+      "t2": 74.31025070068715,
+      "common_mode": -0.03125403162500923,
+      "differential_mode": 0.039867834616401435
+    },
+    {
+      "draw_id": "train-b100-0116",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 103.72985327453719,
+      "t2": 80.28747669944886,
+      "common_mode": 0.02044599574424126,
+      "differential_mode": 0.016852537001130437
+    },
+    {
+      "draw_id": "train-b100-0117",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 109.59287726146268,
+      "t2": 81.78968524609954,
+      "common_mode": 0.059149919095435474,
+      "differential_mode": 0.03677885351919126
+    },
+    {
+      "draw_id": "train-b100-0118",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 95.436472139292,
+      "t2": 80.08960299665941,
+      "common_mode": -0.022257620574418775,
+      "differential_mode": -0.02337765803266128
+    },
+    {
+      "draw_id": "train-b100-0119",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 98.29602204300707,
+      "t2": 79.6433088746496,
+      "common_mode": -0.010749209318404576,
+      "differential_mode": -0.006290570251524734
+    },
+    {
+      "draw_id": "train-b100-0120",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.60054655381316,
+      "t2": 84.69296118144214,
+      "common_mode": 0.03233374015307913,
+      "differential_mode": -0.02632827461494753
+    },
+    {
+      "draw_id": "train-b100-0121",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.67262755739151,
+      "t2": 86.43975625200602,
+      "common_mode": 0.04361161436199519,
+      "differential_mode": -0.0368853387880801
+    },
+    {
+      "draw_id": "train-b100-0122",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 103.18641944887648,
+      "t2": 78.98334200492673,
+      "common_mode": 0.00957798477517438,
+      "differential_mode": 0.022286209713590306
+    },
+    {
+      "draw_id": "train-b100-0123",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 104.11821322793611,
+      "t2": 84.21977000186841,
+      "common_mode": 0.04696462865135802,
+      "differential_mode": -0.005782496371997042
+    },
+    {
+      "draw_id": "train-b100-0124",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 94.83042202809293,
+      "t2": 76.56215701289759,
+      "common_mode": -0.04733440852892548,
+      "differential_mode": -0.004361371190145333
+    },
+    {
+      "draw_id": "train-b100-0125",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 105.7122148945121,
+      "t2": 83.85980404698499,
+      "common_mode": 0.05268484976621668,
+      "differential_mode": 0.004437299178904272
+    },
+    {
+      "draw_id": "train-b100-0126",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 99.7353782183849,
+      "t2": 81.05568483844847,
+      "common_mode": 0.005274921332227456,
+      "differential_mode": -0.00792113914837847
+    },
+    {
+      "draw_id": "train-b100-0127",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 100.10932737769207,
+      "t2": 78.0913633639837,
+      "common_mode": -0.011382342086641468,
+      "differential_mode": 0.012475615863562245
+    },
+    {
+      "draw_id": "train-b300-0000",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 110.88258229801365,
+      "t2": 93.79170896009217,
+      "common_mode": 0.14061109249064419,
+      "differential_mode": -0.031785269510507905
+    },
+    {
+      "draw_id": "train-b300-0001",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 120.74542676020708,
+      "t2": 88.26851633356776,
+      "common_mode": 0.15540536088583384,
+      "differential_mode": 0.05204890671623694
+    },
+    {
+      "draw_id": "train-b300-0002",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 114.20392895945616,
+      "t2": 89.63444486399062,
+      "common_mode": 0.1312349251972223,
+      "differential_mode": 0.010804364397339561
+    },
+    {
+      "draw_id": "train-b300-0003",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 97.06905274722429,
+      "t2": 73.81214419623045,
+      "common_mode": -0.05332883503743824,
+      "differential_mode": 0.024019362509681202
+    },
+    {
+      "draw_id": "train-b300-0004",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 109.25112026750396,
+      "t2": 100.55006712820939,
+      "common_mode": 0.1746935208888286,
+      "differential_mode": -0.08218231821378885
+    },
+    {
+      "draw_id": "train-b300-0005",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 104.938656530182,
+      "t2": 101.37954820867,
+      "common_mode": 0.15831545895509747,
+      "differential_mode": -0.10892889365327744
+    },
+    {
+      "draw_id": "train-b300-0006",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 114.53566457824171,
+      "t2": 79.11182085216551,
+      "common_mode": 0.06712720321724305,
+      "differential_mode": 0.07822944256517411
+    },
+    {
+      "draw_id": "train-b300-0007",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 114.99803375728507,
+      "t2": 94.09370011913012,
+      "common_mode": 0.16307579453098875,
+      "differential_mode": -0.013095456958137769
+    },
+    {
+      "draw_id": "train-b300-0008",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 98.72685986591418,
+      "t2": 68.45204932063602,
+      "common_mode": -0.07854039241645396,
+      "differential_mode": 0.06580899107559582
+    },
+    {
+      "draw_id": "train-b300-0009",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 112.7230624725795,
+      "t2": 84.91581899275428,
+      "common_mode": 0.09433918106761185,
+      "differential_mode": 0.03289144365818322
+    },
+    {
+      "draw_id": "train-b300-0010",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 76.14558634149914,
+      "t2": 71.52239663151752,
+      "common_mode": -0.17225708934551973,
+      "differential_mode": -0.06628704723948882
+    },
+    {
+      "draw_id": "train-b300-0011",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 82.03540277280877,
+      "t2": 74.50231250689765,
+      "common_mode": -0.1241835329678459,
+      "differential_mode": -0.05546243930406647
+    },
+    {
+      "draw_id": "train-b300-0012",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 94.50102203038108,
+      "t2": 79.70068410027496,
+      "common_mode": -0.029365614221376207,
+      "differential_mode": -0.025624165474813082
+    },
+    {
+      "draw_id": "train-b300-0013",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 85.81353599779278,
+      "t2": 62.58283679556732,
+      "common_mode": -0.17978959003874043,
+      "differential_mode": 0.03792495001666815
+    },
+    {
+      "draw_id": "train-b300-0014",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 72.4846607092925,
+      "t2": 76.64701897784494,
+      "common_mode": -0.15853282784200676,
+      "differential_mode": -0.1166205650650684
+    },
+    {
+      "draw_id": "train-b300-0015",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 91.84551259086984,
+      "t2": 72.12583280543063,
+      "common_mode": -0.08998598201170933,
+      "differential_mode": 0.008441107920407726
+    },
+    {
+      "draw_id": "train-b300-0016",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 117.09773443282221,
+      "t2": 91.00716423566058,
+      "common_mode": 0.15428344863698967,
+      "differential_mode": 0.016693895691232474
+    },
+    {
+      "draw_id": "train-b300-0017",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 94.33174885478365,
+      "t2": 62.50902521481406,
+      "common_mode": -0.13765984813349383,
+      "differential_mode": 0.0809773366813305
+    },
+    {
+      "draw_id": "train-b300-0018",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 93.73823861996823,
+      "t2": 77.96952559190542,
+      "common_mode": -0.04399927195074996,
+      "differential_mode": -0.018618341849567788
+    },
+    {
+      "draw_id": "train-b300-0019",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 84.57614553303641,
+      "t2": 73.43195394836681,
+      "common_mode": -0.11816956015752542,
+      "differential_mode": -0.03606898451211045
+    },
+    {
+      "draw_id": "train-b300-0020",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 106.2488648454966,
+      "t2": 97.90834528811205,
+      "common_mode": 0.14317148227818338,
+      "differential_mode": -0.08068283382321727
+    },
+    {
+      "draw_id": "train-b300-0021",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 86.52177785618369,
+      "t2": 79.81775463191033,
+      "common_mode": -0.06853014426964202,
+      "differential_mode": -0.06625207716852108
+    },
+    {
+      "draw_id": "train-b300-0022",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 106.96973327839146,
+      "t2": 97.85701092560758,
+      "common_mode": 0.14645498467700468,
+      "differential_mode": -0.07675765189309022
+    },
+    {
+      "draw_id": "train-b300-0023",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 94.16456681381692,
+      "t2": 67.44889249288542,
+      "common_mode": -0.10762158785038158,
+      "differential_mode": 0.04926725598855078
+    },
+    {
+      "draw_id": "train-b300-0024",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 78.84746976094176,
+      "t2": 80.17504284421804,
+      "common_mode": -0.10466863341892836,
+      "differential_mode": -0.106856668971654
+    },
+    {
+      "draw_id": "train-b300-0025",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 94.59501186433712,
+      "t2": 72.72067815026386,
+      "common_mode": -0.07252070223916529,
+      "differential_mode": 0.018470820882536543
+    },
+    {
+      "draw_id": "train-b300-0026",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 103.14038944106008,
+      "t2": 86.70679470686582,
+      "common_mode": 0.057619414123211865,
+      "differential_mode": -0.026215519712611032
+    },
+    {
+      "draw_id": "train-b300-0027",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 118.69128069937578,
+      "t2": 91.50349304724942,
+      "common_mode": 0.16535323504218785,
+      "differential_mode": 0.021559571951569934
+    },
+    {
+      "draw_id": "train-b300-0028",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 87.59747942353968,
+      "t2": 88.07582624880314,
+      "common_mode": -0.011538688827281929,
+      "differential_mode": -0.11248651693732126
+    },
+    {
+      "draw_id": "train-b300-0029",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 95.33107228523848,
+      "t2": 88.98537195051443,
+      "common_mode": 0.032813936116907555,
+      "differential_mode": -0.07950321326452273
+    },
+    {
+      "draw_id": "train-b300-0030",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 100.27747186358953,
+      "t2": 63.391065064417106,
+      "common_mode": -0.10241848402944546,
+      "differential_mode": 0.10519320266534071
+    },
+    {
+      "draw_id": "train-b300-0031",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 96.0512212970794,
+      "t2": 68.94255160377561,
+      "common_mode": -0.0888529459910054,
+      "differential_mode": 0.049365158961799355
+    },
+    {
+      "draw_id": "train-b300-0032",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 109.45598220374106,
+      "t2": 71.49091019590422,
+      "common_mode": -0.005901900256893272,
+      "differential_mode": 0.10046172229430395
+    },
+    {
+      "draw_id": "train-b300-0033",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 113.12954031145239,
+      "t2": 86.66055217052198,
+      "common_mode": 0.10727615262302442,
+      "differential_mode": 0.02401925049149964
+    },
+    {
+      "draw_id": "train-b300-0034",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 107.1266210264049,
+      "t2": 96.77291512346001,
+      "common_mode": 0.1404638246536496,
+      "differential_mode": -0.06919761438960045
+    },
+    {
+      "draw_id": "train-b300-0035",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 123.8097785828284,
+      "t2": 81.98473816950816,
+      "common_mode": 0.13145350647356813,
+      "differential_mode": 0.10664427935471599
+    },
+    {
+      "draw_id": "train-b300-0036",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 86.78092432884323,
+      "t2": 87.56593357739297,
+      "common_mode": -0.0188082934970778,
+      "differential_mode": -0.11338246321448993
+    },
+    {
+      "draw_id": "train-b300-0037",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 89.18830555706958,
+      "t2": 68.45135835217023,
+      "common_mode": -0.12623748251358818,
+      "differential_mode": 0.018120538084283933
+    },
+    {
+      "draw_id": "train-b300-0038",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 107.22002156057,
+      "t2": 68.77403054400375,
+      "common_mode": -0.03406220129712653,
+      "differential_mode": 0.1062624169028265
+    },
+    {
+      "draw_id": "train-b300-0039",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 104.72998181307358,
+      "t2": 76.95362375397892,
+      "common_mode": 0.004610057527736078,
+      "differential_mode": 0.042689760602999616
+    },
+    {
+      "draw_id": "train-b300-0040",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 108.80239341987301,
+      "t2": 95.02157438222642,
+      "common_mode": 0.13789680698828016,
+      "differential_mode": -0.049872872789550174
+    },
+    {
+      "draw_id": "train-b300-0041",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 93.20551628101045,
+      "t2": 92.66439996366857,
+      "common_mode": 0.045180081177980835,
+      "differential_mode": -0.11312491836787635
+    },
+    {
+      "draw_id": "train-b300-0042",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 99.42556857687583,
+      "t2": 67.0251364452457,
+      "common_mode": -0.08396505433283517,
+      "differential_mode": 0.07822074010159355
+    },
+    {
+      "draw_id": "train-b300-0043",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 106.67238517136404,
+      "t2": 79.8608975253121,
+      "common_mode": 0.03249253539002067,
+      "differential_mode": 0.03423131632361956
+    },
+    {
+      "draw_id": "train-b300-0044",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 102.46665474722354,
+      "t2": 92.56028985635456,
+      "common_mode": 0.09083508533833373,
+      "differential_mode": -0.06616853786609844
+    },
+    {
+      "draw_id": "train-b300-0045",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 115.73789329906263,
+      "t2": 83.6048132720965,
+      "common_mode": 0.10121954944591632,
+      "differential_mode": 0.05615938354471012
+    },
+    {
+      "draw_id": "train-b300-0046",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 90.26938031696517,
+      "t2": 81.42237702757349,
+      "common_mode": -0.03976324199283976,
+      "differential_mode": -0.05754295483750844
+    },
+    {
+      "draw_id": "train-b300-0047",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 95.27901405093291,
+      "t2": 72.59592686307707,
+      "common_mode": -0.06988038685110375,
+      "differential_mode": 0.0226705273604329
+    },
+    {
+      "draw_id": "train-b300-0048",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 78.27739579059266,
+      "t2": 78.01700370083802,
+      "common_mode": -0.1210067479167991,
+      "differential_mode": -0.09621929417727422
+    },
+    {
+      "draw_id": "train-b300-0049",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 112.27565534276427,
+      "t2": 87.18485197573625,
+      "common_mode": 0.10628360156217292,
+      "differential_mode": 0.016472951865469848
+    },
+    {
+      "draw_id": "train-b300-0050",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 103.53019223960158,
+      "t2": 98.35644124858517,
+      "common_mode": 0.13237871900166526,
+      "differential_mode": -0.09707679660564947
+    },
+    {
+      "draw_id": "train-b300-0051",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 108.40701411641682,
+      "t2": 86.7297112588386,
+      "common_mode": 0.08409576594982537,
+      "differential_mode": -0.00002562478565719395
+    },
+    {
+      "draw_id": "train-b300-0052",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 96.17851631439385,
+      "t2": 75.81930762293743,
+      "common_mode": -0.04523674578467188,
+      "differential_mode": 0.007021908928610321
+    },
+    {
+      "draw_id": "train-b300-0053",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 104.08874301423401,
+      "t2": 69.54530805194257,
+      "common_mode": -0.0448981096041888,
+      "differential_mode": 0.085785539746529
+    },
+    {
+      "draw_id": "train-b300-0054",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 91.11918346323196,
+      "t2": 79.34300959730747,
+      "common_mode": -0.04851027270066849,
+      "differential_mode": -0.040297892667011906
+    },
+    {
+      "draw_id": "train-b300-0055",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 96.12591310987287,
+      "t2": 78.74839974045128,
+      "common_mode": -0.02719293607281517,
+      "differential_mode": -0.011547932828456078
+    },
+    {
+      "draw_id": "train-b300-0056",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 89.11038880940849,
+      "t2": 77.44764326108194,
+      "common_mode": -0.0704002855711955,
+      "differential_mode": -0.038495826334719596
+    },
+    {
+      "draw_id": "train-b300-0057",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 96.95836829553886,
+      "t2": 94.6355087845132,
+      "common_mode": 0.0762637713809019,
+      "differential_mode": -0.10668008842551323
+    },
+    {
+      "draw_id": "train-b300-0058",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 85.40139728174078,
+      "t2": 78.69792975138814,
+      "common_mode": -0.08113095264512014,
+      "differential_mode": -0.06485507453747197
+    },
+    {
+      "draw_id": "train-b300-0059",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 102.60628943237566,
+      "t2": 74.42917552136167,
+      "common_mode": -0.02178620582961116,
+      "differential_mode": 0.047849100153367935
+    },
+    {
+      "draw_id": "train-b300-0060",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 107.43114338369331,
+      "t2": 91.53144653126597,
+      "common_mode": 0.10922725773887876,
+      "differential_mode": -0.03491582390194574
+    },
+    {
+      "draw_id": "train-b300-0061",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 87.09664471862321,
+      "t2": 76.25526788525694,
+      "common_mode": -0.08792135212402802,
+      "differential_mode": -0.041112200689739836
+    },
+    {
+      "draw_id": "train-b300-0062",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 104.01498134849297,
+      "t2": 85.56734324784739,
+      "common_mode": 0.0548708020415109,
+      "differential_mode": -0.014720988556581285
+    },
+    {
+      "draw_id": "train-b300-0063",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 86.55497843217165,
+      "t2": 77.32742951904225,
+      "common_mode": -0.08392867334512769,
+      "differential_mode": -0.05052154233315591
+    },
+    {
+      "draw_id": "train-b300-0064",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 98.53561122236479,
+      "t2": 89.10202594706284,
+      "common_mode": 0.049565718280966786,
+      "differential_mode": -0.06420960605731883
+    },
+    {
+      "draw_id": "train-b300-0065",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 108.66348288253039,
+      "t2": 84.25908326359222,
+      "common_mode": 0.06993668481010334,
+      "differential_mode": 0.016698144015200617
+    },
+    {
+      "draw_id": "train-b300-0066",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 100.01693581029505,
+      "t2": 94.23258793107894,
+      "common_mode": 0.08903835362071866,
+      "differential_mode": -0.08886899551776807
+    },
+    {
+      "draw_id": "train-b300-0067",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 97.9747450060707,
+      "t2": 69.27857224548274,
+      "common_mode": -0.07713519843537942,
+      "differential_mode": 0.056882648496086485
+    },
+    {
+      "draw_id": "train-b300-0068",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 95.41788637999208,
+      "t2": 65.99165750412637,
+      "common_mode": -0.11046270869924985,
+      "differential_mode": 0.06464157249917063
+    },
+    {
+      "draw_id": "train-b300-0069",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 99.01921155773904,
+      "t2": 83.26563744044186,
+      "common_mode": 0.01550629179145685,
+      "differential_mode": -0.025314176214066397
+    },
+    {
+      "draw_id": "train-b300-0070",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 102.13824889677572,
+      "t2": 70.7665744437484,
+      "common_mode": -0.04701766524269388,
+      "differential_mode": 0.06840015421045109
+    },
+    {
+      "draw_id": "train-b300-0071",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 110.54418597237212,
+      "t2": 78.4104051809343,
+      "common_mode": 0.04278596224270004,
+      "differential_mode": 0.06265589748102124
+    },
+    {
+      "draw_id": "train-b300-0072",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 82.90955902323446,
+      "t2": 82.02956281577787,
+      "common_mode": -0.07276743728521597,
+      "differential_mode": -0.09813697248243936
+    },
+    {
+      "draw_id": "train-b300-0073",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 99.43030297061485,
+      "t2": 89.43920944070526,
+      "common_mode": 0.05614657385748206,
+      "differential_mode": -0.06184354415133354
+    },
+    {
+      "draw_id": "train-b300-0074",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 92.0036961580676,
+      "t2": 74.25411958911073,
+      "common_mode": -0.07589327177771996,
+      "differential_mode": -0.00406976664160405
+    },
+    {
+      "draw_id": "train-b300-0075",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 112.22234765942338,
+      "t2": 94.28145740712094,
+      "common_mode": 0.15037084709162274,
+      "differential_mode": -0.028147370497389024
+    },
+    {
+      "draw_id": "train-b300-0076",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 72.39310079864043,
+      "t2": 73.6722734550726,
+      "common_mode": -0.17758278691259408,
+      "differential_mode": -0.09848620510100155
+    },
+    {
+      "draw_id": "train-b300-0077",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 109.98756046762314,
+      "t2": 91.23996651295988,
+      "common_mode": 0.12018759304411492,
+      "differential_mode": -0.020311988367883477
+    },
+    {
+      "draw_id": "train-b300-0078",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 91.19556966504021,
+      "t2": 90.54247169292843,
+      "common_mode": 0.021868296406003795,
+      "differential_mode": -0.10991259975560162
+    },
+    {
+      "draw_id": "train-b300-0079",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 102.05840380044759,
+      "t2": 72.13674752133937,
+      "common_mode": -0.03885330898939102,
+      "differential_mode": 0.05943734699386699
+    },
+    {
+      "draw_id": "train-b300-0080",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 102.29312211196633,
+      "t2": 68.59561695147524,
+      "common_mode": -0.059811783493448026,
+      "differential_mode": 0.08274300461311143
+    },
+    {
+      "draw_id": "train-b300-0081",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 85.43193743927166,
+      "t2": 71.80428932827778,
+      "common_mode": -0.12406350450190562,
+      "differential_mode": -0.021617121105377668
+    },
+    {
+      "draw_id": "train-b300-0082",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 108.00888622142115,
+      "t2": 73.09532100348518,
+      "common_mode": -0.003109812621111735,
+      "differential_mode": 0.0831986748353234
+    },
+    {
+      "draw_id": "train-b300-0083",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 78.81799627675841,
+      "t2": 74.08799642038274,
+      "common_mode": -0.1428600409888159,
+      "differential_mode": -0.06895999624360008
+    },
+    {
+      "draw_id": "train-b300-0084",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 81.02485315974756,
+      "t2": 77.07612480596099,
+      "common_mode": -0.11314995416400601,
+      "differential_mode": -0.07660151423851831
+    },
+    {
+      "draw_id": "train-b300-0085",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 92.84155790001986,
+      "t2": 71.73715918786124,
+      "common_mode": -0.08743496557576795,
+      "differential_mode": 0.015850544575966546
+    },
+    {
+      "draw_id": "train-b300-0086",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 101.91248647156227,
+      "t2": 73.46120677354287,
+      "common_mode": -0.03130502530754567,
+      "differential_mode": 0.05042989002316847
+    },
+    {
+      "draw_id": "train-b300-0087",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 92.26091463395183,
+      "t2": 87.55530295843852,
+      "common_mode": 0.008525216659999918,
+      "differential_mode": -0.08591607032048151
+    },
+    {
+      "draw_id": "train-b300-0088",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 106.75831292058623,
+      "t2": 75.85119236415422,
+      "common_mode": 0.007861516878895136,
+      "differential_mode": 0.05972161232696738
+    },
+    {
+      "draw_id": "train-b300-0089",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 111.80045696724036,
+      "t2": 74.95485503077668,
+      "common_mode": 0.02747012877855609,
+      "differential_mode": 0.09053444089384763
+    },
+    {
+      "draw_id": "train-b300-0090",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 103.48434386936043,
+      "t2": 88.16561480890891,
+      "common_mode": 0.06845681190248279,
+      "differential_mode": -0.03361337320887858
+    },
+    {
+      "draw_id": "train-b300-0091",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 116.69253830190411,
+      "t2": 75.2655029357887,
+      "common_mode": 0.053872084858199915,
+      "differential_mode": 0.11305329816084111
+    },
+    {
+      "draw_id": "train-b300-0092",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 98.65977187983049,
+      "t2": 83.51719844146787,
+      "common_mode": 0.015281349658326643,
+      "differential_mode": -0.028683630860021847
+    },
+    {
+      "draw_id": "train-b300-0093",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 96.28311311666258,
+      "t2": 72.16706512509859,
+      "common_mode": -0.0675402773848209,
+      "differential_mode": 0.030371408551446738
+    },
+    {
+      "draw_id": "train-b300-0094",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 105.82473574179004,
+      "t2": 79.72054411849678,
+      "common_mode": 0.027377079449555003,
+      "differential_mode": 0.030870277968345294
+    },
+    {
+      "draw_id": "train-b300-0095",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 121.24896316654497,
+      "t2": 80.83607404110636,
+      "common_mode": 0.11147027858963943,
+      "differential_mode": 0.10101935307581003
+    },
+    {
+      "draw_id": "train-b300-0096",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 100.85420321498195,
+      "t2": 80.43599079334146,
+      "common_mode": 0.006995958533293989,
+      "differential_mode": 0.0015460736165254924
+    },
+    {
+      "draw_id": "train-b300-0097",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 94.20551779082476,
+      "t2": 60.65120529315686,
+      "common_mode": -0.1499023779636458,
+      "differential_mode": 0.09195755587189333
+    },
+    {
+      "draw_id": "train-b300-0098",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 96.96120011057063,
+      "t2": 72.96743493465365,
+      "common_mode": -0.05914753110556144,
+      "differential_mode": 0.02875953221126784
+    },
+    {
+      "draw_id": "train-b300-0099",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 103.07589284507223,
+      "t2": 75.13228413418672,
+      "common_mode": -0.015043759935971818,
+      "differential_mode": 0.04580268838669416
+    },
+    {
+      "draw_id": "train-b300-0100",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 98.33463769512558,
+      "t2": 80.19695074138315,
+      "common_mode": -0.007095869390727372,
+      "differential_mode": -0.009557753658016865
+    },
+    {
+      "draw_id": "train-b300-0101",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 83.76035133979981,
+      "t2": 81.345597576126,
+      "common_mode": -0.0727882584502135,
+      "differential_mode": -0.08960822815178841
+    },
+    {
+      "draw_id": "train-b300-0102",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 100.28963642507887,
+      "t2": 74.39760402558457,
+      "common_mode": -0.033566792714702115,
+      "differential_mode": 0.03646315696549071
+    },
+    {
+      "draw_id": "train-b300-0103",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 105.94107844095358,
+      "t2": 80.82540069726053,
+      "common_mode": 0.03486414656264625,
+      "differential_mode": 0.02454663784688957
+    },
+    {
+      "draw_id": "train-b300-0104",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 79.54718396793743,
+      "t2": 69.4735020845992,
+      "common_mode": -0.16805469213156785,
+      "differential_mode": -0.036473468189057806
+    },
+    {
+      "draw_id": "train-b300-0105",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 105.46294994872216,
+      "t2": 87.17140892781863,
+      "common_mode": 0.07213605554247726,
+      "differential_mode": -0.017506556055255654
+    },
+    {
+      "draw_id": "train-b300-0106",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 103.33531440820795,
+      "t2": 94.6477143765787,
+      "common_mode": 0.1082247868946567,
+      "differential_mode": -0.07487164281257702
+    },
+    {
+      "draw_id": "train-b300-0107",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 108.96215791208093,
+      "t2": 70.90536716488639,
+      "common_mode": -0.012030665659055473,
+      "differential_mode": 0.10165224477986479
+    },
+    {
+      "draw_id": "train-b300-0108",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 103.80058909421703,
+      "t2": 99.96654824863955,
+      "common_mode": 0.14379387202508231,
+      "differential_mode": -0.10578798108291215
+    },
+    {
+      "draw_id": "train-b300-0109",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 85.81311955539638,
+      "t2": 86.5803487401779,
+      "common_mode": -0.02980722259690624,
+      "differential_mode": -0.11206158184913
+    },
+    {
+      "draw_id": "train-b300-0110",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 121.59658630612289,
+      "t2": 88.07848654065108,
+      "common_mode": 0.15847347240968374,
+      "differential_mode": 0.05749239065154521
+    },
+    {
+      "draw_id": "train-b300-0111",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 98.7333431921585,
+      "t2": 85.00752746365377,
+      "common_mode": 0.024963762608628592,
+      "differential_mode": -0.037630330687043564
+    },
+    {
+      "draw_id": "train-b300-0112",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 97.98899041191864,
+      "t2": 63.36645074780043,
+      "common_mode": -0.11401473076665415,
+      "differential_mode": 0.09390463488584061
+    },
+    {
+      "draw_id": "train-b300-0113",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 102.15035442860608,
+      "t2": 74.10358067602765,
+      "common_mode": -0.02610084863179679,
+      "differential_mode": 0.04760439291785751
+    },
+    {
+      "draw_id": "train-b300-0114",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 81.53151131318019,
+      "t2": 75.78987082644117,
+      "common_mode": -0.11865575076884177,
+      "differential_mode": -0.0660291360993564
+    },
+    {
+      "draw_id": "train-b300-0115",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 95.88472669560085,
+      "t2": 57.90574862763126,
+      "common_mode": -0.15866543759930046,
+      "differential_mode": 0.1175127045553088
+    },
+    {
+      "draw_id": "train-b300-0116",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 95.1700897990602,
+      "t2": 83.12405016616866,
+      "common_mode": -0.004624237466144793,
+      "differential_mode": -0.04367486454325317
+    },
+    {
+      "draw_id": "train-b300-0117",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 92.46591561529172,
+      "t2": 83.34873822784363,
+      "common_mode": -0.01674080799951866,
+      "differential_mode": -0.05860003584756411
+    },
+    {
+      "draw_id": "train-b300-0118",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 99.42695022338822,
+      "t2": 90.99064095231121,
+      "common_mode": 0.06582625706888601,
+      "differential_mode": -0.07155675483500405
+    },
+    {
+      "draw_id": "train-b300-0119",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 112.9396609009763,
+      "t2": 72.77363619877191,
+      "common_mode": 0.019533530747206013,
+      "differential_mode": 0.10986307826255706
+    },
+    {
+      "draw_id": "train-b300-0120",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 112.45343774409736,
+      "t2": 79.78080949239222,
+      "common_mode": 0.060897248047938085,
+      "differential_mode": 0.06363712939303537
+    },
+    {
+      "draw_id": "train-b300-0121",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 80.3978840939317,
+      "t2": 76.42405536188662,
+      "common_mode": -0.12036023351855019,
+      "differential_mode": -0.07566092554213294
+    },
+    {
+      "draw_id": "train-b300-0122",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 93.52649500004414,
+      "t2": 74.45748866030777,
+      "common_mode": -0.0670082208728557,
+      "differential_mode": 0.0022731708732970785
+    },
+    {
+      "draw_id": "train-b300-0123",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 84.2653181561231,
+      "t2": 67.54413293408548,
+      "common_mode": -0.1565225783813502,
+      "differential_mode": -0.0008242400574187264
+    },
+    {
+      "draw_id": "train-b300-0124",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 97.75076554882168,
+      "t2": 81.92199081260793,
+      "common_mode": 0.0007662703229079637,
+      "differential_mode": -0.023258614834691146
+    },
+    {
+      "draw_id": "train-b300-0125",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 116.28536310034082,
+      "t2": 84.02557442750654,
+      "common_mode": 0.10658665567362002,
+      "differential_mode": 0.05626697532978822
+    },
+    {
+      "draw_id": "train-b300-0126",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 106.75181391386737,
+      "t2": 72.15723088083931,
+      "common_mode": -0.015258237425417515,
+      "differential_mode": 0.08277637656409118
+    },
+    {
+      "draw_id": "train-b300-0127",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 122.55471545918849,
+      "t2": 85.41826186265925,
+      "common_mode": 0.14663771393756275,
+      "differential_mode": 0.07890944065432196
+    },
+    {
+      "draw_id": "train-b500-0000",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 99.74602584960932,
+      "t2": 82.72608701982918,
+      "common_mode": 0.01576817312197909,
+      "differential_mode": -0.018307914625885713
+    },
+    {
+      "draw_id": "train-b500-0001",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 114.99194437371563,
+      "t2": 99.33495635755668,
+      "common_mode": 0.1958031991033074,
+      "differential_mode": -0.045883755366151135
+    },
+    {
+      "draw_id": "train-b500-0002",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 95.25897252886153,
+      "t2": 87.31481562295238,
+      "common_mode": 0.02201246028776016,
+      "differential_mode": -0.06942273499914481
+    },
+    {
+      "draw_id": "train-b500-0003",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 113.17664129528484,
+      "t2": 79.00306007945316,
+      "common_mode": 0.059652331973006456,
+      "differential_mode": 0.07211408097984201
+    },
+    {
+      "draw_id": "train-b500-0004",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 65.63785160682578,
+      "t2": 60.98834985775811,
+      "common_mode": -0.29063355535488283,
+      "differential_mode": -0.05298792857685927
+    },
+    {
+      "draw_id": "train-b500-0005",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 89.5666562754915,
+      "t2": 54.35567758946769,
+      "common_mode": -0.21244373368836944,
+      "differential_mode": 0.10811029644328446
+    },
+    {
+      "draw_id": "train-b500-0006",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 104.1082578484744,
+      "t2": 91.30321545612972,
+      "common_mode": 0.09118638584318273,
+      "differential_mode": -0.05010380735843886
+    },
+    {
+      "draw_id": "train-b500-0007",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 89.86507255341296,
+      "t2": 69.52109643571659,
+      "common_mode": -0.11616778450970658,
+      "differential_mode": 0.014818510043836108
+    },
+    {
+      "draw_id": "train-b500-0008",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 98.0249087288162,
+      "t2": 89.84954831836524,
+      "common_mode": 0.05168422063386369,
+      "differential_mode": -0.0714351333457017
+    },
+    {
+      "draw_id": "train-b500-0009",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 74.68319155767189,
+      "t2": 53.56209784077768,
+      "common_mode": -0.2918209307067801,
+      "differential_mode": 0.038652846283498965
+    },
+    {
+      "draw_id": "train-b500-0010",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 111.39132798558813,
+      "t2": 69.24240764596377,
+      "common_mode": -0.010278312284785818,
+      "differential_mode": 0.12419159214066716
+    },
+    {
+      "draw_id": "train-b500-0011",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 86.76109110696169,
+      "t2": 98.64245040998084,
+      "common_mode": 0.05032077059718859,
+      "differential_mode": -0.1827098595275718
+    },
+    {
+      "draw_id": "train-b500-0012",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 89.25432543170737,
+      "t2": 98.68285118316565,
+      "common_mode": 0.0630394470533222,
+      "differential_mode": -0.17049619273624855
+    },
+    {
+      "draw_id": "train-b500-0013",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 128.69350371657904,
+      "t2": 76.73397953299789,
+      "common_mode": 0.123054890664132,
+      "differential_mode": 0.16388014650165839
+    },
+    {
+      "draw_id": "train-b500-0014",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 72.82078183547162,
+      "t2": 89.83880487372097,
+      "common_mode": -0.07440356036188572,
+      "differential_mode": -0.197388621283398
+    },
+    {
+      "draw_id": "train-b500-0015",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 107.28573761561411,
+      "t2": 71.03484666017096,
+      "common_mode": -0.019603520295860988,
+      "differential_mode": 0.092460896452002
+    },
+    {
+      "draw_id": "train-b500-0016",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 106.6402591290076,
+      "t2": 83.4525055202948,
+      "common_mode": 0.05477945514688054,
+      "differential_mode": 0.011623136143195545
+    },
+    {
+      "draw_id": "train-b500-0017",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 97.26958813218269,
+      "t2": 49.48256081773019,
+      "common_mode": -0.20438605422827283,
+      "differential_mode": 0.17708193555009982
+    },
+    {
+      "draw_id": "train-b500-0018",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 60.42285809760609,
+      "t2": 76.70885867151773,
+      "common_mode": -0.2184553428149837,
+      "differential_mode": -0.1773160762089554
+    },
+    {
+      "draw_id": "train-b500-0019",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 122.42567228273693,
+      "t2": 91.03100017845341,
+      "common_mode": 0.1810721125290185,
+      "differential_mode": 0.04318461029835077
+    },
+    {
+      "draw_id": "train-b500-0020",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 87.59347855646767,
+      "t2": 57.372875332764586,
+      "common_mode": -0.20345213638788295,
+      "differential_mode": 0.0793869219525597
+    },
+    {
+      "draw_id": "train-b500-0021",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 95.10610178050081,
+      "t2": 94.52454328412193,
+      "common_mode": 0.06630890442826609,
+      "differential_mode": -0.11524788662325808
+    },
+    {
+      "draw_id": "train-b500-0022",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 89.11536757777311,
+      "t2": 61.04822009981872,
+      "common_mode": -0.1728717864872674,
+      "differential_mode": 0.06402546226499861
+    },
+    {
+      "draw_id": "train-b500-0023",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 103.0890175434152,
+      "t2": 85.44400007111338,
+      "common_mode": 0.0494700881615347,
+      "differential_mode": -0.018579912727382603
+    },
+    {
+      "draw_id": "train-b500-0024",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 98.6268999491807,
+      "t2": 55.43304959241471,
+      "common_mode": -0.16040894030150457,
+      "differential_mode": 0.1466779397933115
+    },
+    {
+      "draw_id": "train-b500-0025",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 104.30145538016502,
+      "t2": 95.25980870390671,
+      "common_mode": 0.1168810813002421,
+      "differential_mode": -0.07386652749859196
+    },
+    {
+      "draw_id": "train-b500-0026",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 85.43864853248519,
+      "t2": 91.55187108455658,
+      "common_mode": -0.0006075630590953729,
+      "differential_mode": -0.14500595161605273
+    },
+    {
+      "draw_id": "train-b500-0027",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 82.3455453265485,
+      "t2": 95.98540317495859,
+      "common_mode": 0.01163649647623377,
+      "differential_mode": -0.18818104321074874
+    },
+    {
+      "draw_id": "train-b500-0028",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 75.02556374768558,
+      "t2": 65.02106792427229,
+      "common_mode": -0.21849050673487025,
+      "differential_mode": -0.031253855788273915
+    },
+    {
+      "draw_id": "train-b500-0029",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 75.66495430770357,
+      "t2": 54.71789965953274,
+      "common_mode": -0.2796883555894025,
+      "differential_mode": 0.03633789866643822
+    },
+    {
+      "draw_id": "train-b500-0030",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 107.56940893534326,
+      "t2": 109.91709524939213,
+      "common_mode": 0.2248288899854171,
+      "differential_mode": -0.1491348006319846
+    },
+    {
+      "draw_id": "train-b500-0031",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 100.8409570592494,
+      "t2": 64.82743433715471,
+      "common_mode": -0.09062375009653598,
+      "differential_mode": 0.09903332068903015
+    },
+    {
+      "draw_id": "train-b500-0032",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 130.9128266912576,
+      "t2": 77.52202335818515,
+      "common_mode": 0.1390767794449453,
+      "differential_mode": 0.17005148746763082
+    },
+    {
+      "draw_id": "train-b500-0033",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 96.61894589853112,
+      "t2": 80.87483062113247,
+      "common_mode": -0.011437579125266606,
+      "differential_mode": -0.02237296188942231
+    },
+    {
+      "draw_id": "train-b500-0034",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 81.60376322366723,
+      "t2": 96.07714652341807,
+      "common_mode": 0.008500981889699,
+      "differential_mode": -0.1924633496530268
+    },
+    {
+      "draw_id": "train-b500-0035",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 134.80655333186792,
+      "t2": 99.90931664787233,
+      "common_mode": 0.29846599570854165,
+      "differential_mode": 0.04959953761013741
+    },
+    {
+      "draw_id": "train-b500-0036",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 108.77065483685622,
+      "t2": 68.66869091487052,
+      "common_mode": -0.02696740759777816,
+      "differential_mode": 0.11467395596634028
+    },
+    {
+      "draw_id": "train-b500-0037",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 114.28483526290805,
+      "t2": 61.471601246927214,
+      "common_mode": -0.04437831589216468,
+      "differential_mode": 0.1872266685212451
+    },
+    {
+      "draw_id": "train-b500-0038",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 118.72625681473556,
+      "t2": 101.78408470816196,
+      "common_mode": 0.22978181349969012,
+      "differential_mode": -0.04251924535233434
+    },
+    {
+      "draw_id": "train-b500-0039",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 72.44062203091804,
+      "t2": 64.1993518178096,
+      "common_mode": -0.23655094098409984,
+      "differential_mode": -0.03904283870671993
+    },
+    {
+      "draw_id": "train-b500-0040",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 72.68829436162949,
+      "t2": 82.31799468024234,
+      "common_mode": -0.12207106144033802,
+      "differential_mode": -0.15104599494336718
+    },
+    {
+      "draw_id": "train-b500-0041",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 116.57501716908587,
+      "t2": 61.63975211160768,
+      "common_mode": -0.031876463457022663,
+      "differential_mode": 0.19762663514788142
+    },
+    {
+      "draw_id": "train-b500-0042",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 82.94289713811796,
+      "t2": 70.02972480425302,
+      "common_mode": -0.1475997342828288,
+      "differential_mode": -0.0229712943359916
+    },
+    {
+      "draw_id": "train-b500-0043",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 73.58174317925216,
+      "t2": 77.4020144425191,
+      "common_mode": -0.14832869383799488,
+      "differential_mode": -0.1158538743694836
+    },
+    {
+      "draw_id": "train-b500-0044",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 101.80764841073093,
+      "t2": 86.51479367542449,
+      "common_mode": 0.04975570252505768,
+      "differential_mode": -0.03167921841774826
+    },
+    {
+      "draw_id": "train-b500-0045",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 91.66156582561612,
+      "t2": 100.50258315171077,
+      "common_mode": 0.0864489738262727,
+      "differential_mode": -0.16983331557011164
+    },
+    {
+      "draw_id": "train-b500-0046",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 101.20485753709386,
+      "t2": 54.64988951355541,
+      "common_mode": -0.1524139028548094,
+      "differential_mode": 0.164462478225748
+    },
+    {
+      "draw_id": "train-b500-0047",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 131.34301070732684,
+      "t2": 80.08637904088793,
+      "common_mode": 0.1572549225421837,
+      "differential_mode": 0.15617518453108448
+    },
+    {
+      "draw_id": "train-b500-0048",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 81.82343576335941,
+      "t2": 87.80938888138458,
+      "common_mode": -0.04207414067454929,
+      "differential_mode": -0.13969150169185657
+    },
+    {
+      "draw_id": "train-b500-0049",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 79.8768971498192,
+      "t2": 81.75573181917264,
+      "common_mode": -0.08964219038107504,
+      "differential_mode": -0.11158883812073293
+    },
+    {
+      "draw_id": "train-b500-0050",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 97.87071809220672,
+      "t2": 83.57361960600639,
+      "common_mode": 0.011688712998573325,
+      "differential_mode": -0.03298153207650628
+    },
+    {
+      "draw_id": "train-b500-0051",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 58.249896063818404,
+      "t2": 76.17246598852068,
+      "common_mode": -0.2326726072526537,
+      "differential_mode": -0.18482843210916222
+    },
+    {
+      "draw_id": "train-b500-0052",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 83.17667997984204,
+      "t2": 93.39886940455119,
+      "common_mode": -0.00037366632234481223,
+      "differential_mode": -0.16785953387923477
+    },
+    {
+      "draw_id": "train-b500-0053",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 103.75728129543236,
+      "t2": 72.0316785235841,
+      "common_mode": -0.031015602750437632,
+      "differential_mode": 0.06858841570476115
+    },
+    {
+      "draw_id": "train-b500-0054",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 121.0517571153626,
+      "t2": 75.49248446247482,
+      "common_mode": 0.07708681346728052,
+      "differential_mode": 0.13343075768634532
+    },
+    {
+      "draw_id": "train-b500-0055",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 138.56492278173275,
+      "t2": 96.50125550562251,
+      "common_mode": 0.2959574608188044,
+      "differential_mode": 0.08969176699852299
+    },
+    {
+      "draw_id": "train-b500-0056",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 92.49908247289966,
+      "t2": 102.96087512494435,
+      "common_mode": 0.10600088189540036,
+      "differential_mode": -0.18101005716640386
+    },
+    {
+      "draw_id": "train-b500-0057",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 83.98598526365582,
+      "t2": 76.29624089763118,
+      "common_mode": -0.1032185680715261,
+      "differential_mode": -0.05692157929191577
+    },
+    {
+      "draw_id": "train-b500-0058",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 68.61168758900972,
+      "t2": 69.30048945922798,
+      "common_mode": -0.2238135029347766,
+      "differential_mode": -0.09006962117512628
+    },
+    {
+      "draw_id": "train-b500-0059",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 130.59824834635137,
+      "t2": 103.34014163846314,
+      "common_mode": 0.2988671269721514,
+      "differential_mode": 0.007115356491362107
+    },
+    {
+      "draw_id": "train-b500-0060",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 79.44160687550232,
+      "t2": 80.15085550818718,
+      "common_mode": -0.10184911869631855,
+      "differential_mode": -0.10373481254865835
+    },
+    {
+      "draw_id": "train-b500-0061",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 114.63287393277652,
+      "t2": 110.83086737829237,
+      "common_mode": 0.26585729077821,
+      "differential_mode": -0.11952855145044468
+    },
+    {
+      "draw_id": "train-b500-0062",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 80.13484737921497,
+      "t2": 77.73947083847916,
+      "common_mode": -0.11345407036343033,
+      "differential_mode": -0.08519745584441991
+    },
+    {
+      "draw_id": "train-b500-0063",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 90.60978548140324,
+      "t2": 78.56652582057865,
+      "common_mode": -0.05591028621436725,
+      "differential_mode": -0.037991858971600456
+    },
+    {
+      "draw_id": "train-b500-0064",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 134.69792266457642,
+      "t2": 84.16629648559956,
+      "common_mode": 0.19952896635787942,
+      "differential_mode": 0.14745026028788494
+    },
+    {
+      "draw_id": "train-b500-0065",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 132.73193240762038,
+      "t2": 99.24271450809876,
+      "common_mode": 0.2839266277137192,
+      "differential_mode": 0.04339269636248466
+    },
+    {
+      "draw_id": "train-b500-0066",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 91.6329824589458,
+      "t2": 102.5133603486868,
+      "common_mode": 0.09887341447402148,
+      "differential_mode": -0.18254358988456354
+    },
+    {
+      "draw_id": "train-b500-0067",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 97.64250677431285,
+      "t2": 68.29032479779782,
+      "common_mode": -0.08497293614219933,
+      "differential_mode": 0.061398003885327956
+    },
+    {
+      "draw_id": "train-b500-0068",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 105.26969096024146,
+      "t2": 98.14944649148876,
+      "common_mode": 0.13978249537301207,
+      "differential_mode": -0.0870855857705974
+    },
+    {
+      "draw_id": "train-b500-0069",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 133.3026148878381,
+      "t2": 84.16549332027031,
+      "common_mode": 0.19254740769088008,
+      "differential_mode": 0.14047874118750098
+    },
+    {
+      "draw_id": "train-b500-0070",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 94.56241955047827,
+      "t2": 52.07755076265034,
+      "common_mode": -0.20170320998104402,
+      "differential_mode": 0.14732740548582668
+    },
+    {
+      "draw_id": "train-b500-0071",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 66.78724366788082,
+      "t2": 65.10309732673893,
+      "common_mode": -0.25916942336847765,
+      "differential_mode": -0.07295813995271425
+    },
+    {
+      "draw_id": "train-b500-0072",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 116.62872028906861,
+      "t2": 81.76590504322459,
+      "common_mode": 0.09418050796549676,
+      "differential_mode": 0.07210669492518929
+    },
+    {
+      "draw_id": "train-b500-0073",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 105.09823115723111,
+      "t2": 92.12346513394364,
+      "common_mode": 0.1012628128733033,
+      "differential_mode": -0.05028050130099221
+    },
+    {
+      "draw_id": "train-b500-0074",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 131.75177837258045,
+      "t2": 90.71250065103831,
+      "common_mode": 0.22571202093189163,
+      "differential_mode": 0.09180576279391278
+    },
+    {
+      "draw_id": "train-b500-0075",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 73.704900417139,
+      "t2": 54.46674411889697,
+      "common_mode": -0.29105834717119894,
+      "differential_mode": 0.028107351342588904
+    },
+    {
+      "draw_id": "train-b500-0076",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 134.67445630249964,
+      "t2": 93.22509680750622,
+      "common_mode": 0.2560291365594121,
+      "differential_mode": 0.09071542646558434
+    },
+    {
+      "draw_id": "train-b500-0077",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 90.23722169984599,
+      "t2": 91.51001637728312,
+      "common_mode": 0.023123710857249624,
+      "differential_mode": -0.12075149385878957
+    },
+    {
+      "draw_id": "train-b500-0078",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 93.56452676838256,
+      "t2": 76.78715777741377,
+      "common_mode": -0.05225763004925113,
+      "differential_mode": -0.01209710226692326
+    },
+    {
+      "draw_id": "train-b500-0079",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 73.53420991382715,
+      "t2": 62.029677642175045,
+      "common_mode": -0.2446434651672702,
+      "differential_mode": -0.020014435694458266
+    },
+    {
+      "draw_id": "train-b500-0080",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 129.79910683551194,
+      "t2": 102.43787854078548,
+      "common_mode": 0.2892322750574689,
+      "differential_mode": 0.008758793297650558
+    },
+    {
+      "draw_id": "train-b500-0081",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 114.33364138017008,
+      "t2": 112.4249967125609,
+      "common_mode": 0.27432443635435594,
+      "differential_mode": -0.13098802255265513
+    },
+    {
+      "draw_id": "train-b500-0082",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 134.3986277533245,
+      "t2": 88.56054756360557,
+      "common_mode": 0.22549656103915733,
+      "differential_mode": 0.11848971649408768
+    },
+    {
+      "draw_id": "train-b500-0083",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 140.71121935564997,
+      "t2": 94.31537708263068,
+      "common_mode": 0.29302720354469164,
+      "differential_mode": 0.11408499001180827
+    },
+    {
+      "draw_id": "train-b500-0084",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 105.46936718060383,
+      "t2": 109.36310689539025,
+      "common_mode": 0.21086625399920816,
+      "differential_mode": -0.15617258219316976
+    },
+    {
+      "draw_id": "train-b500-0085",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 68.00890437914825,
+      "t2": 62.83350119012618,
+      "common_mode": -0.26724609566597013,
+      "differential_mode": -0.052664860542547404
+    },
+    {
+      "draw_id": "train-b500-0086",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 90.92773467841938,
+      "t2": 75.57561453161418,
+      "common_mode": -0.07301373578531445,
+      "differential_mode": -0.017708917430491716
+    },
+    {
+      "draw_id": "train-b500-0087",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 56.14215437719412,
+      "t2": 68.23523371334387,
+      "common_mode": -0.29281901740563016,
+      "differential_mode": -0.1457594388224286
+    },
+    {
+      "draw_id": "train-b500-0088",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 137.28087554435473,
+      "t2": 80.34255025523467,
+      "common_mode": 0.18854531681699044,
+      "differential_mode": 0.18426343862655686
+    },
+    {
+      "draw_id": "train-b500-0089",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 93.33751338439919,
+      "t2": 103.21633037752981,
+      "common_mode": 0.11178963178155726,
+      "differential_mode": -0.17841449793756536
+    },
+    {
+      "draw_id": "train-b500-0090",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 98.88759659250357,
+      "t2": 92.63712119719386,
+      "common_mode": 0.07341999044497949,
+      "differential_mode": -0.08454402451994376
+    },
+    {
+      "draw_id": "train-b500-0091",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 104.41519256031044,
+      "t2": 78.46623961581378,
+      "common_mode": 0.012489960400388245,
+      "differential_mode": 0.03166196520271619
+    },
+    {
+      "draw_id": "train-b500-0092",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 98.76633924431663,
+      "t2": 108.461285508981,
+      "common_mode": 0.17171473065271442,
+      "differential_mode": -0.18405133820954822
+    },
+    {
+      "draw_id": "train-b500-0093",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 66.79804491036204,
+      "t2": 63.50121751406425,
+      "common_mode": -0.26912716598528824,
+      "differential_mode": -0.06289238491109139
+    },
+    {
+      "draw_id": "train-b500-0094",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 60.39697606309088,
+      "t2": 71.25713354364555,
+      "common_mode": -0.25265803503676093,
+      "differential_mode": -0.14337220433233033
+    },
+    {
+      "draw_id": "train-b500-0095",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 117.7721643646926,
+      "t2": 103.62366052647968,
+      "common_mode": 0.23650870011396102,
+      "differential_mode": -0.058787056467035054
+    },
+    {
+      "draw_id": "train-b500-0096",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 109.63171939111334,
+      "t2": 107.41416487897408,
+      "common_mode": 0.21949712744915456,
+      "differential_mode": -0.12317993353802131
+    },
+    {
+      "draw_id": "train-b500-0097",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 130.16709295143235,
+      "t2": 94.18839591394708,
+      "common_mode": 0.23951293921933087,
+      "differential_mode": 0.06215799029499258
+    },
+    {
+      "draw_id": "train-b500-0098",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 118.24604829177541,
+      "t2": 89.07025382642495,
+      "common_mode": 0.1479193278740329,
+      "differential_mode": 0.03454115504372107
+    },
+    {
+      "draw_id": "train-b500-0099",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 99.91133124655474,
+      "t2": 90.2645235719673,
+      "common_mode": 0.06370992855756918,
+      "differential_mode": -0.06459661609202191
+    },
+    {
+      "draw_id": "train-b500-0100",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 113.20156519878488,
+      "t2": 112.96750971503882,
+      "common_mode": 0.2720547617129169,
+      "differential_mode": -0.14003910972506814
+    },
+    {
+      "draw_id": "train-b500-0101",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 112.29085097591293,
+      "t2": 74.14953169432953,
+      "common_mode": 0.024888827969124172,
+      "differential_mode": 0.09801968179000509
+    },
+    {
+      "draw_id": "train-b500-0102",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 122.01282681629604,
+      "t2": 68.53691824042302,
+      "common_mode": 0.038419873084124034,
+      "differential_mode": 0.18170839507883635
+    },
+    {
+      "draw_id": "train-b500-0103",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 94.88536787736344,
+      "t2": 101.86709456105532,
+      "common_mode": 0.11109618039341307,
+      "differential_mode": -0.1622425016197786
+    },
+    {
+      "draw_id": "train-b500-0104",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 128.02510509639694,
+      "t2": 101.53569242814255,
+      "common_mode": 0.27472360315787564,
+      "differential_mode": 0.005527447806093738
+    },
+    {
+      "draw_id": "train-b500-0105",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 67.15760972555364,
+      "t2": 79.38901491962295,
+      "common_mode": -0.16803060812458842,
+      "differential_mode": -0.16039329461987514
+    },
+    {
+      "draw_id": "train-b500-0106",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 143.28006609295204,
+      "t2": 86.95222137009839,
+      "common_mode": 0.25985171402787516,
+      "differential_mode": 0.17294894690164525
+    },
+    {
+      "draw_id": "train-b500-0107",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 85.39007518746197,
+      "t2": 85.0759121871869,
+      "common_mode": -0.04132517289277199,
+      "differential_mode": -0.10477407523260834
+    },
+    {
+      "draw_id": "train-b500-0108",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 107.15115302034252,
+      "t2": 80.8600222064181,
+      "common_mode": 0.041130903891825665,
+      "differential_mode": 0.03038062631159963
+    },
+    {
+      "draw_id": "train-b500-0109",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 114.28806545809542,
+      "t2": 114.39274194949402,
+      "common_mode": 0.28639496447481466,
+      "differential_mode": -0.14351430989386038
+    },
+    {
+      "draw_id": "train-b500-0110",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 82.91037490461937,
+      "t2": 97.69112534374585,
+      "common_mode": 0.02512140792150841,
+      "differential_mode": -0.19601765887531475
+    },
+    {
+      "draw_id": "train-b500-0111",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 100.33909203211483,
+      "t2": 48.830813549128194,
+      "common_mode": -0.19311195515737456,
+      "differential_mode": 0.19650287547852302
+    },
+    {
+      "draw_id": "train-b500-0112",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 80.6880929684358,
+      "t2": 83.89291115950229,
+      "common_mode": -0.07222884041093175,
+      "differential_mode": -0.12089022990471032
+    },
+    {
+      "draw_id": "train-b500-0113",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 85.34990321565427,
+      "t2": 57.10399450929443,
+      "common_mode": -0.21635051823863855,
+      "differential_mode": 0.06984955039518115
+    },
+    {
+      "draw_id": "train-b500-0114",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 99.17894321832934,
+      "t2": 52.66921106686732,
+      "common_mode": -0.1749227147404325,
+      "differential_mode": 0.166712146923726
+    },
+    {
+      "draw_id": "train-b500-0115",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 75.49714291805208,
+      "t2": 59.30592601105866,
+      "common_mode": -0.251852247840623,
+      "differential_mode": 0.006823677021143698
+    },
+    {
+      "draw_id": "train-b500-0116",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 113.77891576753198,
+      "t2": 98.33702642259125,
+      "common_mode": 0.1835009939788551,
+      "differential_mode": -0.045711836303535286
+    },
+    {
+      "draw_id": "train-b500-0117",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 129.11354284585647,
+      "t2": 86.45755577140608,
+      "common_mode": 0.18592743780057042,
+      "differential_mode": 0.1052079906579943
+    },
+    {
+      "draw_id": "train-b500-0118",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 110.30786590566201,
+      "t2": 103.67302781813473,
+      "common_mode": 0.1994957533916522,
+      "differential_mode": -0.09641709433503208
+    },
+    {
+      "draw_id": "train-b500-0119",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 125.10642785591743,
+      "t2": 77.24504975691261,
+      "common_mode": 0.10831370026029108,
+      "differential_mode": 0.14275057829888343
+    },
+    {
+      "draw_id": "train-b500-0120",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 117.61249932537343,
+      "t2": 64.66138695548085,
+      "common_mode": -0.007803834901377482,
+      "differential_mode": 0.18392882815511186
+    },
+    {
+      "draw_id": "train-b500-0121",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 91.67023632215822,
+      "t2": 104.67437410157561,
+      "common_mode": 0.11256601974563862,
+      "differential_mode": -0.19586365652405646
+    },
+    {
+      "draw_id": "train-b500-0122",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 111.60128017308597,
+      "t2": 59.51137532566568,
+      "common_mode": -0.0700475033491596,
+      "differential_mode": 0.18606030508001936
+    },
+    {
+      "draw_id": "train-b500-0123",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 62.28048174529576,
+      "t2": 76.6697545914475,
+      "common_mode": -0.2094116250769743,
+      "differential_mode": -0.1677835574700681
+    },
+    {
+      "draw_id": "train-b500-0124",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 106.0944826477054,
+      "t2": 93.91373263505443,
+      "common_mode": 0.11743324220761708,
+      "differential_mode": -0.05648841573056326
+    },
+    {
+      "draw_id": "train-b500-0125",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 82.80355793401898,
+      "t2": 88.82606776239051,
+      "common_mode": -0.030819286814964375,
+      "differential_mode": -0.1411451338448457
+    },
+    {
+      "draw_id": "train-b500-0126",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 101.7889388869762,
+      "t2": 61.86318729138492,
+      "common_mode": -0.10441038499396327,
+      "differential_mode": 0.1222997738637252
+    },
+    {
+      "draw_id": "train-b500-0127",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 124.23280300008213,
+      "t2": 106.59583735122295,
+      "common_mode": 0.2873879984455541,
+      "differential_mode": -0.04505996844473287
+    }
+  ]
+}

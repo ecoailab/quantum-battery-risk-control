@@ -1,0 +1,30 @@
+\documentclass[10pt]{letter}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{hyperref}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\sloppy
+
+\signature{Sangkeum Lee\\Corresponding author\\sangkeum@hanbat.ac.kr}
+\address{Department of Computer Engineering\\Hanbat National University\\Daejeon 34158, South Korea}
+
+\begin{document}
+\begin{letter}{Editors\\Journal of Physics A: Mathematical and Theoretical}
+\opening{Dear Editors,}
+
+Please consider our manuscript, ``Risk-sensitive open-loop control of a single-qubit quantum battery under synthetic quasi-static uncertainty,'' as a Paper in \emph{Journal of Physics A: Mathematical and Theoretical}.
+
+The manuscript presents a reproducible benchmark of seven open-loop methods under one single-qubit Lindblad model and information contract.  Nominal finite-difference control, sample-average approximation, a conditional-value-at-risk objective, proximal policy optimization, two compact pulse families, and a seeded random reference use disjoint training, validation, and held-out test draws.  Optimizer seeds, not individual uncertainty draws, are the independent replicates.  Every result and plot is linked to canonical evidence by cryptographic receipts.
+
+The predeclared rule selected a neutral result branch: the tested time-only reinforcement-learning controller did not establish superiority.  We retain negative and null comparisons, report lower-tail risk and computational cost, and avoid claims about experimental devices, feedback deployment, global bounds, or multi-qubit scaling.  This transparent result fits the journal's coverage of open quantum systems, quantum information, computational methods, and machine learning applied to physics.
+
+The manuscript is original, is not under consideration elsewhere, and all authors approve its submission.  It involves no human or animal subjects, and funding is disclosed.  We intend to use the subscription-access route, which the journal's official policy identifies as free of charge.
+
+The curated code, canonical artifacts, tests, and manuscript sources are publicly available at \url{https://github.com/ecoailab/quantum-battery-risk-control}.  Release \texttt{v1.0.0} and its commit SHA identify the submission snapshot.
+
+Thank you for considering this work.
+
+\closing{Sincerely,}
+\end{letter}
+\end{document}

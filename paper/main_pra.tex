@@ -1,0 +1,150 @@
+% Canonical neutral-branch manuscript. Scientific values are generated.
+\pdfminorversion=7
+\documentclass[preprint,aps,pra,superscriptaddress,longbibliography]{revtex4-2}
+
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\graphicspath{{figures/canonical/}}
+\input{generated/results_macros.tex}
+
+\begin{document}
+
+\title{Risk-sensitive open-loop control of a single-qubit quantum battery under synthetic quasi-static uncertainty}
+
+\author{Sangkeum Lee}
+\email{sangkeum@hanbat.ac.kr}
+\affiliation{Department of Computer Engineering, Hanbat National University, Daejeon 34158, South Korea}
+\author{Beomdo Park}
+\affiliation{Department of Computer Engineering, Hanbat National University, Daejeon 34158, South Korea}
+\author{Junseong Park}
+\affiliation{Department of Computer Engineering, Hanbat National University, Daejeon 34158, South Korea}
+\author{Hyeonseok Jang}
+\affiliation{Department of Computer Engineering, Hanbat National University, Daejeon 34158, South Korea}
+\author{Taewook Heo}
+\affiliation{Electronics and Telecommunications Research Institute (ETRI), Daejeon 34129, South Korea}
+
+\begin{abstract}
+We benchmark open-loop charging controls for a single-qubit quantum battery when coherence parameters are uncertain between episodes but constant during each pulse.  The uncertainty distribution is an explicitly synthetic stress test, not an empirical device model.  Nominal finite-difference control, sample-average approximation (SAA), a lower-tail conditional-value-at-risk (CVaR) objective, proximal policy optimization (PPO), two fitted low-dimensional heuristics, and a seeded random reference share the same dynamics, information, optimization-seed, and held-out-evaluation contracts.  Across paired held-out draws, the CVaR controller obtains mean ergotropy \PVMethodCvarMeanEstimate{} and $\mathrm{CVaR}_{\PVAnalysisCvarAlpha}$ \PVMethodCvarCvarZeroOneEstimate{}, while PPO obtains \PVMethodPpoMeanEstimate{} and \PVMethodPpoCvarZeroOneEstimate{}, respectively.  Predeclared significance, effect-size, interval, and direction gates therefore select a neutral benchmark branch rather than a PPO-superiority claim.  The study shows that risk-sensitive objectives can be compared reproducibly without treating draw-level observations as independent replicates, and it exposes substantial method-dependent computational costs.  Conclusions are limited to simulated Markovian single-qubit dynamics, synthetic quasi-static uncertainty, and time-only open-loop deployment.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+Quantum batteries provide a setting in which controllable quantum dynamics and extractable work meet~\cite{alicki2013entanglement,campaioli2024colloquium,ferraro2018high}.  Experimental and theoretical studies have examined charging in organic microcavities and superconducting circuits~\cite{quach2022superabsorption,hu2022optimal,li2025stable}, while optimal-control and reinforcement-learning methods offer complementary pulse-design strategies~\cite{khaneja2005optimal,niu2019universal,porotti2019coherent}.
+
+Claims of charging advantage require careful comparator, resource, and uncertainty definitions.  Recent studies analyze reliable advantage and reservoir-assisted charging~\cite{rinaldi2025reliable,yao2025reservoir}; work on charging-power bounds likewise cautions against interpreting an advantage outside its stated operational assumptions~\cite{sreeram2025deceptive}.  We consequently ask a narrower question: how do fixed open-loop controls compare when trained and selected under identical synthetic quasi-static uncertainty and then evaluated on shared unseen draws?
+
+Our contribution is a corrected fair benchmark, not a theorem, hardware demonstration, feedback controller, or scaling result.  We use one single-qubit Lindblad model and one ergotropy convention; separate training, validation, and test draws; equal deployment information; ten optimizer seeds as independent replicates; and a predeclared neutral-or-superiority decision rule.  All reported numbers, tables, and plots are generated from hash-linked canonical artifacts.
+
+\section{Model and uncertainty contract}
+The battery is a driven qubit with $\lvert0\rangle$ the ground state and $\lvert1\rangle$ the excited state.  In units used by the simulator,
+\begin{equation}
+ H(t)=-\frac{\omega_q}{2}\sigma_z+\Omega_x(t)\sigma_x+\Omega_y(t)\sigma_y,
+ \qquad |\Omega_{x,y}(t)|\leq\Omega_{\max}.
+\end{equation}
+The density operator obeys the Markovian master equation
+\begin{equation}
+ \dot\rho=-i[H(t),\rho]+\gamma_1\mathcal D[\sigma_-]\rho
+ +\frac{\gamma_\phi}{2}\mathcal D[\sigma_z]\rho,
+\end{equation}
+where $\sigma_-=\lvert0\rangle\!\langle1\rvert$, $\gamma_1=1/T_1$, $\gamma_\phi=1/T_2-1/(2T_1)$, and $\mathcal D[L]\rho=L\rho L^\dagger-\{L^\dagger L,\rho\}/2$.  The initial state is $\lvert0\rangle\!\langle0\rvert$.  Ergotropy is computed from the final state relative to the same Hamiltonian convention and normalized by the qubit energy gap.
+
+The nominal parameters are $T_1=100\,\mu\mathrm{s}$, $T_2=80\,\mu\mathrm{s}$, $\omega_q=5$, $\Omega_{\max}=0.25$, 100 piecewise-constant steps, and $\Delta t=0.1\,\mu\mathrm{s}$.  Synthetic joint perturbations have severity fractions 0.1, 0.3, and 0.5 subject to the physical condition $T_2\leq2T_1$.  A sampled pair $(T_1,T_2)$ is fixed throughout an episode and varies only between episodes.  Independent deterministic split seeds generate 128 training, 128 validation, and 256 test scenarios per severity band; the test set is never used for fitting or selection.
+
+\section{Controllers and fair comparison}
+Seven frozen methods enter the benchmark.  The nominal controller minimizes loss at the nominal calibration.  SAA minimizes mean loss over training draws, whereas the risk-sensitive controller minimizes the empirical lower-tail $\mathrm{CVaR}_{\PVAnalysisCvarAlpha}$.  All three use bounded finite-difference L-BFGS-B optimization.  PPO uses a time-only observation and outputs the two drive amplitudes; it receives neither the hidden coherence parameters nor the quantum state at deployment.  Bang--bang and sinusoidal pulse families are selected using training and validation data, and a seeded random pulse is retained as an untuned reference.
+
+Each method is fitted independently for optimizer seeds 42--51.  Budget choice uses validation evidence only.  Frozen controls are then evaluated for every seed on the same 768 held-out draws (256 at each severity).  Thus draw-level outcomes are paired within a seed, while the optimizer seed is the independent statistical replicate.
+
+For each method we report the seed-averaged held-out mean, median, tenth percentile, $\mathrm{CVaR}_{\PVAnalysisCvarAlpha}$, and minimum.  Confidence intervals use \PVAnalysisBootstrapSamples{} bootstrap samples at confidence level \PVAnalysisConfidenceLevel.  Mean-difference intervals use a paired two-level bootstrap over seeds and shared draw indices.  Exact two-sided Wilcoxon signed-rank permutation tests operate on seed-level means, all 21 pairwise $p$ values receive Benjamini--Hochberg correction, and Cliff's delta is computed from seed-level means.
+
+\section{Results}
+\subsection{Held-out performance}
+Table~\ref{tab:summary} reports the principal held-out metrics.  The nominal, SAA, and CVaR-optimized controls have similar mean and lower-tail performance.  The nominal-minus-CVaR mean difference is \PVComparisonNominalVsCvarMeanDifferenceEstimate{} with interval [\PVComparisonNominalVsCvarMeanDifferenceLower{}, \PVComparisonNominalVsCvarMeanDifferenceUpper{}], and the nominal-minus-SAA difference is \PVComparisonNominalVsSaaMeanDifferenceEstimate{} with interval [\PVComparisonNominalVsSaaMeanDifferenceLower{}, \PVComparisonNominalVsSaaMeanDifferenceUpper{}].  These intervals do not establish a practically meaningful ordering among the three optimized controls.
+
+\begin{table}[t]
+\caption{Held-out mean, $\mathrm{CVaR}_{\PVAnalysisCvarAlpha}$, and minimum normalized ergotropy.  Rows are generated from canonical statistics.}
+\label{tab:summary}
+\begin{ruledtabular}
+\begin{tabular}{lccc}
+Method & Mean & CVaR & Minimum \\
+\input{generated/method_summary_table.tex}
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+PPO does not satisfy the predeclared direction gates.  Its difference from bang--bang is \PVComparisonPpoVsBangBangMeanDifferenceEstimate{} with interval [\PVComparisonPpoVsBangBangMeanDifferenceLower{}, \PVComparisonPpoVsBangBangMeanDifferenceUpper{}], while PPO-minus-sinusoidal is \PVComparisonPpoVsSinusoidalMeanDifferenceEstimate{} with interval [\PVComparisonPpoVsSinusoidalMeanDifferenceLower{}, \PVComparisonPpoVsSinusoidalMeanDifferenceUpper{}].  We therefore retain the negative and null findings and make no robustness-superiority claim for PPO.
+
+\begin{figure}[t]
+\includegraphics[width=\columnwidth]{mean_cvar_comparison.pdf}
+\caption{Seed-level held-out mean and lower-tail CVaR summaries.  The JSON sidecar records every plotted value and canonical source hash.}
+\label{fig:mean-cvar}
+\end{figure}
+
+\subsection{Severity, distributions, and uncertainty coverage}
+Performance by severity is reported without selecting favorable bands (Table~\ref{tab:severity}).  Figure~\ref{fig:distributions} retains all held-out outcomes, and Fig.~\ref{fig:coverage} shows the disjoint synthetic draw sets.  These displays emphasize that the uncertainty set is a designed stress test rather than a fitted hardware distribution.
+
+\begin{table*}[t]
+\caption{Generated mean and lower-tail CVaR by method and uncertainty severity (percent).}
+\label{tab:severity}
+\begin{ruledtabular}
+\begin{tabular}{lccc}
+Method & Severity & Mean & CVaR \\
+\input{generated/severity_table.tex}
+\end{tabular}
+\end{ruledtabular}
+\end{table*}
+
+\begin{figure}[t]
+\includegraphics[width=\columnwidth]{heldout_distributions.pdf}
+\caption{All paired held-out ergotropy outcomes, separated where needed to preserve readable scales.}
+\label{fig:distributions}
+\end{figure}
+
+\begin{figure}[t]
+\includegraphics[width=\columnwidth]{uncertainty_coverage.pdf}
+\caption{Coverage of the deterministic training, validation, and test draws in the physical $(T_1,T_2)$ domain.}
+\label{fig:coverage}
+\end{figure}
+
+\subsection{Optimization cost}
+Fit cost differs substantially among methods (Table~\ref{tab:cost} and Fig.~\ref{fig:cost}).  These totals are reported as measured computational accounting, not as hardware-independent complexity laws.  They should be considered jointly with held-out performance when selecting a controller.
+
+\begin{table}[t]
+\caption{Generated totals for objective evaluations, accounted environment steps, and aggregate fit wall time in seconds.}
+\label{tab:cost}
+\begin{ruledtabular}
+\begin{tabular}{lrrr}
+Method & Evaluations & Steps & Time \\
+\input{generated/cost_table.tex}
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+\begin{figure}[t]
+\includegraphics[width=\columnwidth]{convergence_cost.pdf}
+\caption{Predeclared convergence stages and measured fitting costs.  Logarithmic axes are labeled explicitly.}
+\label{fig:cost}
+\end{figure}
+
+\section{Discussion}
+The corrected benchmark supports three conclusions.  First, nominal, mean-robust, and lower-tail-risk objectives reach closely grouped held-out performance under this synthetic uncertainty design.  Second, the tested time-only PPO controller is not superior: it is comparable to one low-output heuristic and below the optimized controls and sinusoidal reference.  Third, optimization costs vary by orders of magnitude, so performance claims without resource accounting are incomplete.
+
+The negative PPO result is scientifically informative because information parity and a predeclared decision rule prevent post hoc changes to the comparator or metric.  It does not imply that reinforcement learning is generally ineffective; it applies to this architecture, budget, observation contract, and open-loop task.  Closed-loop policies with measurements would answer a different question and are not evaluated here.
+
+Several limitations bound interpretation.  The coherence draws are synthetic and are constant within each simulated pulse.  The dynamics are Markovian, single-qubit, and numerically modeled.  No empirical calibration trace, device experiment, theorem, global performance bound, multi-qubit scaling result, entropy-production ordering, or cross-platform projection is presented.  Future work should first validate the uncertainty model against licensed longitudinal calibration data, then compare open-loop and genuinely measurement-based feedback under matched information and resource budgets.
+
+\section{Reproducibility and provenance}
+The canonical manifest fixes physics, split seeds, scenario counts, optimizer seeds, budgets, and statistical settings.  Raw evaluations, statistical summaries, claim decisions, paper values, generated fragments, and figure sidecars are connected by SHA-256 receipts.  The publication provenance artifact maps 591 generated values and 54,573 plot points to canonical evidence and rejects altered table cells, missing figures, stale hashes, and prohibited legacy literals.  The curated code, canonical artifacts, tests, and manuscript sources are public at \url{https://github.com/ecoailab/quantum-battery-risk-control}; release \texttt{v1.0.0} and its commit SHA identify the submission snapshot.
+
+\begin{acknowledgments}
+This work was partly supported by a Korea Evaluation Institute of Industrial Technology grant funded by the Korean government (MOTIE), No.~RS-2025-04752989.
+\end{acknowledgments}
+
+\bibliographystyle{apsrev4-2}
+\bibliography{submission/references}
+
+\end{document}

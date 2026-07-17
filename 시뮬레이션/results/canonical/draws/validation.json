@@ -1,0 +1,3463 @@
+{
+  "schema_version": "1.0",
+  "split": "validation",
+  "source_manifest_sha256": "a0673ec163fbc5bf1617e59ee8cc0e87d81e60f9994e91542206106b89259464",
+  "draws": [
+    {
+      "draw_id": "validation-b100-0000",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 104.42711404410541,
+      "t2": 80.4423279048383,
+      "common_mode": 0.02490011962576627,
+      "differential_mode": 0.01937102081528764
+    },
+    {
+      "draw_id": "validation-b100-0001",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 94.82703855888845,
+      "t2": 79.85976194023789,
+      "common_mode": -0.026741295079071012,
+      "differential_mode": -0.02498831933204461
+    },
+    {
+      "draw_id": "validation-b100-0002",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 103.65839445981389,
+      "t2": 78.0687354090546,
+      "common_mode": 0.006221568605660616,
+      "differential_mode": 0.03036237599247818
+    },
+    {
+      "draw_id": "validation-b100-0003",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 93.44861256096317,
+      "t2": 79.32725575321592,
+      "common_mode": -0.03696158873758455,
+      "differential_mode": -0.028552285652783654
+    },
+    {
+      "draw_id": "validation-b100-0004",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 99.36860470528282,
+      "t2": 77.45016453022656,
+      "common_mode": -0.01909344815967,
+      "differential_mode": 0.012779495212498139
+    },
+    {
+      "draw_id": "validation-b100-0005",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 98.08471056916639,
+      "t2": 81.94724818777645,
+      "common_mode": 0.002593854019434738,
+      "differential_mode": -0.02174674832777089
+    },
+    {
+      "draw_id": "validation-b100-0006",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 102.067392753213,
+      "t2": 86.71066206329327,
+      "common_mode": 0.0522786016616479,
+      "differential_mode": -0.031604674129517896
+    },
+    {
+      "draw_id": "validation-b100-0007",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 98.45291911591212,
+      "t2": 74.49208443669076,
+      "common_mode": -0.04215987669112216,
+      "differential_mode": 0.026689067850243428
+    },
+    {
+      "draw_id": "validation-b100-0008",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 106.60852562579066,
+      "t2": 83.76536227013503,
+      "common_mode": 0.05657614231729724,
+      "differential_mode": 0.009509113940609354
+    },
+    {
+      "draw_id": "validation-b100-0009",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 100.26437426252046,
+      "t2": 83.00162367711712,
+      "common_mode": 0.02008201929458435,
+      "differential_mode": -0.017438276669379645
+    },
+    {
+      "draw_id": "validation-b100-0010",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 103.93906337329094,
+      "t2": 81.40537481880017,
+      "common_mode": 0.02847890948395572,
+      "differential_mode": 0.010911724248953612
+    },
+    {
+      "draw_id": "validation-b100-0011",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 98.32528351747062,
+      "t2": 80.87416945336707,
+      "common_mode": -0.0029100233291026734,
+      "differential_mode": -0.013837141496191169
+    },
+    {
+      "draw_id": "validation-b100-0012",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 94.69464858674354,
+      "t2": 77.03928317242847,
+      "common_mode": -0.045031237238604416,
+      "differential_mode": -0.0080222768939602
+    },
+    {
+      "draw_id": "validation-b100-0013",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 100.21201306366572,
+      "t2": 84.14090218311614,
+      "common_mode": 0.026940703962804485,
+      "differential_mode": -0.024820573326147195
+    },
+    {
+      "draw_id": "validation-b100-0014",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 99.03505930951175,
+      "t2": 78.46047498745924,
+      "common_mode": -0.014446734780820994,
+      "differential_mode": 0.0047973278759385965
+    },
+    {
+      "draw_id": "validation-b100-0015",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 93.02774431624631,
+      "t2": 79.1249728957591,
+      "common_mode": -0.04033019782027405,
+      "differential_mode": -0.029392359017262816
+    },
+    {
+      "draw_id": "validation-b100-0016",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 106.49739298637616,
+      "t2": 82.17090704721593,
+      "common_mode": 0.04605513397698026,
+      "differential_mode": 0.01891879588678106
+    },
+    {
+      "draw_id": "validation-b100-0017",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 102.59396653897808,
+      "t2": 84.57456334974239,
+      "common_mode": 0.04156085363078041,
+      "differential_mode": -0.015621188240999492
+    },
+    {
+      "draw_id": "validation-b100-0018",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 96.12397369554515,
+      "t2": 77.35966308638427,
+      "common_mode": -0.035882237232372535,
+      "differential_mode": -0.002878025812176034
+    },
+    {
+      "draw_id": "validation-b100-0019",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 102.11558629209061,
+      "t2": 80.84371620554258,
+      "common_mode": 0.015851157745094158,
+      "differential_mode": 0.00530470517581199
+    },
+    {
+      "draw_id": "validation-b100-0020",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 93.35940925461676,
+      "t2": 77.45452191708316,
+      "common_mode": -0.049112191745146465,
+      "differential_mode": -0.017293715708685868
+    },
+    {
+      "draw_id": "validation-b100-0021",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 98.6833272032071,
+      "t2": 84.75978178146707,
+      "common_mode": 0.02316527215020478,
+      "differential_mode": -0.03633200011813377
+    },
+    {
+      "draw_id": "validation-b100-0022",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 108.44500296109689,
+      "t2": 80.7274985268492,
+      "common_mode": 0.04677188059829192,
+      "differential_mode": 0.03767814901267699
+    },
+    {
+      "draw_id": "validation-b100-0023",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 103.48411167511247,
+      "t2": 78.9862496698481,
+      "common_mode": 0.011084618812112909,
+      "differential_mode": 0.023756497939011634
+    },
+    {
+      "draw_id": "validation-b100-0024",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 106.16484112449893,
+      "t2": 80.30486636192789,
+      "common_mode": 0.03272962038454402,
+      "differential_mode": 0.02891879086044541
+    },
+    {
+      "draw_id": "validation-b100-0025",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 103.42889422558787,
+      "t2": 84.244355606174,
+      "common_mode": 0.04367169366652694,
+      "differential_mode": -0.009382751410648125
+    },
+    {
+      "draw_id": "validation-b100-0026",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 96.62125668040612,
+      "t2": 81.61217796839152,
+      "common_mode": -0.006817604295522382,
+      "differential_mode": -0.02696982890041643
+    },
+    {
+      "draw_id": "validation-b100-0027",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 104.363050768547,
+      "t2": 78.5386068070473,
+      "common_mode": 0.01268154638678061,
+      "differential_mode": 0.030948961298689265
+    },
+    {
+      "draw_id": "validation-b100-0028",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 103.92512095744829,
+      "t2": 83.91286177957139,
+      "common_mode": 0.04408099090956254,
+      "differential_mode": -0.004829781335079782
+    },
+    {
+      "draw_id": "validation-b100-0029",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 92.03923764438471,
+      "t2": 76.7894878986466,
+      "common_mode": -0.05986951241153512,
+      "differential_mode": -0.019738111144617636
+    },
+    {
+      "draw_id": "validation-b100-0030",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 101.5242134844589,
+      "t2": 86.54152370586831,
+      "common_mode": 0.04850559058397151,
+      "differential_mode": -0.0332634557393824
+    },
+    {
+      "draw_id": "validation-b100-0031",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 91.79630549022868,
+      "t2": 78.7876590194547,
+      "common_mode": -0.04859560367726484,
+      "differential_mode": -0.03344134142044854
+    },
+    {
+      "draw_id": "validation-b100-0032",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 100.06048007968886,
+      "t2": 75.11489549696556,
+      "common_mode": -0.030229502745520914,
+      "differential_mode": 0.030834303542409514
+    },
+    {
+      "draw_id": "validation-b100-0033",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 96.15175238931002,
+      "t2": 83.0218054232574,
+      "common_mode": -0.00035495415809114195,
+      "differential_mode": -0.038127521948808606
+    },
+    {
+      "draw_id": "validation-b100-0034",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 95.00885851534258,
+      "t2": 77.79868931088524,
+      "common_mode": -0.038713899230254395,
+      "differential_mode": -0.011197515616319917
+    },
+    {
+      "draw_id": "validation-b100-0035",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 100.69169595427869,
+      "t2": 77.94587206997336,
+      "common_mode": -0.009379819791273156,
+      "differential_mode": 0.01629677933405997
+    },
+    {
+      "draw_id": "validation-b100-0036",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 100.11971826275928,
+      "t2": 75.85160363933439,
+      "common_mode": -0.02532888594036376,
+      "differential_mode": 0.026526068567956404
+    },
+    {
+      "draw_id": "validation-b100-0037",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 104.35086828144915,
+      "t2": 81.21583792813689,
+      "common_mode": 0.029353328458101263,
+      "differential_mode": 0.014155354356390162
+    },
+    {
+      "draw_id": "validation-b100-0038",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 97.9617406981534,
+      "t2": 76.26135029434315,
+      "common_mode": -0.03355785716958826,
+      "differential_mode": 0.013175264151122329
+    },
+    {
+      "draw_id": "validation-b100-0039",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 105.27243204898149,
+      "t2": 80.3702547927587,
+      "common_mode": 0.028676252699649254,
+      "differential_mode": 0.02404806779016555
+    },
+    {
+      "draw_id": "validation-b100-0040",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 94.73763232500008,
+      "t2": 79.15997166889031,
+      "common_mode": -0.031562015444435106,
+      "differential_mode": -0.021061661305564115
+    },
+    {
+      "draw_id": "validation-b100-0041",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 104.49485367556038,
+      "t2": 81.5195475527333,
+      "common_mode": 0.03197144058238492,
+      "differential_mode": 0.012977096173218822
+    },
+    {
+      "draw_id": "validation-b100-0042",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 96.85569778308033,
+      "t2": 80.89570208388751,
+      "common_mode": -0.010123373060301394,
+      "differential_mode": -0.02131964910889533
+    },
+    {
+      "draw_id": "validation-b100-0043",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 95.05885200068012,
+      "t2": 79.44552153226152,
+      "common_mode": -0.0281712304199649,
+      "differential_mode": -0.02124024957323384
+    },
+    {
+      "draw_id": "validation-b100-0044",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 99.82348854259033,
+      "t2": 84.66238383205791,
+      "common_mode": 0.028257341663313645,
+      "differential_mode": -0.030022456237410285
+    },
+    {
+      "draw_id": "validation-b100-0045",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 96.36394547943627,
+      "t2": 73.73262344102199,
+      "common_mode": -0.05735137609643123,
+      "differential_mode": 0.020990830890793878
+    },
+    {
+      "draw_id": "validation-b100-0046",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 104.58707719961215,
+      "t2": 81.17854446662935,
+      "common_mode": 0.030301288914494268,
+      "differential_mode": 0.015569483081627325
+    },
+    {
+      "draw_id": "validation-b100-0047",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 101.3809188243838,
+      "t2": 83.99831063711247,
+      "common_mode": 0.031894035603871884,
+      "differential_mode": -0.018084847360033848
+    },
+    {
+      "draw_id": "validation-b100-0048",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 97.64931051085837,
+      "t2": 84.14764184457567,
+      "common_mode": 0.014169314082889739,
+      "differential_mode": -0.037676208974306076
+    },
+    {
+      "draw_id": "validation-b100-0049",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 95.49388215379835,
+      "t2": 75.76337509560138,
+      "common_mode": -0.04900949488349958,
+      "differential_mode": 0.00394831642148321
+    },
+    {
+      "draw_id": "validation-b100-0050",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 93.80182314361922,
+      "t2": 79.60595673151647,
+      "common_mode": -0.033453654709925854,
+      "differential_mode": -0.02852811385388193
+    },
+    {
+      "draw_id": "validation-b100-0051",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 107.83208128053563,
+      "t2": 80.39088362005481,
+      "common_mode": 0.041603429028020666,
+      "differential_mode": 0.036717383777335494
+    },
+    {
+      "draw_id": "validation-b100-0052",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 99.51354785047744,
+      "t2": 75.43157294425065,
+      "common_mode": -0.030984929846046238,
+      "differential_mode": 0.026120408350820593
+    },
+    {
+      "draw_id": "validation-b100-0053",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 99.8562528730814,
+      "t2": 81.716247781862,
+      "common_mode": 0.010007813002044452,
+      "differential_mode": -0.011445284271230448
+    },
+    {
+      "draw_id": "validation-b100-0054",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 101.14948664301247,
+      "t2": 81.47836750766251,
+      "common_mode": 0.014987230137952973,
+      "differential_mode": -0.0034923637078282943
+    },
+    {
+      "draw_id": "validation-b100-0055",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 101.14360812740992,
+      "t2": 76.60781275742914,
+      "common_mode": -0.015483129629018232,
+      "differential_mode": 0.026919210903117538
+    },
+    {
+      "draw_id": "validation-b100-0056",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 101.24193484367383,
+      "t2": 78.81976954703235,
+      "common_mode": -0.0011667661126786855,
+      "differential_mode": 0.013586114549416918
+    },
+    {
+      "draw_id": "validation-b100-0057",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 102.59710608472513,
+      "t2": 83.10495384325128,
+      "common_mode": 0.03239149194394597,
+      "differential_mode": -0.006420431096694844
+    },
+    {
+      "draw_id": "validation-b100-0058",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 98.07412730580855,
+      "t2": 82.27506953740772,
+      "common_mode": 0.0045898211378411075,
+      "differential_mode": -0.023848548079755533
+    },
+    {
+      "draw_id": "validation-b100-0059",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 103.47354803995559,
+      "t2": 77.80762106549265,
+      "common_mode": 0.003665371859107064,
+      "differential_mode": 0.03107010854044888
+    },
+    {
+      "draw_id": "validation-b100-0060",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 105.64283867585395,
+      "t2": 78.44161919390069,
+      "common_mode": 0.018474313341149087,
+      "differential_mode": 0.037954073417390446
+    },
+    {
+      "draw_id": "validation-b100-0061",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 101.26460606903687,
+      "t2": 78.25003553549516,
+      "common_mode": -0.00461424755797088,
+      "differential_mode": 0.01726030824833953
+    },
+    {
+      "draw_id": "validation-b100-0062",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 99.47961707530672,
+      "t2": 79.07924337854915,
+      "common_mode": -0.00835664350753422,
+      "differential_mode": 0.003152814260601426
+    },
+    {
+      "draw_id": "validation-b100-0063",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 98.34049797404116,
+      "t2": 74.9996292210656,
+      "common_mode": -0.03954982749813421,
+      "differential_mode": 0.022954807238545732
+    },
+    {
+      "draw_id": "validation-b100-0064",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 106.0501355067505,
+      "t2": 84.38723511198964,
+      "common_mode": 0.057670896983687756,
+      "differential_mode": 0.0028304580838171348
+    },
+    {
+      "draw_id": "validation-b100-0065",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 95.32451118183096,
+      "t2": 80.35746964174727,
+      "common_mode": -0.02114325882992473,
+      "differential_mode": -0.025611629351765655
+    },
+    {
+      "draw_id": "validation-b100-0066",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 93.03061573475016,
+      "t2": 76.85064775567744,
+      "common_mode": -0.054530372853265265,
+      "differential_mode": -0.015163469799233272
+    },
+    {
+      "draw_id": "validation-b100-0067",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 100.44684151412177,
+      "t2": 79.41322650145236,
+      "common_mode": -0.001433126795313898,
+      "differential_mode": 0.005901541936531744
+    },
+    {
+      "draw_id": "validation-b100-0068",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 99.10782108067612,
+      "t2": 82.69881247374023,
+      "common_mode": 0.012406683364257015,
+      "differential_mode": -0.021328472557495908
+    },
+    {
+      "draw_id": "validation-b100-0069",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 96.94320946739902,
+      "t2": 81.24958201522955,
+      "common_mode": -0.007474065067820293,
+      "differential_mode": -0.023093840258189544
+    },
+    {
+      "draw_id": "validation-b100-0070",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 101.06769378157108,
+      "t2": 76.26263387149362,
+      "common_mode": -0.018020069395309514,
+      "differential_mode": 0.02869700721102031
+    },
+    {
+      "draw_id": "validation-b100-0071",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 105.25550570634215,
+      "t2": 78.5148870494537,
+      "common_mode": 0.016995572590796496,
+      "differential_mode": 0.03555948447262508
+    },
+    {
+      "draw_id": "validation-b100-0072",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 98.17838064716146,
+      "t2": 83.35283244837292,
+      "common_mode": 0.011847106038137906,
+      "differential_mode": -0.030063299566523472
+    },
+    {
+      "draw_id": "validation-b100-0073",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 93.40878004096867,
+      "t2": 80.00663751462346,
+      "common_mode": -0.03291461532876,
+      "differential_mode": -0.03299758426155328
+    },
+    {
+      "draw_id": "validation-b100-0074",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 90.49417332778076,
+      "t2": 78.32787214611034,
+      "common_mode": -0.057979932447906585,
+      "differential_mode": -0.03707833427428591
+    },
+    {
+      "draw_id": "validation-b100-0075",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 104.5588216576415,
+      "t2": 81.06578993467316,
+      "common_mode": 0.02945529537991476,
+      "differential_mode": 0.01613292119650033
+    },
+    {
+      "draw_id": "validation-b100-0076",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 101.52031043323744,
+      "t2": 81.93662556111886,
+      "common_mode": 0.019705461923179915,
+      "differential_mode": -0.004502357590805708
+    },
+    {
+      "draw_id": "validation-b100-0077",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 107.76009867121203,
+      "t2": 83.11389286821466,
+      "common_mode": 0.058262323782401884,
+      "differential_mode": 0.019338662929718538
+    },
+    {
+      "draw_id": "validation-b100-0078",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 109.90235284462257,
+      "t2": 81.55289610849852,
+      "common_mode": 0.059217364901228586,
+      "differential_mode": 0.039806163544997136
+    },
+    {
+      "draw_id": "validation-b100-0079",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 102.82140334978027,
+      "t2": 76.11264859218845,
+      "common_mode": -0.010188929549920754,
+      "differential_mode": 0.0384029630477236
+    },
+    {
+      "draw_id": "validation-b100-0080",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 100.37838032473346,
+      "t2": 80.50523602661718,
+      "common_mode": 0.005049626790024617,
+      "differential_mode": -0.001265823542690038
+    },
+    {
+      "draw_id": "validation-b100-0081",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 107.32896328929917,
+      "t2": 82.50425891779162,
+      "common_mode": 0.05229643468269356,
+      "differential_mode": 0.02099319821029818
+    },
+    {
+      "draw_id": "validation-b100-0082",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 99.98731114061728,
+      "t2": 84.35963461287777,
+      "common_mode": 0.0271842720335725,
+      "differential_mode": -0.027311160627399668
+    },
+    {
+      "draw_id": "validation-b100-0083",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 105.96337030551184,
+      "t2": 82.04901115320915,
+      "common_mode": 0.0426231712351163,
+      "differential_mode": 0.017010531820002034
+    },
+    {
+      "draw_id": "validation-b100-0084",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 104.21124273577345,
+      "t2": 78.63034271633558,
+      "common_mode": 0.012495855655964616,
+      "differential_mode": 0.029616571701769887
+    },
+    {
+      "draw_id": "validation-b100-0085",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 103.47155952002521,
+      "t2": 84.67545488651143,
+      "common_mode": 0.04657939064082241,
+      "differential_mode": -0.01186379544057042
+    },
+    {
+      "draw_id": "validation-b100-0086",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 105.41022380965852,
+      "t2": 81.75781894436453,
+      "common_mode": 0.03803748745057081,
+      "differential_mode": 0.016064750646014328
+    },
+    {
+      "draw_id": "validation-b100-0087",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 100.80519462830611,
+      "t2": 85.53852283896796,
+      "common_mode": 0.03864174088508042,
+      "differential_mode": -0.030589794602019375
+    },
+    {
+      "draw_id": "validation-b100-0088",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 97.75076606879875,
+      "t2": 78.2982676477219,
+      "common_mode": -0.021881996857744397,
+      "differential_mode": -0.0006103424542680258
+    },
+    {
+      "draw_id": "validation-b100-0089",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 102.87231816503252,
+      "t2": 79.16875879345085,
+      "common_mode": 0.00916633328423043,
+      "differential_mode": 0.01955684836609488
+    },
+    {
+      "draw_id": "validation-b100-0090",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 99.40617701579612,
+      "t2": 82.80529501273361,
+      "common_mode": 0.014563978908565686,
+      "differential_mode": -0.02050220875060448
+    },
+    {
+      "draw_id": "validation-b100-0091",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 96.00176241681324,
+      "t2": 81.63101396048077,
+      "common_mode": -0.009797350662929076,
+      "differential_mode": -0.03018502516893864
+    },
+    {
+      "draw_id": "validation-b100-0092",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 102.5423382743071,
+      "t2": 80.40006286158476,
+      "common_mode": 0.015212084256440314,
+      "differential_mode": 0.010211298486630625
+    },
+    {
+      "draw_id": "validation-b100-0093",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 96.36976212566151,
+      "t2": 82.4011739301365,
+      "common_mode": -0.0031438523083393496,
+      "differential_mode": -0.033158526435045584
+    },
+    {
+      "draw_id": "validation-b100-0094",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 103.50588549442419,
+      "t2": 84.66880325164342,
+      "common_mode": 0.04670944779489239,
+      "differential_mode": -0.011650592850650617
+    },
+    {
+      "draw_id": "validation-b100-0095",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 97.12916476447177,
+      "t2": 79.27730493325329,
+      "common_mode": -0.018871020344808163,
+      "differential_mode": -0.009837332010474188
+    },
+    {
+      "draw_id": "validation-b100-0096",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 97.87554305521077,
+      "t2": 82.54289691333227,
+      "common_mode": 0.005270820984380642,
+      "differential_mode": -0.02651539043227287
+    },
+    {
+      "draw_id": "validation-b100-0097",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 99.6269079990331,
+      "t2": 79.2769945839085,
+      "common_mode": -0.006384243855406417,
+      "differential_mode": 0.0026533238457373542
+    },
+    {
+      "draw_id": "validation-b100-0098",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 98.31846222522577,
+      "t2": 83.76997960384479,
+      "common_mode": 0.015154683650158735,
+      "differential_mode": -0.03197006139790112
+    },
+    {
+      "draw_id": "validation-b100-0099",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 92.90596179214864,
+      "t2": 79.49319015689588,
+      "common_mode": -0.038637752558657486,
+      "differential_mode": -0.0323026295198561
+    },
+    {
+      "draw_id": "validation-b100-0100",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 101.15644591562652,
+      "t2": 80.94519430927198,
+      "common_mode": 0.011689694011082552,
+      "differential_mode": -0.00012523485481730212
+    },
+    {
+      "draw_id": "validation-b100-0101",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 99.0779821940199,
+      "t2": 76.65169674246395,
+      "common_mode": -0.02553698438950086,
+      "differential_mode": 0.01631680632969982
+    },
+    {
+      "draw_id": "validation-b100-0102",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 95.49045816965699,
+      "t2": 82.00602706576447,
+      "common_mode": -0.0100100399906871,
+      "differential_mode": -0.035085378312743026
+    },
+    {
+      "draw_id": "validation-b100-0103",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 95.84737973617698,
+      "t2": 80.6658141800605,
+      "common_mode": -0.01660176269373717,
+      "differential_mode": -0.02492443994449316
+    },
+    {
+      "draw_id": "validation-b100-0104",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 101.58395761666088,
+      "t2": 75.78001579388884,
+      "common_mode": -0.01845511320489049,
+      "differential_mode": 0.03429468937149918
+    },
+    {
+      "draw_id": "validation-b100-0105",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 97.54859175662729,
+      "t2": 81.22753953176957,
+      "common_mode": -0.004584919143303751,
+      "differential_mode": -0.019929163290423345
+    },
+    {
+      "draw_id": "validation-b100-0106",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 101.41121482289786,
+      "t2": 74.96445291447047,
+      "common_mode": -0.02441609517007027,
+      "differential_mode": 0.03852824339904887
+    },
+    {
+      "draw_id": "validation-b100-0107",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 106.82914996179112,
+      "t2": 79.12845630662416,
+      "common_mode": 0.028698601725356446,
+      "differential_mode": 0.0395928978925546
+    },
+    {
+      "draw_id": "validation-b100-0108",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 107.24385309130781,
+      "t2": 81.07680035564991,
+      "common_mode": 0.042949267679350936,
+      "differential_mode": 0.029489263233727192
+    },
+    {
+      "draw_id": "validation-b100-0109",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 92.93682902947093,
+      "t2": 76.4082811153663,
+      "common_mode": -0.057764097881606025,
+      "differential_mode": -0.012867611823684684
+    },
+    {
+      "draw_id": "validation-b100-0110",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 105.1611561881822,
+      "t2": 79.88835719066556,
+      "common_mode": 0.025108013382570737,
+      "differential_mode": 0.026503548499251267
+    },
+    {
+      "draw_id": "validation-b100-0111",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 105.43045164537716,
+      "t2": 78.72557865602582,
+      "common_mode": 0.019187124827047194,
+      "differential_mode": 0.03511739162672453
+    },
+    {
+      "draw_id": "validation-b100-0112",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 98.07280334174354,
+      "t2": 81.20620467078511,
+      "common_mode": -0.0020972040988753993,
+      "differential_mode": -0.017174762483689227
+    },
+    {
+      "draw_id": "validation-b100-0113",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 101.21217263826978,
+      "t2": 83.87675419845037,
+      "common_mode": 0.03029057693166376,
+      "differential_mode": -0.018168850548965828
+    },
+    {
+      "draw_id": "validation-b100-0114",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 108.75394749040963,
+      "t2": 81.45817905122315,
+      "common_mode": 0.05288335652219299,
+      "differential_mode": 0.03465611838190344
+    },
+    {
+      "draw_id": "validation-b100-0115",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 104.00689161164614,
+      "t2": 81.33332234602149,
+      "common_mode": 0.02836772272086495,
+      "differential_mode": 0.011701193395596408
+    },
+    {
+      "draw_id": "validation-b100-0116",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 98.37777689754093,
+      "t2": 79.73005962116643,
+      "common_mode": -0.009798242880005241,
+      "differential_mode": -0.006423988144585606
+    },
+    {
+      "draw_id": "validation-b100-0117",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 92.754173614911,
+      "t2": 77.800873791124,
+      "common_mode": -0.049973670730919906,
+      "differential_mode": -0.022484593119970097
+    },
+    {
+      "draw_id": "validation-b100-0118",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 104.60427175872562,
+      "t2": 80.75891318876621,
+      "common_mode": 0.027764566223416873,
+      "differential_mode": 0.018278151363839243
+    },
+    {
+      "draw_id": "validation-b100-0119",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 98.88507610711905,
+      "t2": 84.23422085433592,
+      "common_mode": 0.020889260875194604,
+      "differential_mode": -0.03203849980400427
+    },
+    {
+      "draw_id": "validation-b100-0120",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 99.75325658935526,
+      "t2": 79.01684938776756,
+      "common_mode": -0.0073784083796763975,
+      "differential_mode": 0.004910974273229042
+    },
+    {
+      "draw_id": "validation-b100-0121",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 94.84321580431966,
+      "t2": 77.81724444592024,
+      "common_mode": -0.039426143191400295,
+      "differential_mode": -0.012141698765403153
+    },
+    {
+      "draw_id": "validation-b100-0122",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 99.95322762178044,
+      "t2": 81.57013596809296,
+      "common_mode": 0.009579487909483361,
+      "differential_mode": -0.010047211691678833
+    },
+    {
+      "draw_id": "validation-b100-0123",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 102.93130195348263,
+      "t2": 86.00658954317836,
+      "common_mode": 0.05219769441227792,
+      "differential_mode": -0.022884674877451647
+    },
+    {
+      "draw_id": "validation-b100-0124",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 106.38481878034933,
+      "t2": 84.46408008716207,
+      "common_mode": 0.059824594446509685,
+      "differential_mode": 0.004023593356983594
+    },
+    {
+      "draw_id": "validation-b100-0125",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 107.57858269047406,
+      "t2": 80.08902765821874,
+      "common_mode": 0.03844933631623755,
+      "differential_mode": 0.03733649058850319
+    },
+    {
+      "draw_id": "validation-b100-0126",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 102.84230730995374,
+      "t2": 85.63958347368326,
+      "common_mode": 0.04945893326028901,
+      "differential_mode": -0.021035860160751735
+    },
+    {
+      "draw_id": "validation-b100-0127",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 97.62221187120328,
+      "t2": 82.6996540910921,
+      "common_mode": 0.004983897425341971,
+      "differential_mode": -0.028761778713309177
+    },
+    {
+      "draw_id": "validation-b300-0000",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 84.69524278651774,
+      "t2": 65.67327350242805,
+      "common_mode": -0.16606582667723604,
+      "differential_mode": 0.013018254542413399
+    },
+    {
+      "draw_id": "validation-b300-0001",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 78.09848477583196,
+      "t2": 73.76669578297765,
+      "common_mode": -0.1484657274772298,
+      "differential_mode": -0.07054942476445047
+    },
+    {
+      "draw_id": "validation-b300-0002",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 78.03361206163241,
+      "t2": 79.08460151153254,
+      "common_mode": -0.11555318024475957,
+      "differential_mode": -0.10411069913891637
+    },
+    {
+      "draw_id": "validation-b300-0003",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 111.81026057858949,
+      "t2": 88.13891865210428,
+      "common_mode": 0.10991954446859925,
+      "differential_mode": 0.008183061317295737
+    },
+    {
+      "draw_id": "validation-b300-0004",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 109.82570627068581,
+      "t2": 98.7416799665533,
+      "common_mode": 0.16626403114438726,
+      "differential_mode": -0.06800696843752914
+    },
+    {
+      "draw_id": "validation-b300-0005",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 104.75328678932866,
+      "t2": 70.31258452303621,
+      "common_mode": -0.03677991278438042,
+      "differential_mode": 0.08431278067766698
+    },
+    {
+      "draw_id": "validation-b300-0006",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 101.47295609522612,
+      "t2": 82.4564791427918,
+      "common_mode": 0.02271777511857942,
+      "differential_mode": -0.007988214166318064
+    },
+    {
+      "draw_id": "validation-b300-0007",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 108.86191638137525,
+      "t2": 72.27430388607617,
+      "common_mode": -0.003976018805147641,
+      "differential_mode": 0.09259518261890023
+    },
+    {
+      "draw_id": "validation-b300-0008",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 118.03370086367362,
+      "t2": 85.34701241059692,
+      "common_mode": 0.12358733188459875,
+      "differential_mode": 0.05674967675213741
+    },
+    {
+      "draw_id": "validation-b300-0009",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 97.38624579344705,
+      "t2": 87.21888265161735,
+      "common_mode": 0.03204924553984351,
+      "differential_mode": -0.05818678760537313
+    },
+    {
+      "draw_id": "validation-b300-0010",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 96.72710398721519,
+      "t2": 81.32030802320314,
+      "common_mode": -0.008112554918904419,
+      "differential_mode": -0.024616405208943662
+    },
+    {
+      "draw_id": "validation-b300-0011",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 86.73809171666417,
+      "t2": 64.97382303542607,
+      "common_mode": -0.16022314744526628,
+      "differential_mode": 0.027604064611907897
+    },
+    {
+      "draw_id": "validation-b300-0012",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 108.09897114706418,
+      "t2": 99.43804422118046,
+      "common_mode": 0.16198263211769864,
+      "differential_mode": -0.08099292064705702
+    },
+    {
+      "draw_id": "validation-b300-0013",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 77.05281491667095,
+      "t2": 73.61780293720014,
+      "common_mode": -0.15462465705914444,
+      "differential_mode": -0.07484719377414605
+    },
+    {
+      "draw_id": "validation-b300-0014",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 121.53459024540305,
+      "t2": 84.48113474369607,
+      "common_mode": 0.13568004337511586,
+      "differential_mode": 0.07966585907891477
+    },
+    {
+      "draw_id": "validation-b300-0015",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 101.89589435567189,
+      "t2": 89.72210230840714,
+      "common_mode": 0.07024261120590408,
+      "differential_mode": -0.05128366764918518
+    },
+    {
+      "draw_id": "validation-b300-0016",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 95.50477294114171,
+      "t2": 92.83498628998545,
+      "common_mode": 0.05774252901811777,
+      "differential_mode": -0.10269479960670055
+    },
+    {
+      "draw_id": "validation-b300-0017",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 121.00115335398307,
+      "t2": 78.22747752407497,
+      "common_mode": 0.09392750129538402,
+      "differential_mode": 0.11608403224444674
+    },
+    {
+      "draw_id": "validation-b300-0018",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 97.89758633889136,
+      "t2": 79.68222804494037,
+      "common_mode": -0.012498143024665925,
+      "differential_mode": -0.008525993586420574
+    },
+    {
+      "draw_id": "validation-b300-0019",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 113.8371820187311,
+      "t2": 74.57866029398728,
+      "common_mode": 0.03530253693107596,
+      "differential_mode": 0.10306928325623493
+    },
+    {
+      "draw_id": "validation-b300-0020",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 127.36166351351339,
+      "t2": 85.67068125617311,
+      "common_mode": 0.1722500754186489,
+      "differential_mode": 0.10136655971648512
+    },
+    {
+      "draw_id": "validation-b300-0021",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 81.87482704666631,
+      "t2": 81.76858418926692,
+      "common_mode": -0.07957221358375027,
+      "differential_mode": -0.10167951594958671
+    },
+    {
+      "draw_id": "validation-b300-0022",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 87.16179763907877,
+      "t2": 83.74223736144357,
+      "common_mode": -0.040802028295583825,
+      "differential_mode": -0.08757999531362846
+    },
+    {
+      "draw_id": "validation-b300-0023",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 77.4219136869746,
+      "t2": 76.43025086576907,
+      "common_mode": -0.13520136365407032,
+      "differential_mode": -0.0905794994761836
+    },
+    {
+      "draw_id": "validation-b300-0024",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 89.35296723635513,
+      "t2": 78.70003698162532,
+      "common_mode": -0.06135993268306619,
+      "differential_mode": -0.04511039495338248
+    },
+    {
+      "draw_id": "validation-b300-0025",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 113.15101347347658,
+      "t2": 82.27709292990768,
+      "common_mode": 0.07998689817930588,
+      "differential_mode": 0.05152323655545982
+    },
+    {
+      "draw_id": "validation-b300-0026",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 114.12450725643484,
+      "t2": 91.0852693251497,
+      "common_mode": 0.13990546956435973,
+      "differential_mode": 0.001339602999988504
+    },
+    {
+      "draw_id": "validation-b300-0027",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 72.85023031394746,
+      "t2": 72.96506678916188,
+      "common_mode": -0.17971718099800094,
+      "differential_mode": -0.09178051586252442
+    },
+    {
+      "draw_id": "validation-b300-0028",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 110.27247738827457,
+      "t2": 93.88224804034465,
+      "common_mode": 0.13812643719352702,
+      "differential_mode": -0.03540166331078129
+    },
+    {
+      "draw_id": "validation-b300-0029",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 97.19736519825926,
+      "t2": 88.09369448619512,
+      "common_mode": 0.03657241653001586,
+      "differential_mode": -0.06459876454742317
+    },
+    {
+      "draw_id": "validation-b300-0030",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 123.75818295657017,
+      "t2": 82.67361898532728,
+      "common_mode": 0.13550103344114628,
+      "differential_mode": 0.10208079612455534
+    },
+    {
+      "draw_id": "validation-b300-0031",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 110.93933370649451,
+      "t2": 90.43044844964871,
+      "common_mode": 0.11988697134277715,
+      "differential_mode": -0.010493634277831801
+    },
+    {
+      "draw_id": "validation-b300-0032",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 87.45519371479047,
+      "t2": 66.03943855923265,
+      "common_mode": -0.14997754043084355,
+      "differential_mode": 0.024529477578748266
+    },
+    {
+      "draw_id": "validation-b300-0033",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 110.99850668668694,
+      "t2": 88.18928884757096,
+      "common_mode": 0.10617558873075317,
+      "differential_mode": 0.00380947813611629
+    },
+    {
+      "draw_id": "validation-b300-0034",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 100.1212252984078,
+      "t2": 64.0083095999783,
+      "common_mode": -0.09934193850809664,
+      "differential_mode": 0.1005541914921746
+    },
+    {
+      "draw_id": "validation-b300-0035",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 102.08711711887051,
+      "t2": 95.26181868718186,
+      "common_mode": 0.1058219523892393,
+      "differential_mode": -0.08495078120053423
+    },
+    {
+      "draw_id": "validation-b300-0036",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 89.22801662859511,
+      "t2": 89.41680213059236,
+      "common_mode": 0.0049950964591777836,
+      "differential_mode": -0.11271493017322662
+    },
+    {
+      "draw_id": "validation-b300-0037",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 105.89269081886788,
+      "t2": 101.22014944614043,
+      "common_mode": 0.1620893881327169,
+      "differential_mode": -0.10316247994403818
+    },
+    {
+      "draw_id": "validation-b300-0038",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 113.20956100343838,
+      "t2": 92.4230820300764,
+      "common_mode": 0.1436920677051694,
+      "differential_mode": -0.011596457670785668
+    },
+    {
+      "draw_id": "validation-b300-0039",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 83.12113643363908,
+      "t2": 81.52640779591665,
+      "common_mode": -0.07485426910732551,
+      "differential_mode": -0.09393436655628373
+    },
+    {
+      "draw_id": "validation-b300-0040",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 89.03786091025353,
+      "t2": 65.50867524201325,
+      "common_mode": -0.14538147518614952,
+      "differential_mode": 0.035760084288684796
+    },
+    {
+      "draw_id": "validation-b300-0041",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 82.4107963737,
+      "t2": 78.05188915313448,
+      "common_mode": -0.10012171092440962,
+      "differential_mode": -0.07577032533859057
+    },
+    {
+      "draw_id": "validation-b300-0042",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 95.90864681224213,
+      "t2": 72.72065511307557,
+      "common_mode": -0.06595267148206711,
+      "differential_mode": 0.02503913960448831
+    },
+    {
+      "draw_id": "validation-b300-0043",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 97.36419929447302,
+      "t2": 67.79465337190538,
+      "common_mode": -0.08946241995322622,
+      "differential_mode": 0.06310441289795649
+    },
+    {
+      "draw_id": "validation-b300-0044",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 107.83734482775355,
+      "t2": 84.1835828823929,
+      "common_mode": 0.06533411715372339,
+      "differential_mode": 0.01303933112381217
+    },
+    {
+      "draw_id": "validation-b300-0045",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 74.51656761921464,
+      "t2": 74.29431568030331,
+      "common_mode": -0.16307768890203114,
+      "differential_mode": -0.09175663490582252
+    },
+    {
+      "draw_id": "validation-b300-0046",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 99.70924613009872,
+      "t2": 73.88596018807934,
+      "common_mode": -0.03966651817401054,
+      "differential_mode": 0.036758979474997705
+    },
+    {
+      "draw_id": "validation-b300-0047",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 92.660828550519,
+      "t2": 66.75513669180364,
+      "common_mode": -0.11947625292363218,
+      "differential_mode": 0.046084538428822264
+    },
+    {
+      "draw_id": "validation-b300-0048",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 108.94929249536693,
+      "t2": 91.116834949309,
+      "common_mode": 0.11422668091001598,
+      "differential_mode": -0.02473375595634654
+    },
+    {
+      "draw_id": "validation-b300-0049",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 118.91910558190735,
+      "t2": 92.95689252280002,
+      "common_mode": 0.17557610617703684,
+      "differential_mode": 0.013614949642036633
+    },
+    {
+      "draw_id": "validation-b300-0050",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 91.77989665770843,
+      "t2": 76.68269809293298,
+      "common_mode": -0.06183365363062662,
+      "differential_mode": -0.02036737979228899
+    },
+    {
+      "draw_id": "validation-b300-0051",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 93.41476466491932,
+      "t2": 90.19071225507471,
+      "common_mode": 0.030765774918813465,
+      "differential_mode": -0.09661812826962031
+    },
+    {
+      "draw_id": "validation-b300-0052",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 119.31702346068214,
+      "t2": 84.12475954118584,
+      "common_mode": 0.12236486443582217,
+      "differential_mode": 0.0708053701709993
+    },
+    {
+      "draw_id": "validation-b300-0053",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 101.83438953937309,
+      "t2": 78.1245258828718,
+      "common_mode": -0.002549765535185794,
+      "differential_mode": 0.020893660928916813
+    },
+    {
+      "draw_id": "validation-b300-0054",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 95.60553034190788,
+      "t2": 70.31601614202549,
+      "common_mode": -0.08249724740280133,
+      "differential_mode": 0.03855255082188011
+    },
+    {
+      "draw_id": "validation-b300-0055",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 103.958341611879,
+      "t2": 65.01317743861505,
+      "common_mode": -0.07387593294926084,
+      "differential_mode": 0.113459349068051
+    },
+    {
+      "draw_id": "validation-b300-0056",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 96.38025401769966,
+      "t2": 75.3139876766476,
+      "common_mode": -0.0473863069324543,
+      "differential_mode": 0.011188847109450839
+    },
+    {
+      "draw_id": "validation-b300-0057",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 109.36826380375919,
+      "t2": 86.27876824929484,
+      "common_mode": 0.08608362057688873,
+      "differential_mode": 0.007599017460703322
+    },
+    {
+      "draw_id": "validation-b300-0058",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 108.14648112968797,
+      "t2": 70.26814187590082,
+      "common_mode": -0.0200917076271801,
+      "differential_mode": 0.10155651892405962
+    },
+    {
+      "draw_id": "validation-b300-0059",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 75.7501879141403,
+      "t2": 79.30311479207529,
+      "common_mode": -0.12560459297882798,
+      "differential_mode": -0.11689352787976907
+    },
+    {
+      "draw_id": "validation-b300-0060",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 91.97892958213522,
+      "t2": 73.24411843653007,
+      "common_mode": -0.08232961186101095,
+      "differential_mode": 0.0021189076823631
+    },
+    {
+      "draw_id": "validation-b300-0061",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 110.69687434310029,
+      "t2": 72.79255450471845,
+      "common_mode": 0.008437837369991874,
+      "differential_mode": 0.09853090606101114
+    },
+    {
+      "draw_id": "validation-b300-0062",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 91.98604733882338,
+      "t2": 92.64162461225337,
+      "common_mode": 0.03894039052070053,
+      "differential_mode": -0.11907991713246663
+    },
+    {
+      "draw_id": "validation-b300-0063",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 102.2350618332652,
+      "t2": 85.68916067881055,
+      "common_mode": 0.046732563408891925,
+      "differential_mode": -0.024381945076239808
+    },
+    {
+      "draw_id": "validation-b300-0064",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 96.2571298093988,
+      "t2": 92.77366861729794,
+      "common_mode": 0.06112107790510615,
+      "differential_mode": -0.09854977981111812
+    },
+    {
+      "draw_id": "validation-b300-0065",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 75.0899031372376,
+      "t2": 76.97096121832557,
+      "common_mode": -0.1434819766992772,
+      "differential_mode": -0.10561899192834684
+    },
+    {
+      "draw_id": "validation-b300-0066",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 87.61379987483237,
+      "t2": 77.73566410702603,
+      "common_mode": -0.07608309995692557,
+      "differential_mode": -0.04777890129475086
+    },
+    {
+      "draw_id": "validation-b300-0067",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 112.91846031169786,
+      "t2": 81.97606062938445,
+      "common_mode": 0.07694268049214192,
+      "differential_mode": 0.05224192262483646
+    },
+    {
+      "draw_id": "validation-b300-0068",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 114.01645191307426,
+      "t2": 94.41182787209372,
+      "common_mode": 0.16015618376595708,
+      "differential_mode": -0.019991664635214554
+    },
+    {
+      "draw_id": "validation-b300-0069",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 98.69665697496892,
+      "t2": 78.95270120454653,
+      "common_mode": -0.013062332596739668,
+      "differential_mode": 0.000028902346428688608
+    },
+    {
+      "draw_id": "validation-b300-0070",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 88.74968825719894,
+      "t2": 66.23653313497401,
+      "common_mode": -0.14227322662041775,
+      "differential_mode": 0.029770109192407218
+    },
+    {
+      "draw_id": "validation-b300-0071",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 90.2726978206069,
+      "t2": 68.23592264318665,
+      "common_mode": -0.12216199437704883,
+      "differential_mode": 0.02488897258311787
+    },
+    {
+      "draw_id": "validation-b300-0072",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 128.96656576531126,
+      "t2": 84.02589410507623,
+      "common_mode": 0.16999466698328275,
+      "differential_mode": 0.11967099066982995
+    },
+    {
+      "draw_id": "validation-b300-0073",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 97.75910368404273,
+      "t2": 96.41378107507953,
+      "common_mode": 0.09138165013946076,
+      "differential_mode": -0.11379061329903337
+    },
+    {
+      "draw_id": "validation-b300-0074",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 92.34808852369638,
+      "t2": 83.26002355617302,
+      "common_mode": -0.017884410155436792,
+      "differential_mode": -0.05863470460759955
+    },
+    {
+      "draw_id": "validation-b300-0075",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 111.30549020427611,
+      "t2": 86.74625566662266,
+      "common_mode": 0.09869154893777227,
+      "differential_mode": 0.014363353104988874
+    },
+    {
+      "draw_id": "validation-b300-0076",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 83.73041528462466,
+      "t2": 80.71764588183254,
+      "common_mode": -0.07686263681542341,
+      "differential_mode": -0.08583321033833012
+    },
+    {
+      "draw_id": "validation-b300-0077",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 102.16062588908818,
+      "t2": 93.61203243145638,
+      "common_mode": 0.09587833214204328,
+      "differential_mode": -0.07427207325116153
+    },
+    {
+      "draw_id": "validation-b300-0078",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 115.20363436432149,
+      "t2": 92.4333419752046,
+      "common_mode": 0.15372655916663608,
+      "differential_mode": -0.0016902155234212596
+    },
+    {
+      "draw_id": "validation-b300-0079",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 96.15387546641401,
+      "t2": 80.25775712951435,
+      "common_mode": -0.017619640608465353,
+      "differential_mode": -0.02084160472739459
+    },
+    {
+      "draw_id": "validation-b300-0080",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 105.28252433648957,
+      "t2": 91.7124780671886,
+      "common_mode": 0.09961560960237659,
+      "differential_mode": -0.04679036623748083
+    },
+    {
+      "draw_id": "validation-b300-0081",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 103.8771107149514,
+      "t2": 70.27341675076255,
+      "common_mode": -0.04140559173297709,
+      "differential_mode": 0.0801766988824911
+    },
+    {
+      "draw_id": "validation-b300-0082",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 102.54636806801174,
+      "t2": 96.78380325130331,
+      "common_mode": 0.1176306106607043,
+      "differential_mode": -0.09216692998058706
+    },
+    {
+      "draw_id": "validation-b300-0083",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 111.91486451442469,
+      "t2": 73.44702338353011,
+      "common_mode": 0.01861821871918648,
+      "differential_mode": 0.1005304264250603
+    },
+    {
+      "draw_id": "validation-b300-0084",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 80.80385412341548,
+      "t2": 72.07681185129505,
+      "common_mode": -0.14550065531232856,
+      "differential_mode": -0.04646080345351662
+    },
+    {
+      "draw_id": "validation-b300-0085",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 117.1000128636303,
+      "t2": 76.10843938337607,
+      "common_mode": 0.061177810464251886,
+      "differential_mode": 0.1098223181720511
+    },
+    {
+      "draw_id": "validation-b300-0086",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 96.8826383836092,
+      "t2": 81.54028733671764,
+      "common_mode": -0.005960012227468753,
+      "differential_mode": -0.025213603936439205
+    },
+    {
+      "draw_id": "validation-b300-0087",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 111.85010868937883,
+      "t2": 84.71586197505232,
+      "common_mode": 0.08872468079097112,
+      "differential_mode": 0.02977640610281712
+    },
+    {
+      "draw_id": "validation-b300-0088",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 79.89198020259454,
+      "t2": 72.3355470156248,
+      "common_mode": -0.14844293013937238,
+      "differential_mode": -0.052637267834682214
+    },
+    {
+      "draw_id": "validation-b300-0089",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 92.19106573526823,
+      "t2": 71.3313331353027,
+      "common_mode": -0.09322383922801701,
+      "differential_mode": 0.01513449658069918
+    },
+    {
+      "draw_id": "validation-b300-0090",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 126.61991960866663,
+      "t2": 84.89020166693535,
+      "common_mode": 0.16366335846167918,
+      "differential_mode": 0.10253583762498708
+    },
+    {
+      "draw_id": "validation-b300-0091",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 103.53989566418377,
+      "t2": 86.05358117063338,
+      "common_mode": 0.05553436063737746,
+      "differential_mode": -0.02013540399553973
+    },
+    {
+      "draw_id": "validation-b300-0092",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 103.35395717697338,
+      "t2": 89.23437451512308,
+      "common_mode": 0.07448462660438615,
+      "differential_mode": -0.04094505483465234
+    },
+    {
+      "draw_id": "validation-b300-0093",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 87.99977915174473,
+      "t2": 69.00327129921544,
+      "common_mode": -0.12873065862117983,
+      "differential_mode": 0.008728450138627164
+    },
+    {
+      "draw_id": "validation-b300-0094",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 97.09705621835548,
+      "t2": 85.28693404937486,
+      "common_mode": 0.01852861890037044,
+      "differential_mode": -0.04755805671681554
+    },
+    {
+      "draw_id": "validation-b300-0095",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 111.558493965746,
+      "t2": 80.21574020508947,
+      "common_mode": 0.05914084611053927,
+      "differential_mode": 0.05644409354692079
+    },
+    {
+      "draw_id": "validation-b300-0096",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 90.49446844363158,
+      "t2": 58.83950625960969,
+      "common_mode": -0.17978074365928154,
+      "differential_mode": 0.0847254280955973
+    },
+    {
+      "draw_id": "validation-b300-0097",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 99.41377025875437,
+      "t2": 67.91350709426672,
+      "common_mode": -0.07847172936706119,
+      "differential_mode": 0.07260943195460495
+    },
+    {
+      "draw_id": "validation-b300-0098",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 80.24273770502732,
+      "t2": 75.41053981138107,
+      "common_mode": -0.12747043765373173,
+      "differential_mode": -0.07010218529599505
+    },
+    {
+      "draw_id": "validation-b300-0099",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 99.04565309021102,
+      "t2": 96.70923154473009,
+      "common_mode": 0.09966096260561824,
+      "differential_mode": -0.10920443170350799
+    },
+    {
+      "draw_id": "validation-b300-0100",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 100.81439840307287,
+      "t2": 94.89931469874931,
+      "common_mode": 0.09719270888254739,
+      "differential_mode": -0.08904872485181875
+    },
+    {
+      "draw_id": "validation-b300-0101",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 99.85945713952633,
+      "t2": 80.85775141668034,
+      "common_mode": 0.004658232051883815,
+      "differential_mode": -0.006063660656620493
+    },
+    {
+      "draw_id": "validation-b300-0102",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 125.06295722801708,
+      "t2": 84.9299082983812,
+      "common_mode": 0.15612671300496794,
+      "differential_mode": 0.09450285927520277
+    },
+    {
+      "draw_id": "validation-b300-0103",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 106.33348755093314,
+      "t2": 78.61534298733693,
+      "common_mode": 0.02301333142552156,
+      "differential_mode": 0.040321544083809946
+    },
+    {
+      "draw_id": "validation-b300-0104",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 111.94615374360599,
+      "t2": 90.36323617376271,
+      "common_mode": 0.12450099480404686,
+      "differential_mode": -0.005039457367987166
+    },
+    {
+      "draw_id": "validation-b300-0105",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 127.57155530693561,
+      "t2": 84.54731509909188,
+      "common_mode": 0.16627849590400223,
+      "differential_mode": 0.10943705716535385
+    },
+    {
+      "draw_id": "validation-b300-0106",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 91.78715987876124,
+      "t2": 62.80473015176169,
+      "common_mode": -0.14853463715768317,
+      "differential_mode": 0.06640623594529571
+    },
+    {
+      "draw_id": "validation-b300-0107",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 85.9233095986378,
+      "t2": 74.78841008564883,
+      "common_mode": -0.10295588897150579,
+      "differential_mode": -0.037811015042116286
+    },
+    {
+      "draw_id": "validation-b300-0108",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 87.65871756249949,
+      "t2": 72.45267119339847,
+      "common_mode": -0.10887721722876206,
+      "differential_mode": -0.014535607146242982
+    },
+    {
+      "draw_id": "validation-b300-0109",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 91.11987314481426,
+      "t2": 65.41783260841726,
+      "common_mode": -0.13553918047332086,
+      "differential_mode": 0.04673791192146348
+    },
+    {
+      "draw_id": "validation-b300-0110",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 76.32680856769723,
+      "t2": 72.69282821974298,
+      "common_mode": -0.16403578078812028,
+      "differential_mode": -0.0726961335349074
+    },
+    {
+      "draw_id": "validation-b300-0111",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 116.5167610180268,
+      "t2": 85.96800498012837,
+      "common_mode": 0.11988383621593629,
+      "differential_mode": 0.045283773964331614
+    },
+    {
+      "draw_id": "validation-b300-0112",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 111.48373650450864,
+      "t2": 78.78451302381156,
+      "common_mode": 0.04982188892136541,
+      "differential_mode": 0.06501547612372102
+    },
+    {
+      "draw_id": "validation-b300-0113",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 89.28543110291764,
+      "t2": 90.08946034703399,
+      "common_mode": 0.00948628268355059,
+      "differential_mode": -0.11663197165437428
+    },
+    {
+      "draw_id": "validation-b300-0114",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 90.88059079564496,
+      "t2": 68.0393536369197,
+      "common_mode": -0.12035108579102707,
+      "differential_mode": 0.02915699374747674
+    },
+    {
+      "draw_id": "validation-b300-0115",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 111.48605954079555,
+      "t2": 90.44656727910353,
+      "common_mode": 0.12272134319837497,
+      "differential_mode": -0.007860747790419328
+    },
+    {
+      "draw_id": "validation-b300-0116",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 112.43112279817615,
+      "t2": 96.80980100558514,
+      "common_mode": 0.1672168702757879,
+      "differential_mode": -0.042905642294026436
+    },
+    {
+      "draw_id": "validation-b300-0117",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 112.64495170726767,
+      "t2": 95.42816338544856,
+      "common_mode": 0.15965077969539176,
+      "differential_mode": -0.03320126262271518
+    },
+    {
+      "draw_id": "validation-b300-0118",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 111.19524888852649,
+      "t2": 80.45286708481717,
+      "common_mode": 0.05880666372273974,
+      "differential_mode": 0.05314582516252522
+    },
+    {
+      "draw_id": "validation-b300-0119",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 117.3970111187057,
+      "t2": 91.29787683781728,
+      "common_mode": 0.15759678582988657,
+      "differential_mode": 0.016373325357170482
+    },
+    {
+      "draw_id": "validation-b300-0120",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 112.70145831871775,
+      "t2": 78.08732073755078,
+      "common_mode": 0.05155304620328113,
+      "differential_mode": 0.07546153698389649
+    },
+    {
+      "draw_id": "validation-b300-0121",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 93.47974693612666,
+      "t2": 93.07236993902167,
+      "common_mode": 0.04910104679951871,
+      "differential_mode": -0.11430357743825209
+    },
+    {
+      "draw_id": "validation-b300-0122",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 104.2436808454039,
+      "t2": 76.50138876150213,
+      "common_mode": -0.0006479160135922646,
+      "differential_mode": 0.04308472446763115
+    },
+    {
+      "draw_id": "validation-b300-0123",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 99.87821702465227,
+      "t2": 97.17664383678665,
+      "common_mode": 0.10674510910317792,
+      "differential_mode": -0.10796293885665514
+    },
+    {
+      "draw_id": "validation-b300-0124",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 116.40890557549372,
+      "t2": 83.14413428561721,
+      "common_mode": 0.1016953671625761,
+      "differential_mode": 0.06239368859236097
+    },
+    {
+      "draw_id": "validation-b300-0125",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 100.31956848016573,
+      "t2": 65.48169659903405,
+      "common_mode": -0.08914155385520862,
+      "differential_mode": 0.0923372386568658
+    },
+    {
+      "draw_id": "validation-b300-0126",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 80.78752164655562,
+      "t2": 76.22545331173284,
+      "common_mode": -0.1196533085688917,
+      "differential_mode": -0.07247147496555215
+    },
+    {
+      "draw_id": "validation-b300-0127",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 112.03032937803054,
+      "t2": 85.60859205070314,
+      "common_mode": 0.09520534720704737,
+      "differential_mode": 0.025097946573258118
+    },
+    {
+      "draw_id": "validation-b500-0000",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 98.50573001267652,
+      "t2": 83.30663324158601,
+      "common_mode": 0.01319510782329536,
+      "differential_mode": -0.02813780769652996
+    },
+    {
+      "draw_id": "validation-b500-0001",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 99.6925424271005,
+      "t2": 88.08510975790128,
+      "common_mode": 0.048994648122385465,
+      "differential_mode": -0.052069223851380464
+    },
+    {
+      "draw_id": "validation-b500-0002",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 110.07736425792068,
+      "t2": 101.11978056990098,
+      "common_mode": 0.18238544985148453,
+      "differential_mode": -0.08161180727227771
+    },
+    {
+      "draw_id": "validation-b500-0003",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 71.72141812170021,
+      "t2": 80.1249175963348,
+      "common_mode": -0.14061217441440643,
+      "differential_mode": -0.14217364436859148
+    },
+    {
+      "draw_id": "validation-b500-0004",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 64.70371750178197,
+      "t2": 63.093827235727545,
+      "common_mode": -0.28214499226779305,
+      "differential_mode": -0.07081783271438741
+    },
+    {
+      "draw_id": "validation-b500-0005",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 132.60684760691566,
+      "t2": 79.40606065005863,
+      "common_mode": 0.15932211709744476,
+      "differential_mode": 0.16674635897171186
+    },
+    {
+      "draw_id": "validation-b500-0006",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 80.16311223940357,
+      "t2": 89.83316768482565,
+      "common_mode": -0.0377271407728218,
+      "differential_mode": -0.16064173683314237
+    },
+    {
+      "draw_id": "validation-b500-0007",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 128.65361885935462,
+      "t2": 79.71840312330214,
+      "common_mode": 0.14150811381741157,
+      "differential_mode": 0.14502807477613472
+    },
+    {
+      "draw_id": "validation-b500-0008",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 106.70717640783865,
+      "t2": 64.64623050966631,
+      "common_mode": -0.062425177275392374,
+      "differential_mode": 0.1294969413537787
+    },
+    {
+      "draw_id": "validation-b500-0009",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 87.45955096112945,
+      "t2": 65.40987922194913,
+      "common_mode": -0.15389050005717078,
+      "differential_mode": 0.028486009668465206
+    },
+    {
+      "draw_id": "validation-b500-0010",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 101.43736998854769,
+      "t2": 89.81504310988838,
+      "common_mode": 0.06853086937954089,
+      "differential_mode": -0.054157169494063906
+    },
+    {
+      "draw_id": "validation-b500-0011",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 66.59866317153427,
+      "t2": 79.87506836954208,
+      "common_mode": -0.16778750683269075,
+      "differential_mode": -0.16622586145196663
+    },
+    {
+      "draw_id": "validation-b500-0012",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 117.78595413121012,
+      "t2": 82.93509653747788,
+      "common_mode": 0.10727412401528735,
+      "differential_mode": 0.07058541729681378
+    },
+    {
+      "draw_id": "validation-b500-0013",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 108.65142289889569,
+      "t2": 99.31899553580837,
+      "common_mode": 0.16400083659328085,
+      "differential_mode": -0.07748660760432387
+    },
+    {
+      "draw_id": "validation-b500-0014",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 74.53720351756479,
+      "t2": 59.14383680461139,
+      "common_mode": -0.25766500238335494,
+      "differential_mode": 0.003037037559002753
+    },
+    {
+      "draw_id": "validation-b500-0015",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 127.68606888680509,
+      "t2": 103.8575216799333,
+      "common_mode": 0.2875398549336085,
+      "differential_mode": -0.010679166065557633
+    },
+    {
+      "draw_id": "validation-b500-0016",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 124.73406017479061,
+      "t2": 84.69651319659437,
+      "common_mode": 0.15302350835266781,
+      "differential_mode": 0.0943170933952382
+    },
+    {
+      "draw_id": "validation-b500-0017",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 100.07134954187107,
+      "t2": 75.20538901983895,
+      "common_mode": -0.02960957091665123,
+      "differential_mode": 0.03032306633536197
+    },
+    {
+      "draw_id": "validation-b500-0018",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 55.180855431279255,
+      "t2": 68.9405611634035,
+      "common_mode": -0.29321721557233177,
+      "differential_mode": -0.15497423011487566
+    },
+    {
+      "draw_id": "validation-b500-0019",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 89.97056420006002,
+      "t2": 45.48859747771985,
+      "common_mode": -0.2658434447639509,
+      "differential_mode": 0.165549086764551
+    },
+    {
+      "draw_id": "validation-b500-0020",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 110.02545026541964,
+      "t2": 90.66139628421274,
+      "common_mode": 0.11676097810342773,
+      "differential_mode": -0.016506475449231506
+    },
+    {
+      "draw_id": "validation-b500-0021",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 106.70811251988054,
+      "t2": 68.03390896198046,
+      "common_mode": -0.041247506388219335,
+      "differential_mode": 0.10832863158702494
+    },
+    {
+      "draw_id": "validation-b500-0022",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 83.4998883494584,
+      "t2": 92.22964454983169,
+      "common_mode": -0.006065279816259983,
+      "differential_mode": -0.15893583668915606
+    },
+    {
+      "draw_id": "validation-b500-0023",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 91.41527569575926,
+      "t2": 81.43821036675553,
+      "common_mode": -0.03393480672898164,
+      "differential_mode": -0.05191243631342571
+    },
+    {
+      "draw_id": "validation-b500-0024",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 90.187776234302,
+      "t2": 48.6800200951793,
+      "common_mode": -0.24481099323361935,
+      "differential_mode": 0.1466887555766394
+    },
+    {
+      "draw_id": "validation-b500-0025",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 87.42293709336441,
+      "t2": 65.92128162063372,
+      "common_mode": -0.15087730440421723,
+      "differential_mode": 0.0251066753378614
+    },
+    {
+      "draw_id": "validation-b500-0026",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 102.96576107340734,
+      "t2": 59.601064993648585,
+      "common_mode": -0.11266453842265972,
+      "differential_mode": 0.14232214915673308
+    },
+    {
+      "draw_id": "validation-b500-0027",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 95.86913415904111,
+      "t2": 90.1056385115153,
+      "common_mode": 0.04250591149217631,
+      "differential_mode": -0.08381456990176504
+    },
+    {
+      "draw_id": "validation-b500-0028",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 97.74521049580042,
+      "t2": 48.99267593969364,
+      "common_mode": -0.2050697228979126,
+      "differential_mode": 0.18252182785591692
+    },
+    {
+      "draw_id": "validation-b500-0029",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 97.33705692389036,
+      "t2": 76.23654645686531,
+      "common_mode": -0.03683630002513999,
+      "differential_mode": 0.010206869264043517
+    },
+    {
+      "draw_id": "validation-b500-0030",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 89.84435856331045,
+      "t2": 77.82741504003815,
+      "common_mode": -0.06435686318320932,
+      "differential_mode": -0.037199551183686175
+    },
+    {
+      "draw_id": "validation-b500-0031",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 111.43390678657458,
+      "t2": 77.86386372707098,
+      "common_mode": 0.04381868222706653,
+      "differential_mode": 0.0705203856386794
+    },
+    {
+      "draw_id": "validation-b500-0032",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 90.29158428067441,
+      "t2": 97.9436923858297,
+      "common_mode": 0.06360599881480777,
+      "differential_mode": -0.16069015600806358
+    },
+    {
+      "draw_id": "validation-b500-0033",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 90.28080148580555,
+      "t2": 47.00681447457644,
+      "common_mode": -0.2548034021048695,
+      "differential_mode": 0.15761141696292508
+    },
+    {
+      "draw_id": "validation-b500-0034",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 120.41348392817196,
+      "t2": 111.15406194545905,
+      "common_mode": 0.29678030679997885,
+      "differential_mode": -0.09264546751825936
+    },
+    {
+      "draw_id": "validation-b500-0035",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 127.89083454088792,
+      "t2": 76.56693846444836,
+      "common_mode": 0.11799753810724167,
+      "differential_mode": 0.16091080730163743
+    },
+    {
+      "draw_id": "validation-b500-0036",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 88.68679715300615,
+      "t2": 58.556161013422035,
+      "common_mode": -0.1905900079010815,
+      "differential_mode": 0.07745797943114313
+    },
+    {
+      "draw_id": "validation-b500-0037",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 106.80071071768884,
+      "t2": 112.18947538776227,
+      "common_mode": 0.23518777476195846,
+      "differential_mode": -0.16718066758507005
+    },
+    {
+      "draw_id": "validation-b500-0038",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 127.2030064573932,
+      "t2": 78.05602892960813,
+      "common_mode": 0.12386521309701676,
+      "differential_mode": 0.1481648514769151
+    },
+    {
+      "draw_id": "validation-b500-0039",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 95.91203365514616,
+      "t2": 59.80716968629687,
+      "common_mode": -0.14664502118491368,
+      "differential_mode": 0.10576535773637541
+    },
+    {
+      "draw_id": "validation-b500-0040",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 118.34693126108465,
+      "t2": 88.34158245021973,
+      "common_mode": 0.14386954661929652,
+      "differential_mode": 0.03959976599154982
+    },
+    {
+      "draw_id": "validation-b500-0041",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 144.63507649617466,
+      "t2": 89.21228254872645,
+      "common_mode": 0.28075214841041357,
+      "differential_mode": 0.16559861655133312
+    },
+    {
+      "draw_id": "validation-b500-0042",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 99.62832604912562,
+      "t2": 71.57215604157138,
+      "common_mode": -0.054532394494550884,
+      "differential_mode": 0.05081565498580698
+    },
+    {
+      "draw_id": "validation-b500-0043",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 126.34688398155411,
+      "t2": 94.19318648139253,
+      "common_mode": 0.22044183541647383,
+      "differential_mode": 0.04302700439906726
+    },
+    {
+      "draw_id": "validation-b500-0044",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 103.70335755489847,
+      "t2": 78.0070196033167,
+      "common_mode": 0.006060660295221676,
+      "differential_mode": 0.030972915253763
+    },
+    {
+      "draw_id": "validation-b500-0045",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 73.12586309539346,
+      "t2": 84.92540581153413,
+      "common_mode": -0.10358689820094438,
+      "differential_mode": -0.1651544708451211
+    },
+    {
+      "draw_id": "validation-b500-0046",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 120.25704683137235,
+      "t2": 88.0850058103245,
+      "common_mode": 0.15181652047138988,
+      "differential_mode": 0.05075394784233367
+    },
+    {
+      "draw_id": "validation-b500-0047",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 105.35553269679528,
+      "t2": 68.45168148073691,
+      "common_mode": -0.04539932726141788,
+      "differential_mode": 0.09895465422937066
+    },
+    {
+      "draw_id": "validation-b500-0048",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 108.125141800177,
+      "t2": 76.87679174955298,
+      "common_mode": 0.02110565743559123,
+      "differential_mode": 0.06014576056617893
+    },
+    {
+      "draw_id": "validation-b500-0049",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 114.0710620979824,
+      "t2": 112.3453826357599,
+      "common_mode": 0.2725139519634114,
+      "differential_mode": -0.13180333098358732
+    },
+    {
+      "draw_id": "validation-b500-0050",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 72.45972566702376,
+      "t2": 86.53011217793647,
+      "common_mode": -0.09688817055277826,
+      "differential_mode": -0.1785145727769841
+    },
+    {
+      "draw_id": "validation-b500-0051",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 76.80161831197537,
+      "t2": 74.93035153790525,
+      "common_mode": -0.1476772113282153,
+      "differential_mode": -0.08430660555203091
+    },
+    {
+      "draw_id": "validation-b500-0052",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 76.89535918372823,
+      "t2": 80.49532855837448,
+      "common_mode": -0.11242740059151834,
+      "differential_mode": -0.11861900757119935
+    },
+    {
+      "draw_id": "validation-b500-0053",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 102.47414745484882,
+      "t2": 75.75468057891092,
+      "common_mode": -0.014162509107562615,
+      "differential_mode": 0.03890398365605083
+    },
+    {
+      "draw_id": "validation-b500-0054",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 98.85567316687056,
+      "t2": 84.37223072538248,
+      "common_mode": 0.021604807867993236,
+      "differential_mode": -0.03304807619928779
+    },
+    {
+      "draw_id": "validation-b500-0055",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 53.931867863457825,
+      "t2": 71.30774312174081,
+      "common_mode": -0.28466726617183086,
+      "differential_mode": -0.17601405519359098
+    },
+    {
+      "draw_id": "validation-b500-0056",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 121.0186350053007,
+      "t2": 105.9065310694246,
+      "common_mode": 0.2670089942104073,
+      "differential_mode": -0.056822644157400154
+    },
+    {
+      "draw_id": "validation-b500-0057",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 131.9493636384021,
+      "t2": 96.90604808250865,
+      "common_mode": 0.2654096187076895,
+      "differential_mode": 0.05408401767633153
+    },
+    {
+      "draw_id": "validation-b500-0058",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 102.9420018938473,
+      "t2": 67.73883158140355,
+      "common_mode": -0.061922293146991325,
+      "differential_mode": 0.09134231208546428
+    },
+    {
+      "draw_id": "validation-b500-0059",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 102.23818533624471,
+      "t2": 109.63691337990736,
+      "common_mode": 0.19642163530564438,
+      "differential_mode": -0.17403978194319725
+    },
+    {
+      "draw_id": "validation-b500-0060",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 126.67642695076893,
+      "t2": 89.91167119179885,
+      "common_mode": 0.1953300797025873,
+      "differential_mode": 0.07143418980510174
+    },
+    {
+      "draw_id": "validation-b500-0061",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 97.41058975674588,
+      "t2": 62.638415496616275,
+      "common_mode": -0.12145695436241888,
+      "differential_mode": 0.09556285192987762
+    },
+    {
+      "draw_id": "validation-b500-0062",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 57.464002491871604,
+      "t2": 73.33261068429643,
+      "common_mode": -0.25435117076378927,
+      "differential_mode": -0.17100880431749463
+    },
+    {
+      "draw_id": "validation-b500-0063",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 125.9925767965197,
+      "t2": 102.68849020435019,
+      "common_mode": 0.2717659477597872,
+      "differential_mode": -0.011840179794590178
+    },
+    {
+      "draw_id": "validation-b500-0064",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 88.58765866352212,
+      "t2": 76.9406383735485,
+      "common_mode": -0.07618271684771127,
+      "differential_mode": -0.037940696517067496
+    },
+    {
+      "draw_id": "validation-b500-0065",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 80.70291522320265,
+      "t2": 71.74435972130229,
+      "common_mode": -0.1480831756258474,
+      "differential_mode": -0.04488767214212602
+    },
+    {
+      "draw_id": "validation-b500-0066",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 89.99310989308007,
+      "t2": 94.00621964708387,
+      "common_mode": 0.03750442225967454,
+      "differential_mode": -0.13757332332887381
+    },
+    {
+      "draw_id": "validation-b500-0067",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 115.71518791696408,
+      "t2": 81.0261089764897,
+      "common_mode": 0.084989120687881,
+      "differential_mode": 0.07216275848175996
+    },
+    {
+      "draw_id": "validation-b500-0068",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 108.62140702458754,
+      "t2": 116.13447313547198,
+      "common_mode": 0.2689474922196376,
+      "differential_mode": -0.18273342197376216
+    },
+    {
+      "draw_id": "validation-b500-0069",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 80.07746052646044,
+      "t2": 53.37300608798365,
+      "common_mode": -0.26603140931779995,
+      "differential_mode": 0.06680601458240443
+    },
+    {
+      "draw_id": "validation-b500-0070",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 61.714859108852,
+      "t2": 67.90651368022698,
+      "common_mode": -0.2670099939543214,
+      "differential_mode": -0.11584141495715859
+    },
+    {
+      "draw_id": "validation-b500-0071",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 125.0448916988739,
+      "t2": 100.02985235270059,
+      "common_mode": 0.2504110356987482,
+      "differential_mode": 0.00003788128999090978
+    },
+    {
+      "draw_id": "validation-b500-0072",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 143.71762079821698,
+      "t2": 86.44035235510236,
+      "common_mode": 0.25884030621047477,
+      "differential_mode": 0.17833590177169517
+    },
+    {
+      "draw_id": "validation-b500-0073",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 74.42462505247815,
+      "t2": 82.24936838312503,
+      "common_mode": -0.11381832234307773,
+      "differential_mode": -0.14193542713214066
+    },
+    {
+      "draw_id": "validation-b500-0074",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 92.6504904343557,
+      "t2": 45.8297794494186,
+      "common_mode": -0.2503114262693552,
+      "differential_mode": 0.17681633061291224
+    },
+    {
+      "draw_id": "validation-b500-0075",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 119.22606006556262,
+      "t2": 107.31263812012673,
+      "common_mode": 0.2668342885786053,
+      "differential_mode": -0.07457368792297903
+    },
+    {
+      "draw_id": "validation-b500-0076",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 105.94702828519517,
+      "t2": 89.44880468217505,
+      "common_mode": 0.08879017068957001,
+      "differential_mode": -0.02931988783761824
+    },
+    {
+      "draw_id": "validation-b500-0077",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 120.4034618161618,
+      "t2": 69.83328051715976,
+      "common_mode": 0.03847531231305745,
+      "differential_mode": 0.16555930584856038
+    },
+    {
+      "draw_id": "validation-b500-0078",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 103.5109130470008,
+      "t2": 74.5880135280073,
+      "common_mode": -0.016270350214950435,
+      "differential_mode": 0.051379480684958456
+    },
+    {
+      "draw_id": "validation-b500-0079",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 108.87672091747996,
+      "t2": 113.0614322633522,
+      "common_mode": 0.25101755623335104,
+      "differential_mode": -0.16225034705855143
+    },
+    {
+      "draw_id": "validation-b500-0080",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 110.8873812973262,
+      "t2": 69.05888648804304,
+      "common_mode": -0.013945052963100057,
+      "differential_mode": 0.12281886593636199
+    },
+    {
+      "draw_id": "validation-b500-0081",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 60.04403728621701,
+      "t2": 73.11438229225246,
+      "common_mode": -0.2428149242423371,
+      "differential_mode": -0.15674470289549275
+    },
+    {
+      "draw_id": "validation-b500-0082",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 101.74726803040544,
+      "t2": 113.28062608978405,
+      "common_mode": 0.21674025321317741,
+      "differential_mode": -0.19926757290912317
+    },
+    {
+      "draw_id": "validation-b500-0083",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 121.6348472758037,
+      "t2": 108.16187686975846,
+      "common_mode": 0.2841859668150089,
+      "differential_mode": -0.06783749405697193
+    },
+    {
+      "draw_id": "validation-b500-0084",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 63.471462500671784,
+      "t2": 62.045528073542854,
+      "common_mode": -0.2948581370369983,
+      "differential_mode": -0.07042723795628394
+    },
+    {
+      "draw_id": "validation-b500-0085",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 80.031041244835,
+      "t2": 56.77016212777968,
+      "common_mode": -0.245031280477202,
+      "differential_mode": 0.04534169292555207
+    },
+    {
+      "draw_id": "validation-b500-0086",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 81.11904599504294,
+      "t2": 59.264213811807394,
+      "common_mode": -0.22400343370098905,
+      "differential_mode": 0.035193893651418395
+    },
+    {
+      "draw_id": "validation-b500-0087",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 99.02149310373069,
+      "t2": 105.81800070405032,
+      "common_mode": 0.15646996991896805,
+      "differential_mode": -0.16625503888166104
+    },
+    {
+      "draw_id": "validation-b500-0088",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 100.71855707216604,
+      "t2": 75.64859426448714,
+      "common_mode": -0.02360350048612514,
+      "differential_mode": 0.03078907120778554
+    },
+    {
+      "draw_id": "validation-b500-0089",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 90.47854486418413,
+      "t2": 77.31706091609956,
+      "common_mode": -0.06437564495345705,
+      "differential_mode": -0.03083890640470166
+    },
+    {
+      "draw_id": "validation-b500-0090",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 56.866482500570484,
+      "t2": 68.52583532390244,
+      "common_mode": -0.2873811167227574,
+      "differential_mode": -0.14395405827153787
+    },
+    {
+      "draw_id": "validation-b500-0091",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 119.48053939876257,
+      "t2": 95.61756783201321,
+      "common_mode": 0.19501249594389553,
+      "differential_mode": -0.00020710195626963412
+    },
+    {
+      "draw_id": "validation-b500-0092",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 108.82951224457713,
+      "t2": 70.80253762103163,
+      "common_mode": -0.013336578645666619,
+      "differential_mode": 0.10163170109143799
+    },
+    {
+      "draw_id": "validation-b500-0093",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 86.8699859568345,
+      "t2": 69.4152841889761,
+      "common_mode": -0.13180454403472683,
+      "differential_mode": 0.0005044036030717736
+    },
+    {
+      "draw_id": "validation-b500-0094",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 90.19830413128247,
+      "t2": 88.20904223568157,
+      "common_mode": 0.0022980346294221854,
+      "differential_mode": -0.10031499331659743
+    },
+    {
+      "draw_id": "validation-b500-0095",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 117.03580147634867,
+      "t2": 99.2581195035293,
+      "common_mode": 0.2055422542788014,
+      "differential_mode": -0.03518423951531488
+    },
+    {
+      "draw_id": "validation-b500-0096",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 133.83493910992902,
+      "t2": 97.90569409420108,
+      "common_mode": 0.28108528363840196,
+      "differential_mode": 0.05726410746088828
+    },
+    {
+      "draw_id": "validation-b500-0097",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 100.96681153563307,
+      "t2": 57.37174386547632,
+      "common_mode": -0.13659254316260763,
+      "differential_mode": 0.14626065851893844
+    },
+    {
+      "draw_id": "validation-b500-0098",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 96.74617326311326,
+      "t2": 79.46054629280422,
+      "common_mode": -0.0196407193544072,
+      "differential_mode": -0.012897548014460108
+    },
+    {
+      "draw_id": "validation-b500-0099",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 100.18869506344035,
+      "t2": 60.88014028368342,
+      "common_mode": -0.11855564790977693,
+      "differential_mode": 0.12044259854418038
+    },
+    {
+      "draw_id": "validation-b500-0100",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 119.24934947837409,
+      "t2": 86.49154804440123,
+      "common_mode": 0.13681892266937806,
+      "differential_mode": 0.055674572114362664
+    },
+    {
+      "draw_id": "validation-b500-0101",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 92.21298582284574,
+      "t2": 54.07583481011681,
+      "common_mode": -0.20096110332254125,
+      "differential_mode": 0.12309096155099858
+    },
+    {
+      "draw_id": "validation-b500-0102",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 110.17095847577438,
+      "t2": 103.70814747037821,
+      "common_mode": 0.1990307140687358,
+      "differential_mode": -0.09732112931099186
+    },
+    {
+      "draw_id": "validation-b500-0103",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 63.514784075982455,
+      "t2": 62.954005524972715,
+      "common_mode": -0.28896354508900823,
+      "differential_mode": -0.07588861415116727
+    },
+    {
+      "draw_id": "validation-b500-0104",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 106.68593370196726,
+      "t2": 75.28143119762937,
+      "common_mode": 0.003938613495019894,
+      "differential_mode": 0.06292072352465267
+    },
+    {
+      "draw_id": "validation-b500-0105",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 72.51673371564226,
+      "t2": 89.22742491775847,
+      "common_mode": -0.0797449256857983,
+      "differential_mode": -0.19508773715777916
+    },
+    {
+      "draw_id": "validation-b500-0106",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 101.44033909087184,
+      "t2": 105.54945021208958,
+      "common_mode": 0.16688575927991917,
+      "differential_mode": -0.15248236837120055
+    },
+    {
+      "draw_id": "validation-b500-0107",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 109.42642979919003,
+      "t2": 82.2342353029556,
+      "common_mode": 0.061096119639422686,
+      "differential_mode": 0.03316817835247768
+    },
+    {
+      "draw_id": "validation-b500-0108",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 66.2581619970194,
+      "t2": 70.42712153137202,
+      "common_mode": -0.2285396804438279,
+      "differential_mode": -0.1088786995859782
+    },
+    {
+      "draw_id": "validation-b500-0109",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 102.14437555050348,
+      "t2": 79.8408231241173,
+      "common_mode": 0.009727022278250674,
+      "differential_mode": 0.011716733226784182
+    },
+    {
+      "draw_id": "validation-b500-0110",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 88.4234009437788,
+      "t2": 72.36381526562467,
+      "common_mode": -0.10560914987095185,
+      "differential_mode": -0.010156840691260133
+    },
+    {
+      "draw_id": "validation-b500-0111",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 96.77413102221203,
+      "t2": 88.16216389516887,
+      "common_mode": 0.03488417945586553,
+      "differential_mode": -0.06714286923374532
+    },
+    {
+      "draw_id": "validation-b500-0112",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 109.92472081241009,
+      "t2": 65.81940161153908,
+      "common_mode": -0.039005135865830376,
+      "differential_mode": 0.13825234398993125
+    },
+    {
+      "draw_id": "validation-b500-0113",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 121.03476546716018,
+      "t2": 105.75929818323466,
+      "common_mode": 0.2661694409810175,
+      "differential_mode": -0.0558217863094157
+    },
+    {
+      "draw_id": "validation-b500-0114",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 88.63639021794218,
+      "t2": 60.2454039698409,
+      "common_mode": -0.18028427409878342,
+      "differential_mode": 0.06664817627820535
+    },
+    {
+      "draw_id": "validation-b500-0115",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 88.31340887325952,
+      "t2": 95.75713074841443,
+      "common_mode": 0.04004911154388768,
+      "differential_mode": -0.15691502281129252
+    },
+    {
+      "draw_id": "validation-b500-0116",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 96.37559681655556,
+      "t2": 96.8668503797941,
+      "common_mode": 0.08729579895649076,
+      "differential_mode": -0.12353983079093536
+    },
+    {
+      "draw_id": "validation-b500-0117",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 72.18547654367194,
+      "t2": 76.12536119146907,
+      "common_mode": -0.16328910983495873,
+      "differential_mode": -0.11485612472832192
+    },
+    {
+      "draw_id": "validation-b500-0118",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 76.98470961449198,
+      "t2": 81.38875414349198,
+      "common_mode": -0.1063967385307153,
+      "differential_mode": -0.12375616532436494
+    },
+    {
+      "draw_id": "validation-b500-0119",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 101.55550943692786,
+      "t2": 57.439120435641094,
+      "common_mode": -0.13322795009260383,
+      "differential_mode": 0.1487830444618825
+    },
+    {
+      "draw_id": "validation-b500-0120",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 76.73687721847884,
+      "t2": 60.846987232424766,
+      "common_mode": -0.23602194370495097,
+      "differential_mode": 0.0033907158897393264
+    },
+    {
+      "draw_id": "validation-b500-0121",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 82.3184632138623,
+      "t2": 67.9190677560169,
+      "common_mode": -0.16391351045558294,
+      "differential_mode": -0.01290185740579411
+    },
+    {
+      "draw_id": "validation-b500-0122",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 78.96039101815599,
+      "t2": 77.67811195667666,
+      "common_mode": -0.11970984517999092,
+      "differential_mode": -0.09068624463844924
+    },
+    {
+      "draw_id": "validation-b500-0123",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 122.31803755061561,
+      "t2": 70.67847440376826,
+      "common_mode": 0.05333065277662974,
+      "differential_mode": 0.1698497227295263
+    },
+    {
+      "draw_id": "validation-b500-0124",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 141.0335333309385,
+      "t2": 93.02758099519178,
+      "common_mode": 0.286590047874641,
+      "differential_mode": 0.12374528543474378
+    },
+    {
+      "draw_id": "validation-b500-0125",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 81.5942291186068,
+      "t2": 91.9862738922165,
+      "common_mode": -0.017114642580612793,
+      "differential_mode": -0.1669430662333191
+    },
+    {
+      "draw_id": "validation-b500-0126",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 53.364730976573185,
+      "t2": 71.57819840768029,
+      "common_mode": -0.28581260506913225,
+      "differential_mode": -0.18054008516513587
+    },
+    {
+      "draw_id": "validation-b500-0127",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 75.48705759640984,
+      "t2": 92.13706965887262,
+      "common_mode": -0.0467080266499969,
+      "differential_mode": -0.1984213973859047
+    }
+  ]
+}

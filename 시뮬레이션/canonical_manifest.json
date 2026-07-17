@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "physics": {
+    "t1": 100.0,
+    "t2": 80.0,
+    "omega_q": 5.0,
+    "max_omega": 0.25,
+    "n_steps": 100,
+    "dt": 0.1
+  },
+  "uncertainty": {
+    "source": "synthetic_joint_stress_test",
+    "severity_fractions": [0.1, 0.3, 0.5],
+    "differential_ratio": 0.5
+  },
+  "splits": {
+    "seeds": {
+      "train": 1101,
+      "validation": 2202,
+      "test": 3303
+    },
+    "scenarios": {
+      "train": 128,
+      "validation": 128,
+      "test": 256
+    }
+  },
+  "optimization": {
+    "optimizer_seeds": [42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
+    "grape_evaluation_stages": [500, 1000, 2000],
+    "ppo_environment_step_stages": [50000, 100000, 200000],
+    "smoke_scenarios": 4
+  },
+  "statistics": {
+    "cvar_alpha": 0.1,
+    "bootstrap_samples": 2000,
+    "q_threshold": 0.05,
+    "cliff_threshold": 0.33,
+    "confidence_level": 0.95
+  },
+  "output": {
+    "root": "results/canonical"
+  }
+}

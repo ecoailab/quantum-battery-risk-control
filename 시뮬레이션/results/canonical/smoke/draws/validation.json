@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "split": "validation",
+  "source_manifest_sha256": "a0673ec163fbc5bf1617e59ee8cc0e87d81e60f9994e91542206106b89259464",
+  "draws": [
+    {
+      "draw_id": "validation-b100-0000",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 104.42711404410541,
+      "t2": 80.4423279048383,
+      "common_mode": 0.02490011962576627,
+      "differential_mode": 0.01937102081528764
+    },
+    {
+      "draw_id": "validation-b300-0000",
+      "split": "validation",
+      "severity_fraction": 0.3,
+      "t1": 84.69524278651774,
+      "t2": 65.67327350242805,
+      "common_mode": -0.16606582667723604,
+      "differential_mode": 0.013018254542413399
+    },
+    {
+      "draw_id": "validation-b500-0000",
+      "split": "validation",
+      "severity_fraction": 0.5,
+      "t1": 98.50573001267652,
+      "t2": 83.30663324158601,
+      "common_mode": 0.01319510782329536,
+      "differential_mode": -0.02813780769652996
+    },
+    {
+      "draw_id": "validation-b100-0001",
+      "split": "validation",
+      "severity_fraction": 0.1,
+      "t1": 94.82703855888845,
+      "t2": 79.85976194023789,
+      "common_mode": -0.026741295079071012,
+      "differential_mode": -0.02498831933204461
+    }
+  ]
+}

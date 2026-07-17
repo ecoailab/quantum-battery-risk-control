@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "journal_decision",
+  "evaluated_at": "2026-07-17",
+  "selected_journal": "Journal of Physics A: Mathematical and Theoretical",
+  "selected_article_type": "Paper",
+  "selected_route": "subscription-access",
+  "mandatory_author_charges": 0,
+  "currency": "USD",
+  "decision": "selected",
+  "scope_fit": [
+    "open quantum systems and decoherence",
+    "quantum mechanics and quantum information theory",
+    "numerical and computational methods",
+    "machine learning papers applied to covered physics subjects"
+  ],
+  "official_evidence": [
+    {
+      "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/about-journal-physics-mathematical-theoretical/",
+      "accessed_at": "2026-07-17",
+      "supports": [
+        "scope",
+        "hybrid publishing model",
+        "subscription-access publication is free of charge",
+        "no submission charges",
+        "no other publication charges"
+      ]
+    },
+    {
+      "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/",
+      "accessed_at": "2026-07-17",
+      "supports": [
+        "author guidelines",
+        "Paper article type",
+        "single-PDF initial submission",
+        "research data policy"
+      ]
+    }
+  ],
+  "alternatives": [
+    {
+      "journal": "Open Systems & Information Dynamics",
+      "status": "not_selected",
+      "reason": "The official submission-guidelines page returned HTTP 403, so all mandatory author charges could not be directly verified. The plan forbids selecting OSID without direct charge verification.",
+      "official_url": "https://www.worldscientific.com/page/osid/submission-guidelines"
+    },
+    {
+      "journal": "Quantum Information Processing",
+      "status": "fallback",
+      "reason": "The official journal page confirms a hybrid model and relevant quantum-information scope; Springer Nature policy confirms a subscription route. JPA provides a more direct fit to open-system computational benchmarking and a more explicit zero-charge statement.",
+      "official_urls": [
+        "https://link.springer.com/journal/11128",
+        "https://www.springernature.com/gp/open-research/policies/journal-policies"
+      ]
+    }
+  ],
+  "public_repository": "https://github.com/ecoailab/quantum-battery-risk-control",
+  "submission_blockers": [],
+  "ready_for_submission": true
+}

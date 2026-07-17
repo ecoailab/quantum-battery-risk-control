@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "split": "train",
+  "source_manifest_sha256": "a0673ec163fbc5bf1617e59ee8cc0e87d81e60f9994e91542206106b89259464",
+  "draws": [
+    {
+      "draw_id": "train-b100-0000",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 101.22562653925193,
+      "t2": 86.47215216569518,
+      "common_mode": 0.046579083731854445,
+      "differential_mode": -0.03432281833933523
+    },
+    {
+      "draw_id": "train-b300-0000",
+      "split": "train",
+      "severity_fraction": 0.3,
+      "t1": 110.88258229801365,
+      "t2": 93.79170896009217,
+      "common_mode": 0.14061109249064419,
+      "differential_mode": -0.031785269510507905
+    },
+    {
+      "draw_id": "train-b500-0000",
+      "split": "train",
+      "severity_fraction": 0.5,
+      "t1": 99.74602584960932,
+      "t2": 82.72608701982918,
+      "common_mode": 0.01576817312197909,
+      "differential_mode": -0.018307914625885713
+    },
+    {
+      "draw_id": "train-b100-0001",
+      "split": "train",
+      "severity_fraction": 0.1,
+      "t1": 106.94425713669192,
+      "t2": 80.49178976752536,
+      "common_mode": 0.03779497173049305,
+      "differential_mode": 0.031647599636425966
+    }
+  ]
+}

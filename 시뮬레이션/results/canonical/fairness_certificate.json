@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "fairness_certificate",
+  "manifest_sha256": "a0673ec163fbc5bf1617e59ee8cc0e87d81e60f9994e91542206106b89259464",
+  "registry_sha256": "ed0afdd9c1d4e9342f6ba9bddba79025a96ec6f64bb289da41223e64f38181a7",
+  "method_ids": [
+    "nominal-lbfgsb-finite-difference",
+    "saa-mean-lbfgsb-finite-difference",
+    "cvar-0.1-lbfgsb-finite-difference",
+    "ppo-time-only-domain-randomized",
+    "bang-bang-ensemble-grid",
+    "sinusoidal-ensemble-grid",
+    "random-seeded-reference"
+  ],
+  "checks": [
+    {
+      "check_id": "complete_method_set",
+      "passed": true,
+      "detail": "registry contains exactly the seven declared benchmark methods"
+    },
+    {
+      "check_id": "allowed_fitting_access",
+      "passed": true,
+      "detail": "each method uses only its declared fitting splits"
+    },
+    {
+      "check_id": "no_test_access",
+      "passed": true,
+      "detail": "test draws remain sealed until all pulses are frozen"
+    },
+    {
+      "check_id": "shared_horizon",
+      "passed": true,
+      "detail": "all methods use the canonical control horizon"
+    },
+    {
+      "check_id": "shared_action_bounds",
+      "passed": true,
+      "detail": "all methods use the canonical action bound"
+    },
+    {
+      "check_id": "shared_metric",
+      "passed": true,
+      "detail": "all methods optimize and report normalized ergotropy"
+    },
+    {
+      "check_id": "shared_initial_state",
+      "passed": true,
+      "detail": "all methods start from the ground state"
+    },
+    {
+      "check_id": "shared_simulator",
+      "passed": true,
+      "detail": "all methods use one content-addressed simulator implementation"
+    },
+    {
+      "check_id": "shared_optimizer_seeds",
+      "passed": true,
+      "detail": "all methods receive the canonical optimizer seed list"
+    },
+    {
+      "check_id": "time_only_information",
+      "passed": true,
+      "detail": "deployed controllers receive normalized time only"
+    },
+    {
+      "check_id": "frozen_before_test",
+      "passed": true,
+      "detail": "every pulse is frozen before test evaluation"
+    },
+    {
+      "check_id": "reported_compute_cost",
+      "passed": true,
+      "detail": "actual fitting cost is reported rather than artificially equalized"
+    }
+  ],
+  "certified": true
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "claim_decision",
+  "manifest_sha256": "a0673ec163fbc5bf1617e59ee8cc0e87d81e60f9994e91542206106b89259464",
+  "summary_sha256": "d584e7741a8e991c63ed76fbbb6b5c85e3963ce6e4202635231d0350ac713753",
+  "branch": "neutral",
+  "selected_method_id": null,
+  "comparator_method_id": "cvar-0.1-lbfgsb-finite-difference",
+  "rationale": "PPO did not pass all predeclared superiority and direction gates.",
+  "gates": [
+    {
+      "gate_id": "ppo_q_below_0.05",
+      "passed": true,
+      "detail": "oriented q=0.002734375"
+    },
+    {
+      "gate_id": "ppo_abs_cliffs_delta_at_least_0.33",
+      "passed": true,
+      "detail": "oriented Cliff's delta=-1"
+    },
+    {
+      "gate_id": "ppo_mean_ci_excludes_zero",
+      "passed": true,
+      "detail": "oriented CI=[-0.936833421319, -0.934483859127]"
+    },
+    {
+      "gate_id": "ppo_mean_direction_positive",
+      "passed": false,
+      "detail": "PPO-minus-comparator mean=-0.935682657827"
+    },
+    {
+      "gate_id": "ppo_cvar_same_sign",
+      "passed": true,
+      "detail": "PPO-minus-comparator CVaR=-0.921661011936"
+    },
+    {
+      "gate_id": "ppo_cvar_direction_positive",
+      "passed": false,
+      "detail": "PPO-minus-comparator CVaR=-0.921661011936"
+    },
+    {
+      "gate_id": "ppo_superiority_all",
+      "passed": false,
+      "detail": "All predeclared significance, effect, interval, and direction gates."
+    }
+  ]
+}

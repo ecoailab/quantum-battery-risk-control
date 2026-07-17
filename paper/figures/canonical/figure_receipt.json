@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "figure_receipt",
+  "figure_implementation_sha256": "5aabc62e8ae44298bb5ff5ab0ea1554974ff683e0f5720967665527b6d94024a",
+  "source_artifact_sha256s": [
+    "729f5aea0b6e34ab0e0fbf1af2dbd0570b7cd0b9f0d0dfaaacbfaf04c3ba33ad",
+    "07adc1ab2896536484d112f654136510b7a35502518915298ea282ce0be748e6",
+    "6b8ca0bd85354138d72d7c729eeff27caf1a1d1e2ce28291a2cb9ca013d55960",
+    "92cec67ae5d007c4ee486fd38e1fde0ee1be46086acd643516ec90f138da95fb"
+  ],
+  "output_sha256": {
+    "uncertainty_coverage.json": "e82801bd6ba29fcf1b2f5d23935ff49a651cbb68c0fd9dd31292a576fa7338de",
+    "uncertainty_coverage.png": "c48dd3824e4bc0d73486a35f784ca29eb85b0d28deecd58ee335d9b519d88756",
+    "uncertainty_coverage.pdf": "6ed9fff077996896cc733dfd9f82f2875aa74d64cdb8c12db410386aa392670d",
+    "convergence_cost.json": "71a8b3965437bb80d454c9bfc080d4ded4929a23b89ba473929b200fba0a0078",
+    "convergence_cost.png": "10a90b44607f02d59c7c72e35b60017e5a6a61d7af01f87647e6b6d32a2a1628",
+    "convergence_cost.pdf": "4f145046206f3d567ff3d74d82ce753f7ad47e49e471f1ae921a215b07bcb039",
+    "heldout_distributions.json": "bdcf8389b269b2a61ad8499f2900af5bcf0b0e1d06e55b6fffd1c9399f675cb4",
+    "heldout_distributions.png": "7f8ff6b2b364a354c6d1e876fda1ed57ff159be8bf074f5816efe7f0d330ff26",
+    "heldout_distributions.pdf": "2c020eac01e445bb8b94258af73d50c779a5cdba57c798090a99c4fc4eb51ed3",
+    "mean_cvar_comparison.json": "3a1186788b9d84ea5ce3dd498439cfd6908fad19bb10a5295b78929f4a685cc8",
+    "mean_cvar_comparison.png": "a42ef09c1198b5870b4cffc71c48e0ef735433029bd1938a51c32f455a73bf7a",
+    "mean_cvar_comparison.pdf": "3e3304a21bffecdc50b7a67b62718adef6aa6de14adb7a4fb72525b550fe139c"
+  }
+}

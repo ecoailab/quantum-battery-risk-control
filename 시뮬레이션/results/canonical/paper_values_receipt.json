@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "paper_values_receipt",
+  "manifest_sha256": "a0673ec163fbc5bf1617e59ee8cc0e87d81e60f9994e91542206106b89259464",
+  "statistics_sha256": "d584e7741a8e991c63ed76fbbb6b5c85e3963ce6e4202635231d0350ac713753",
+  "claim_decision_sha256": "6e62d2a0bf07d13c5424eb568206bee44bf53538b71f617c8acaa58ab0f2b5c8",
+  "paper_values_sha256": "92cec67ae5d007c4ee486fd38e1fde0ee1be46086acd643516ec90f138da95fb",
+  "paper_values_implementation_sha256": "0b4b56c98ea1fc5f0fd2cad07723c08264aed02dd7e87a57ef1e8cee419547c5",
+  "generated_sha256": {
+    "results_macros.tex": "2fae0c7a2cc914e6758693e2f20e60e57057588a0efa5e25dc814d9e8544685c",
+    "method_summary_table.tex": "5b5528d2d1b43f7bca07ca86384a90a9d81cf45bc2767334387ecc2e947d6c34",
+    "severity_table.tex": "3de32fb8ee6ec1e0003cd993e14666f844012392d185064ffcae4efdede87b45",
+    "comparison_table.tex": "3e02b0e018c6d6fd0962dabdf0f6afdcc3773acb8150475a2bd4ba694648a6ef",
+    "cost_table.tex": "2445980498095f9cb315ec543b63a057dfbcb23259ea92125cb90852467ba95e"
+  }
+}

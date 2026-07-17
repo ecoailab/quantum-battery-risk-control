@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "claim_decision_receipt",
+  "manifest_sha256": "a0673ec163fbc5bf1617e59ee8cc0e87d81e60f9994e91542206106b89259464",
+  "statistics_sha256": "d584e7741a8e991c63ed76fbbb6b5c85e3963ce6e4202635231d0350ac713753",
+  "claim_decision_sha256": "6e62d2a0bf07d13c5424eb568206bee44bf53538b71f617c8acaa58ab0f2b5c8",
+  "claim_implementation_sha256": "55ca54ecf0b69cd3d9fb48795a73f8a565872bef2a435c9a36e696b25d1ba44f"
+}

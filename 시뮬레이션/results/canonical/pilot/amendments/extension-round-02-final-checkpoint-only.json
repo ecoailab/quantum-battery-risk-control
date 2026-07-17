@@ -1,0 +1,372 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "budget_amendment",
+  "manifest_sha256": "a0673ec163fbc5bf1617e59ee8cc0e87d81e60f9994e91542206106b89259464",
+  "training_draws_sha256": "ea7d329d20c5976c40cbe3815a50554251fd6ed613710a5d549c11a3ce7ba5ae",
+  "validation_draws_sha256": "090435b01a0c3d1e19430c83c01e3739f16507182f4ca9706fccda698dd2f37c",
+  "fairness_certificate_sha256": "6819be37ede6974040aeb809415fd44bccfbcefdc4de030970c46ed82761ff41",
+  "pilot_implementation_sha256": "2ff4c5ab8dfb9f152b34a65a17ae16d0f4e9c589eb923e367b27578d7b5bcc32",
+  "criterion": {
+    "absolute_tolerance": 0.002,
+    "required_consecutive_transitions": 2,
+    "extension_multiplier": 2,
+    "maximum_extensions": 6
+  },
+  "stages": [
+    {
+      "method_id": "nominal-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 500,
+      "objective_evaluations": 604,
+      "environment_steps": 60400,
+      "validation_mean": 0.5938055221707763,
+      "fit_artifact_sha256": "36b5477efeb1292ab66e4bd64e9ce5d38f8b4846c67abef2e330a8b346cf49bb"
+    },
+    {
+      "method_id": "nominal-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 1000,
+      "objective_evaluations": 1006,
+      "environment_steps": 100600,
+      "validation_mean": 0.9029996517883621,
+      "fit_artifact_sha256": "ca13bba088f7fa2564fa4a85e6b3889a7ea048a2f7792c0d8e7d96507f07838f"
+    },
+    {
+      "method_id": "nominal-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 2000,
+      "objective_evaluations": 2011,
+      "environment_steps": 201100,
+      "validation_mean": 0.9345362940016485,
+      "fit_artifact_sha256": "e9a26be9b72321cbc6519b8f4cfc3e1958c7fc3badb4d2d84685bc34328fee4b"
+    },
+    {
+      "method_id": "nominal-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 4000,
+      "objective_evaluations": 4021,
+      "environment_steps": 402100,
+      "validation_mean": 0.9392056888501258,
+      "fit_artifact_sha256": "a74a435c886022cd683778faccdc3bafdb7525c4200222f1cddd02b8883b33bb"
+    },
+    {
+      "method_id": "nominal-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 8000,
+      "objective_evaluations": 8041,
+      "environment_steps": 804100,
+      "validation_mean": 0.9424705884402842,
+      "fit_artifact_sha256": "6bd2d69ac5eec9b4c6968c2be566699d1604121fb64e5131300741f4375991cc"
+    },
+    {
+      "method_id": "nominal-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 16000,
+      "objective_evaluations": 16081,
+      "environment_steps": 1608100,
+      "validation_mean": 0.942571273172621,
+      "fit_artifact_sha256": "61a6c253abde7559f5693a7620e71d8e59fa9d592997c034eb49495de53ad2d8"
+    },
+    {
+      "method_id": "nominal-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 32000,
+      "objective_evaluations": 32161,
+      "environment_steps": 3216100,
+      "validation_mean": 0.9425836256723329,
+      "fit_artifact_sha256": "2a57243d544ec6f7b22cc3fdcd4c6d5bee67a055c291542adfcae5be56b58d01"
+    },
+    {
+      "method_id": "saa-mean-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 500,
+      "objective_evaluations": 604,
+      "environment_steps": 241600,
+      "validation_mean": 0.5977114052446242,
+      "fit_artifact_sha256": "85681adfe1f6e9781604bea6919134e70d4d714f179dd079047489e8399bddc6"
+    },
+    {
+      "method_id": "saa-mean-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 1000,
+      "objective_evaluations": 1006,
+      "environment_steps": 402400,
+      "validation_mean": 0.9027771379545769,
+      "fit_artifact_sha256": "c49099ae17c6b34e0f36e6a2f6523537868b4a88f41dc0399390d350548655a1"
+    },
+    {
+      "method_id": "saa-mean-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 2000,
+      "objective_evaluations": 2011,
+      "environment_steps": 804400,
+      "validation_mean": 0.9306081712893853,
+      "fit_artifact_sha256": "bb06065a9bed6f04fb17e785bda9a1d1a7c9d01018dfe7b40bf9ac85816d4fba"
+    },
+    {
+      "method_id": "saa-mean-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 4000,
+      "objective_evaluations": 4222,
+      "environment_steps": 1688800,
+      "validation_mean": 0.9387534610392223,
+      "fit_artifact_sha256": "d1838e5cd9744568bfd3dbdbfc41eb8f9afb19eb25be16cf4ae1ac9656901762"
+    },
+    {
+      "method_id": "saa-mean-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 8000,
+      "objective_evaluations": 8041,
+      "environment_steps": 3216400,
+      "validation_mean": 0.9420704698721938,
+      "fit_artifact_sha256": "ac8c4fa8927d1dad87faf8c55754d28639a4d930135b2d5bc456026f162f78c3"
+    },
+    {
+      "method_id": "saa-mean-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 16000,
+      "objective_evaluations": 16081,
+      "environment_steps": 6432400,
+      "validation_mean": 0.9425704146713667,
+      "fit_artifact_sha256": "773df23b9b74a1e86650dbe74aafa407a7ab91062b55c8f1cf4f6cb2b541d6cc"
+    },
+    {
+      "method_id": "saa-mean-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 32000,
+      "objective_evaluations": 29749,
+      "environment_steps": 11899600,
+      "validation_mean": 0.9425818320421101,
+      "fit_artifact_sha256": "293e48235ed7257cdbe4b295af8cb8aec4f4c6f41096c6be7829d8b2b6f2c02d"
+    },
+    {
+      "method_id": "cvar-0.1-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 500,
+      "objective_evaluations": 604,
+      "environment_steps": 241600,
+      "validation_mean": 0.5968675750893571,
+      "fit_artifact_sha256": "c84686040850fd50498662b6095cce6d3b2099fab8109515ccaaf01651d6f419"
+    },
+    {
+      "method_id": "cvar-0.1-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 1000,
+      "objective_evaluations": 1006,
+      "environment_steps": 402400,
+      "validation_mean": 0.9028874925047682,
+      "fit_artifact_sha256": "6ff0cc269eb63537e4cd35c9dd42d8122712ca3663ec24da3d327a42cc1adb3a"
+    },
+    {
+      "method_id": "cvar-0.1-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 2000,
+      "objective_evaluations": 2011,
+      "environment_steps": 804400,
+      "validation_mean": 0.9315257083718043,
+      "fit_artifact_sha256": "3c89c1a47119bdccefa9edaf2b96d9a512cf48595d93d2650f0e8fcc90b91bee"
+    },
+    {
+      "method_id": "cvar-0.1-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 4000,
+      "objective_evaluations": 4021,
+      "environment_steps": 1608400,
+      "validation_mean": 0.9388621974949841,
+      "fit_artifact_sha256": "f155a77697dc432e1f4f9dbee160db961667a6cf7bbd8a75a9d0fceb91a438bb"
+    },
+    {
+      "method_id": "cvar-0.1-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 8000,
+      "objective_evaluations": 8041,
+      "environment_steps": 3216400,
+      "validation_mean": 0.9423104845321881,
+      "fit_artifact_sha256": "18774fece17d65d154c1c108048440d37bd17b681fe77d385e78821a0357cedb"
+    },
+    {
+      "method_id": "cvar-0.1-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 16000,
+      "objective_evaluations": 16081,
+      "environment_steps": 6432400,
+      "validation_mean": 0.9425639689426307,
+      "fit_artifact_sha256": "cf5cb5f1437d9d690937f9aaea1d39fec56869942589c45e52b83ec91ea47d12"
+    },
+    {
+      "method_id": "cvar-0.1-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "requested_budget": 32000,
+      "objective_evaluations": 32161,
+      "environment_steps": 12864400,
+      "validation_mean": 0.9425838495787572,
+      "fit_artifact_sha256": "7c967572efedf86ca3a5e7c634e33b5e4916a19c9b0be2cf256d362ccf703117"
+    },
+    {
+      "method_id": "ppo-time-only-domain-randomized",
+      "budget_kind": "environment_steps",
+      "requested_budget": 50000,
+      "objective_evaluations": 4,
+      "environment_steps": 50800,
+      "validation_mean": 0.005993597047572252,
+      "fit_artifact_sha256": "cdd3d0d7b96c9d1638434111dcb71665618aa22d98c5b5fcbcd74e79037b9eeb"
+    },
+    {
+      "method_id": "ppo-time-only-domain-randomized",
+      "budget_kind": "environment_steps",
+      "requested_budget": 100000,
+      "objective_evaluations": 4,
+      "environment_steps": 100800,
+      "validation_mean": 0.0078594836609025,
+      "fit_artifact_sha256": "d2f65aa146187088fef6ca98d74b52589da1b6be1c0c5d3f66fc6ed3b067bc6b"
+    },
+    {
+      "method_id": "ppo-time-only-domain-randomized",
+      "budget_kind": "environment_steps",
+      "requested_budget": 200000,
+      "objective_evaluations": 4,
+      "environment_steps": 200800,
+      "validation_mean": 0.004266333992680571,
+      "fit_artifact_sha256": "d5af56ab30f3c83b4ddc94e7d557bf0f20bbfad80eb82f7253658737f2b992c1"
+    },
+    {
+      "method_id": "ppo-time-only-domain-randomized",
+      "budget_kind": "environment_steps",
+      "requested_budget": 400000,
+      "objective_evaluations": 4,
+      "environment_steps": 400800,
+      "validation_mean": 0.001435756502068375,
+      "fit_artifact_sha256": "a0742c6aaccbbab668f9c62b7e756aeb0a15708b6e82b061abd54faeeaf6bf99"
+    },
+    {
+      "method_id": "ppo-time-only-domain-randomized",
+      "budget_kind": "environment_steps",
+      "requested_budget": 800000,
+      "objective_evaluations": 4,
+      "environment_steps": 800800,
+      "validation_mean": 0.00491142403370366,
+      "fit_artifact_sha256": "a38fc03433ad8d535be507f6403d8b01947736b74188b7267776c25b882e35ae"
+    },
+    {
+      "method_id": "ppo-time-only-domain-randomized",
+      "budget_kind": "environment_steps",
+      "requested_budget": 1600000,
+      "objective_evaluations": 4,
+      "environment_steps": 1600800,
+      "validation_mean": 0.027541280468163398,
+      "fit_artifact_sha256": "6a6edc37ab5e248a5e2428a33845b56fd8bd6dcc2516bfe3657a8f1f3d3de974"
+    },
+    {
+      "method_id": "ppo-time-only-domain-randomized",
+      "budget_kind": "environment_steps",
+      "requested_budget": 3200000,
+      "objective_evaluations": 4,
+      "environment_steps": 3200800,
+      "validation_mean": 0.03561308837968045,
+      "fit_artifact_sha256": "ec1c3e6269fc37b5a824898e4d8764e46e6655cab81a52cb2d3dd03d487612de"
+    },
+    {
+      "method_id": "ppo-time-only-domain-randomized",
+      "budget_kind": "environment_steps",
+      "requested_budget": 6400000,
+      "objective_evaluations": 4,
+      "environment_steps": 6400800,
+      "validation_mean": 0.014514115203531564,
+      "fit_artifact_sha256": "bea14d4f354c4c3c0f73824d2a4e9a76a6e9ebc722be23d31d3997f8cb5576ac"
+    },
+    {
+      "method_id": "ppo-time-only-domain-randomized",
+      "budget_kind": "environment_steps",
+      "requested_budget": 12800000,
+      "objective_evaluations": 4,
+      "environment_steps": 12800800,
+      "validation_mean": 0.024159732789172494,
+      "fit_artifact_sha256": "aec0cb4e02333451b9dcce68467b4a350a1be61c03d9439ac882415da9d2e0b1"
+    }
+  ],
+  "decisions": [
+    {
+      "method_id": "nominal-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "status": "plateau",
+      "observed_budgets": [
+        500,
+        1000,
+        2000,
+        4000,
+        8000,
+        16000,
+        32000
+      ],
+      "last_absolute_changes": [
+        0.00010068473233681985,
+        0.000012352499711876241
+      ],
+      "selected_budget": 32000,
+      "next_budget": null
+    },
+    {
+      "method_id": "saa-mean-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "status": "plateau",
+      "observed_budgets": [
+        500,
+        1000,
+        2000,
+        4000,
+        8000,
+        16000,
+        32000
+      ],
+      "last_absolute_changes": [
+        0.0004999447991729244,
+        0.000011417370743393995
+      ],
+      "selected_budget": 32000,
+      "next_budget": null
+    },
+    {
+      "method_id": "cvar-0.1-lbfgsb-finite-difference",
+      "budget_kind": "objective_evaluations",
+      "status": "plateau",
+      "observed_budgets": [
+        500,
+        1000,
+        2000,
+        4000,
+        8000,
+        16000,
+        32000
+      ],
+      "last_absolute_changes": [
+        0.00025348441044259484,
+        0.000019880636126456963
+      ],
+      "selected_budget": 32000,
+      "next_budget": null
+    },
+    {
+      "method_id": "ppo-time-only-domain-randomized",
+      "budget_kind": "environment_steps",
+      "status": "extension-required",
+      "observed_budgets": [
+        50000,
+        100000,
+        200000,
+        400000,
+        800000,
+        1600000,
+        3200000,
+        6400000,
+        12800000
+      ],
+      "last_absolute_changes": [
+        0.021098973176148884,
+        0.00964561758564093
+      ],
+      "selected_budget": null,
+      "next_budget": 25600000
+    }
+  ],
+  "test_data_accessed": false
+}

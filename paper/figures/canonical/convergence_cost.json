@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "figure_sidecar",
+  "figure_id": "convergence_cost",
+  "source_artifact_sha256s": [
+    "07adc1ab2896536484d112f654136510b7a35502518915298ea282ce0be748e6",
+    "92cec67ae5d007c4ee486fd38e1fde0ee1be46086acd643516ec90f138da95fb"
+  ],
+  "x_label": "Declared budget / method",
+  "y_label": "Validation ergotropy / fit time (s)",
+  "series": [
+    {
+      "series_id": "convergence_nominal",
+      "label": "Nominal",
+      "panel": "convergence",
+      "x": [
+        500.0,
+        1000.0,
+        2000.0,
+        4000.0,
+        8000.0,
+        16000.0,
+        32000.0
+      ],
+      "y": [
+        0.5938055221707763,
+        0.9029996517883621,
+        0.9345362940016485,
+        0.9392056888501258,
+        0.9424705884402842,
+        0.942571273172621,
+        0.9425836256723329
+      ],
+      "lower": [],
+      "upper": []
+    },
+    {
+      "series_id": "convergence_saa",
+      "label": "SAA mean",
+      "panel": "convergence",
+      "x": [
+        500.0,
+        1000.0,
+        2000.0,
+        4000.0,
+        8000.0,
+        16000.0,
+        32000.0
+      ],
+      "y": [
+        0.5977114052446242,
+        0.9027771379545769,
+        0.9306081712893853,
+        0.9387534610392223,
+        0.9420704698721938,
+        0.9425704146713667,
+        0.9425818320421101
+      ],
+      "lower": [],
+      "upper": []
+    },
+    {
+      "series_id": "convergence_cvar",
+      "label": "CVaR",
+      "panel": "convergence",
+      "x": [
+        500.0,
+        1000.0,
+        2000.0,
+        4000.0,
+        8000.0,
+        16000.0,
+        32000.0
+      ],
+      "y": [
+        0.5968675750893571,
+        0.9028874925047682,
+        0.9315257083718043,
+        0.9388621974949841,
+        0.9423104845321881,
+        0.9425639689426307,
+        0.9425838495787572
+      ],
+      "lower": [],
+      "upper": []
+    },
+    {
+      "series_id": "convergence_ppo",
+      "label": "PPO",
+      "panel": "convergence",
+      "x": [
+        50000.0,
+        100000.0,
+        200000.0
+      ],
+      "y": [
+        0.005993597047572252,
+        0.0078594836609025,
+        0.0078594836609025
+      ],
+      "lower": [],
+      "upper": []
+    },
+    {
+      "series_id": "cost_nominal",
+      "label": "Nominal",
+      "panel": "cost",
+      "x": [
+        0.0
+      ],
+      "y": [
+        8664.240279300007
+      ],
+      "lower": [],
+      "upper": []
+    },
+    {
+      "series_id": "cost_saa",
+      "label": "SAA mean",
+      "panel": "cost",
+      "x": [
+        1.0
+      ],
+      "y": [
+        94128.42541019998
+      ],
+      "lower": [],
+      "upper": []
+    },
+    {
+      "series_id": "cost_cvar",
+      "label": "CVaR",
+      "panel": "cost",
+      "x": [
+        2.0
+      ],
+      "y": [
+        120032.53173359997
+      ],
+      "lower": [],
+      "upper": []
+    },
+    {
+      "series_id": "cost_ppo",
+      "label": "PPO",
+      "panel": "cost",
+      "x": [
+        3.0
+      ],
+      "y": [
+        1609.6246051000198
+      ],
+      "lower": [],
+      "upper": []
+    },
+    {
+      "series_id": "cost_bang_bang",
+      "label": "Bang--bang",
+      "panel": "cost",
+      "x": [
+        4.0
+      ],
+      "y": [
+        10084.419773200018
+      ],
+      "lower": [],
+      "upper": []
+    },
+    {
+      "series_id": "cost_sinusoidal",
+      "label": "Sinusoidal",
+      "panel": "cost",
+      "x": [
+        5.0
+      ],
+      "y": [
+        9251.3622014
+      ],
+      "lower": [],
+      "upper": []
+    },
+    {
+      "series_id": "cost_random",
+      "label": "Random",
+      "panel": "cost",
+      "x": [
+        6.0
+      ],
+      "y": [
+        3.4950763000088045
+      ],
+      "lower": [],
+      "upper": []
+    }
+  ]
+}
