@@ -47,7 +47,7 @@ Open Systems & Information Dynamics was not selected because its mandatory charg
 
 ## Availability
 
-The curated canonical publication archive is public at <https://github.com/ecoailab/quantum-battery-risk-control>. Release `v1.0.0` and its commit SHA identify the submission snapshot. Legacy drafts and internal planning records are excluded from the public package.
+The curated canonical publication archive is public at <https://github.com/ecoailab/quantum-battery-risk-control>. Release `v1.0.1` and its commit SHA identify the submission snapshot. Legacy drafts and internal planning records are excluded from the public package.
 
 ## Historical Material
 

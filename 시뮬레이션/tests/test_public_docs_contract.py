@@ -17,7 +17,7 @@ def test_public_docs_match_the_neutral_canonical_scope() -> None:
         "synthetic quasi-static uncertainty",
         "publication_provenance.json",
         "https://github.com/ecoailab/quantum-battery-risk-control",
-        "v1.0.0",
+        "v1.0.1",
     ):
         assert required in text
     for prohibited in (
@@ -40,3 +40,8 @@ def test_package_metadata_contains_no_unverified_public_url() -> None:
     assert "https://github.com/ecoailab/quantum-battery-risk-control" in metadata
     assert 'license = "MIT"' in metadata
     assert 'readme = "README.md"' in metadata
+
+
+def test_repository_forces_lf_for_hash_linked_artifacts() -> None:
+    attributes = (WORKSPACE_ROOT / ".gitattributes").read_text(encoding="utf-8")
+    assert "* text=auto eol=lf" in attributes.splitlines()

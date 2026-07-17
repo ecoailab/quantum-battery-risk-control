@@ -5,7 +5,7 @@
   "selected_journal": "Journal of Physics A: Mathematical and Theoretical",
   "publication_route": "subscription-access",
   "mandatory_author_charges": 0,
-  "archive_identifier": "https://github.com/ecoailab/quantum-battery-risk-control/releases/tag/v1.0.0",
+  "archive_identifier": "https://github.com/ecoailab/quantum-battery-risk-control/releases/tag/v1.0.1",
   "gates": {
     "canonical_regeneration": true,
     "provenance_zero_gap": true,
@@ -23,19 +23,19 @@
   "artifacts": {
     "manuscript_source": {
       "path": "paper/main_pra.tex",
-      "sha256": "ad8927379265318604dcebca8b2c8734fd1220ca9d1cdb7cecb50d936b7fa3d7"
+      "sha256": "85f0ed8ac2d282e08ec26c52b58c527c73573b35a26da714468ab7d6c8fd1ca4"
     },
     "clean_manuscript_pdf": {
       "path": "paper/main_pra.pdf",
-      "sha256": "0a3e32c5b194fe7bc80ccdd0917f6de3278d8324fdb5367f017f221e7fe90d16"
+      "sha256": "e0c8115270fbd4c62473b579d968de35463d45aaa53d929a76b5e201d1775145"
     },
     "cover_letter_source": {
       "path": "paper/docs/cover_letter_jpa.tex",
-      "sha256": "55894e7adfd16f80396c2cb6873bfecec69632e1d5a91c4a9712e961e0031c93"
+      "sha256": "4b5e0ea7c2ac026d26910bef7635c058816fb57805349b6f4b308e8bca673dda"
     },
     "clean_cover_letter_pdf": {
       "path": "paper/docs/cover_letter_jpa.pdf",
-      "sha256": "5f0c55211896c3c8dc76ee6ccb905f6d589caaf92ed2797e1f3e916e0a79cf49"
+      "sha256": "5881906a1b6da82b5f260b13805bdabe6a2967fbb83130c6fa9ae8ac044f4cbb"
     },
     "bibliography": {
       "path": "paper/submission/references.bib",
@@ -47,7 +47,7 @@
     },
     "publication_provenance": {
       "path": "시뮬레이션/results/canonical/publication_provenance.json",
-      "sha256": "7eed840dfd72ef11a2c48c4a1fcbdce9ae3e10ada7e8b5530e982937df6c7dfd"
+      "sha256": "ff691ebf159d2ed78db80a5b81046067f21747ccb8660bab313cc2cc25236e21"
     },
     "paper_values_receipt": {
       "path": "시뮬레이션/results/canonical/paper_values_receipt.json",

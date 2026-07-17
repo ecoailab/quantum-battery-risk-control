@@ -67,5 +67,5 @@ def test_zero_fee_jpa_route_remains_locked() -> None:
     assert readiness["mandatory_author_charges"] == 0
     assert readiness["archive_identifier"] == (
         "https://github.com/ecoailab/quantum-battery-risk-control/"
-        "releases/tag/v1.0.0"
+        "releases/tag/v1.0.1"
     )
