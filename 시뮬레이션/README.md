@@ -30,4 +30,4 @@ The package supports a simulated Markovian single-qubit benchmark. The uncertain
 
 ## Availability
 
-The curated canonical package is public at <https://github.com/ecoailab/quantum-battery-risk-control>. Release `v1.0.1` and its commit SHA identify the archived submission snapshot.
+The curated canonical package is public at <https://github.com/ecoailab/quantum-battery-risk-control>. Release `v1.0.2` and its commit SHA identify the archived submission snapshot.

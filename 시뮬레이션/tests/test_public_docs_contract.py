@@ -17,7 +17,7 @@ def test_public_docs_match_the_neutral_canonical_scope() -> None:
         "synthetic quasi-static uncertainty",
         "publication_provenance.json",
         "https://github.com/ecoailab/quantum-battery-risk-control",
-        "v1.0.1",
+        "v1.0.2",
     ):
         assert required in text
     for prohibited in (

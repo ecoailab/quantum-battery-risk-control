@@ -5,7 +5,7 @@
   "selected_journal": "Journal of Physics A: Mathematical and Theoretical",
   "publication_route": "subscription-access",
   "mandatory_author_charges": 0,
-  "archive_identifier": "https://github.com/ecoailab/quantum-battery-risk-control/releases/tag/v1.0.1",
+  "archive_identifier": "https://github.com/ecoailab/quantum-battery-risk-control/releases/tag/v1.0.2",
   "gates": {
     "canonical_regeneration": true,
     "provenance_zero_gap": true,
@@ -23,23 +23,23 @@
   "artifacts": {
     "manuscript_source": {
       "path": "paper/main_pra.tex",
-      "sha256": "85f0ed8ac2d282e08ec26c52b58c527c73573b35a26da714468ab7d6c8fd1ca4"
+      "sha256": "11920ce056c05e417a01bdcd4a464361b32d97727f89c8a998aaba4b8285be14"
     },
     "clean_manuscript_pdf": {
       "path": "paper/main_pra.pdf",
-      "sha256": "e0c8115270fbd4c62473b579d968de35463d45aaa53d929a76b5e201d1775145"
+      "sha256": "f9f1cfa68c12889f5736be64e6e1360e0c3a21f9e994df0a17d60145a293575d"
     },
     "cover_letter_source": {
       "path": "paper/docs/cover_letter_jpa.tex",
-      "sha256": "4b5e0ea7c2ac026d26910bef7635c058816fb57805349b6f4b308e8bca673dda"
+      "sha256": "f670779f3fb3f13a781b770e2ce0446bb67eea51b8f2f6c930c607bcc6daa9b6"
     },
     "clean_cover_letter_pdf": {
       "path": "paper/docs/cover_letter_jpa.pdf",
-      "sha256": "5881906a1b6da82b5f260b13805bdabe6a2967fbb83130c6fa9ae8ac044f4cbb"
+      "sha256": "976707e93b5782f33eb235f512b0eb52675b5d5bf431345b6b76efa8f3484d09"
     },
     "bibliography": {
       "path": "paper/submission/references.bib",
-      "sha256": "66abea244e05942a7ef438bb6fa9ff60af5e7fd219d0d5cb5fc3b3cb072cbe75"
+      "sha256": "9f97a1da1bc051e37936ed02a0e08c2cbb289ef26795364d1f475ae8ce18e80c"
     },
     "journal_decision": {
       "path": "paper/journal_decision.json",
@@ -47,7 +47,7 @@
     },
     "publication_provenance": {
       "path": "시뮬레이션/results/canonical/publication_provenance.json",
-      "sha256": "ff691ebf159d2ed78db80a5b81046067f21747ccb8660bab313cc2cc25236e21"
+      "sha256": "d720e165dabe783f5568317968a6233a118b24ca16adc608a2db4f69398a1306"
     },
     "paper_values_receipt": {
       "path": "시뮬레이션/results/canonical/paper_values_receipt.json",
